@@ -1,0 +1,6 @@
+23/4/2010
+kyocera-mita-ppds-8.4-r1.ebuild
+Switched it to use LinuxCUPS1.4.zip in place of Linux_PPDs_KSL8_4.zip
+Removes alot of (presume older) printer types, but adds the newer printers
+(eg FS-C5300DN).
+
