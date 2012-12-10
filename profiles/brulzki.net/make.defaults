@@ -1,0 +1,6 @@
+CUSTOM_PROFILE="yes"
+
+CONFIG_PROTECT_MASK="/etc/init.d"
+LINGUAS="en"
+SYNC="rsync://rsync1.au.gentoo.org/gentoo-portage"
+GENTOO_MIRRORS="http://ftp.swin.edu.au/gentoo ftp://gentoo.mirrors.tds.net/gentoo rsync://gentoo.mirrors.tds.net/gentoo http://gentoo.mirrors.tds.net/gentoo ftp://mirrors.sohu.com/gentoo/"
