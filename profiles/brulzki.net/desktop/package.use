@@ -1,0 +1,69 @@
+
+# allow ntpd to run as non-root user
+# http://en.gentoo-wiki.com/wiki/NTP
+net-misc/ntp caps
+
+#required for pulseaudio
+#sys-fs/udev extras
+
+# 29/12/2009 needed for various stuff to build (mostly firefox)
+#dev-db/sqlite fts3
+
+sys-devel/gcc -gtk gcj
+media-video/mplayer -gtk dvb
+media-libs/libquicktime -gtk -X dv
+app-emulation/qemu-softmmu kqemu
+# gcc-3 needed for qemu installation
+=sys-devel/gcc-3* -fortran -gcj
+gnome-base/gnome-volume-manager automount
+media-libs/libtheora encode
+media-libs/imlib deprecated
+www-plugins/adobe-flash -64bit
+media-libs/libdvdread css
+
+# cups browsing with zeroconf
+net-dns/avahi mdnsresponder-compat
+net-print/cups avahi
+
+net-fs/nfs-utils kerberos
+net-libs/libtirpc kerberos
+
+# hal is depricated
+# see http://bugs.gentoo.org/296692
+#=sys-apps/hal-0.5.13* -consolekit -policykit
+
+# gnome-cups-manager is crap... try system-config-print-gnome instead
+gnome-base/gnome -cups
+
+# 21/2/2011 needed to update... why??
+dev-libs/libgcrypt static-libs
+
+app-office/libreoffice binfilter java templates
+
+media-gfx/gthumb http slideshow iptc
+
+app-emulation/wine gnutls
+
+# needed for sound-juicer
+gnome-base/gvfs cdda
+
+app-editors/emacs toolkit-scroll-bars xft
+
+# 3/8/2011 enable kerberos password support
+sys-auth/pambase pam_krb5
+sys-auth/nss_ldap kerberos
+
+# 25/7/2012 for kdenlive
+x11-libs/qt-core qt3support
+x11-libs/qt-sql qt3support
+
+# 11/8/2012
+=app-emulation/wine-1.5.9 mono -udisks
+
+# 20/8/2012
+dev-java/icedtea-bin nsplugin
+
+# 22/8/2012 - for sssd
+sys-libs/talloc python
+sys-libs/tdb python
+
