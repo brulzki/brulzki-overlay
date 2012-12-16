@@ -1,0 +1,7 @@
+
+# adobe flash player
+#www-plugins/adobe-flash *
+
+# skype
+#>=net-im/skype-4.1.0.20 skype-4.0.0.7-copyright
+net-im/skype *

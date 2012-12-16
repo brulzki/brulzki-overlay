@@ -5,4 +5,4 @@ app-emacs/magit
 =sys-auth/sssd-1.8.4*
 net-print/kyocera-mita-ppds
 =media-video/imagination-3.0-r1
-
+net-im/skype
