@@ -70,3 +70,6 @@ sys-libs/tdb python
 # 16/12/2012 - add modemmanager for 3G connections
 net-misc/networkmanager modemmanager
 
+# 16/12/2012 - needed for gourmet
+dev-db/metakit python
+
