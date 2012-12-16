@@ -3,3 +3,5 @@ dev-vcs/mr
 app-emacs/magit
 =app-emulation/wine-1.5.9
 =sys-auth/sssd-1.8.4*
+net-print/kyocera-mita-ppds
+
