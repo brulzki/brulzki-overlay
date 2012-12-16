@@ -67,3 +67,6 @@ dev-java/icedtea-bin nsplugin
 sys-libs/talloc python
 sys-libs/tdb python
 
+# 16/12/2012 - add modemmanager for 3G connections
+net-misc/networkmanager modemmanager
+
