@@ -4,4 +4,5 @@ app-emacs/magit
 =app-emulation/wine-1.5.9
 =sys-auth/sssd-1.8.4*
 net-print/kyocera-mita-ppds
+=media-video/imagination-3.0-r1
 
