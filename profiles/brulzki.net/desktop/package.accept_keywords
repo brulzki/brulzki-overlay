@@ -9,3 +9,6 @@ net-im/skype
 =media-radio/radiotray-0.7.3*
 app-laptop/easy-slow-down-manager
 app-laptop/samsung-tools
+
+# the epson perfection V500 driver
+media-gfx/iscan-plugin-gt-x770
