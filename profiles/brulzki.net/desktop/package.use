@@ -58,7 +58,9 @@ x11-libs/qt-core qt3support
 x11-libs/qt-sql qt3support
 
 # 11/8/2012
-=app-emulation/wine-1.5.9 mono -udisks
+# udisks requires udisks-2.0.90, udev-196
+#=app-emulation/wine-1.5.9 mono -udisks
+app-emulation/wine mono -udisks
 
 # 20/8/2012
 dev-java/icedtea-bin nsplugin
