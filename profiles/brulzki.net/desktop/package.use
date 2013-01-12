@@ -84,3 +84,6 @@ x11-libs/qt-core -qt3support
 # 19/12/2012 - fails setup without this :-(
 media-sound/rhythmbox python
 
+# 12/1/2012 - allow xmp metadata in gthumb
+media-gfx/exiv2 xmp
+
