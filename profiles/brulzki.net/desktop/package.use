@@ -87,3 +87,5 @@ media-sound/rhythmbox python
 # 12/1/2012 - allow xmp metadata in gthumb
 media-gfx/exiv2 xmp
 
+dev-vcs/git subversion
+dev-vcs/subversion -dso perl
