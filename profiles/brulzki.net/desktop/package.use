@@ -94,3 +94,5 @@ dev-vcs/subversion -dso perl
 # 24/1/2013 - don't want these backends
 media-gfx/sane-backends -gphoto2 -v4l
 
+# 6/2/2013 - required for inkscape
+media-libs/lcms python
