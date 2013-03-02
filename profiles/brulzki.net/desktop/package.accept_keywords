@@ -18,3 +18,9 @@ media-gfx/iscan-plugin-gt-x770
 =sys-fs/btrfs-progs-0.20_rc1
 
 net-misc/tinc
+
+games-action/minecraft
+dev-java/lwjgl
+dev-java/jinput
+dev-java/jutils
+dev-java/asm
