@@ -5,7 +5,7 @@ CONFIG_PROTECT_MASK="/etc/init.d"
 USE="-oss -arts -kde -qt3 -qt4 -qt3support -esd
 evo gnome gstreamer gdu consolekit gnome-keyring pulseaudio sqlite
 imap maildir xattr xinerama exif iptc gphoto2 gimpprint ppds usb
-ffmpeg v4l v4l2 theora xvid flac avi aac a52 x264 dvdnav"
+ffmpeg v4l v4l2 theora xvid flac avi aac a52 x264 dvdnav ipod ios"
 
 LINGUAS="en"
 
