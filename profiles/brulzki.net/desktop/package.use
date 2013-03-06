@@ -96,3 +96,7 @@ media-gfx/sane-backends -gphoto2 -v4l
 
 # 6/2/2013 - required for inkscape
 media-libs/lcms python
+
+# 6/3/2013 - virtualbox
+app-emulation/virtualbox extensions
+
