@@ -28,3 +28,5 @@ dev-java/asm
 # 5/3/2013 - testing dhcpcp-ui
 net-libs/dhcpcd-dbus
 net-misc/dhcpcd-ui
+
+x11-misc/kxstitch
