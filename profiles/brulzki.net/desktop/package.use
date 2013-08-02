@@ -100,3 +100,5 @@ media-libs/lcms python
 # 6/3/2013 - virtualbox
 app-emulation/virtualbox extensions
 
+dev-libs/libattica qt4
+
