@@ -1,2 +1,3 @@
+# this works in portage-2.2 (not -2.1)
+#gentoo:targets/desktop/gnome
 /usr/portage/profiles/targets/desktop/gnome
-..
