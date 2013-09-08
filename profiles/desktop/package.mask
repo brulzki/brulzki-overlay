@@ -1,2 +1,3 @@
 
 =media-gfx/simple-scan-3.4*
+=x11-misc/kxstitch-9999
