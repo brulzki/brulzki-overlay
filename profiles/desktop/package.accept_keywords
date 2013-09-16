@@ -30,3 +30,6 @@ net-libs/dhcpcd-dbus
 net-misc/dhcpcd-ui
 
 x11-misc/kxstitch
+
+# from http://bugs.gentoo.org/484528
+=app-misc/gourmet-0.16.1

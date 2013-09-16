@@ -102,3 +102,4 @@ app-emulation/virtualbox extensions
 
 dev-libs/libattica qt4
 
+app-misc/gourmet gnome-print
