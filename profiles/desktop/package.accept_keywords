@@ -1,10 +1,12 @@
 dev-vcs/mr
 =net-misc/cfengine-3.2*
 app-emacs/magit
-=app-emulation/wine-1.5.9
-=app-emulation/wine-1.5.20
 =sys-auth/sssd-1.8.4*
 net-print/kyocera-mita-ppds
+
+=app-emulation/wine-1.6*
+app-emulation/winetricks
+
 =media-video/imagination-3.0-r1
 net-im/skype
 #=media-radio/radiotray-0.7.3*
