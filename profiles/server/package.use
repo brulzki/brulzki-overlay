@@ -1,0 +1,10 @@
+# required by sys-libs/tevent-0.9.19
+# required by net-fs/samba-3.6.16
+# required by @selected
+# required by @world (argument)
+sys-libs/talloc python
+
+# required by sys-libs/ldb-1.1.15
+# required by sys-auth/sssd-1.8.6
+# required by sssd (argument)
+sys-libs/tdb python
