@@ -1,3 +1,4 @@
 x86   desktop/x86               stable
 #x86   brulzki.net/desktop/x86   stable
+amd64 desktop/gnome3/amd64      stable
 amd64 server/amd64              stable
