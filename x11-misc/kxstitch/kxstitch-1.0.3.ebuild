@@ -8,14 +8,14 @@ inherit cmake-utils
 
 DESCRIPTION="A program to create cross stitch patterns and charts"
 HOMEPAGE="http://kxstitch.sourceforge.net"
-SRC_URI="mirror://sourceforge/${PN}/${P}-KDE4.tar.gz -> ${P}-KDE4.tar"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
 
-S="${WORKDIR}/${P}-KDE4"
+S="${WORKDIR}/${P}"
 
 DEPEND="kde-base/kdelibs
 	media-gfx/imagemagick"
