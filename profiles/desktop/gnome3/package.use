@@ -1,0 +1,26 @@
+# required by net-libs/gnome-online-accounts-3.10.2[gnome]
+# required by net-misc/gnome-online-miners-3.10.3
+# required by gnome-extra/gnome-documents-3.10.1
+# required by gnome-base/gnome-extra-apps-3.10.0[tracker]
+# required by gnome-base/gnome-3.10.0[extras]
+# required by gnome (argument)
+>=gnome-base/gnome-control-center-3.10.3 gnome-online-accounts
+# required by gnome-extra/gnome-documents-3.10.1
+# required by gnome-base/gnome-extra-apps-3.10.0[tracker]
+# required by gnome-base/gnome-3.10.0[extras]
+# required by gnome (argument)
+>=dev-libs/libgdata-0.14.1 gnome
+# required by net-voip/telepathy-gabble-0.16.7[-gnutls]
+# required by net-im/telepathy-connection-managers-2-r2[-msn,jabber]
+# required by net-im/empathy-3.10.3
+# required by gnome-base/gnome-core-apps-3.10.0
+# required by gnome-base/gnome-3.10.0
+# required by gnome (argument)
+#>=dev-libs/openssl-1.0.1f -bindist
+dev-libs/openssl -bindist
+net-misc/openssh -bindist
+# required by gnome-extra/gnome-contacts-3.10.1
+# required by gnome-base/gnome-core-apps-3.10.0
+# required by gnome-base/gnome-3.10.0
+# required by gnome (argument)
+>=gnome-extra/evolution-data-server-3.10.4 gnome-online-accounts

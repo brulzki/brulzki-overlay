@@ -1,0 +1,3 @@
+# 13/12/2013 - remove gnome3 deps
+>=dev-libs/libgdata-0.14 -gnome
+gnome-extra/nm-applet -bluetooth
