@@ -45,12 +45,12 @@
 >=dev-python/pygobject-3
 >=games-puzzle/gnome-sudoku-3
 >=games-board/gnome-chess-3
->=app-crypt/gcr-3
+#>=app-crypt/gcr-3
 >=games-puzzle/lightsoff-3
 >=games-puzzle/swell-foop-3
 >=dev-libs/totem-pl-parser-3
->=gnome-base/gnome-keyring-3
->=gnome-base/libgnome-keyring-3
+#>=gnome-base/gnome-keyring-3
+#>=gnome-base/libgnome-keyring-3
 >=net-misc/vino-3
 >=gnome-extra/gnome-search-tool-3
 >=app-arch/file-roller-3
@@ -114,3 +114,6 @@
 #>=net-misc/networkmanager-0.9.8
 >=dev-libs/folks-0.8
 >=dev-libs/libgdata-0.14
+
+
+>=gnome-base/gsettings-desktop-schemas-3.10
