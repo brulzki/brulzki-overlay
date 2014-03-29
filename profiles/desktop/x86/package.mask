@@ -117,3 +117,6 @@
 
 
 >=gnome-base/gsettings-desktop-schemas-3.10
+
+# why oh why did metacity mess up themes and alt-tab switching???
+>=x11-wm/metacity-2.31
