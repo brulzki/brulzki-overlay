@@ -35,3 +35,6 @@ x11-misc/kxstitch
 
 # from http://bugs.gentoo.org/484528
 =app-misc/gourmet-0.16.1
+
+# 18/5/2014 - python2.7 ConfigParser needed for icsv2ledger
+dev-python/configparser
