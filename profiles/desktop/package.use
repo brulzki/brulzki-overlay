@@ -113,3 +113,6 @@ net-libs/opal sipim h224 h281 h323
 # 16/12/2013 - linphone
 media-libs/mediastreamer video gsm g726 g729
 net-voip/linphone video
+
+# 8/7/2014
+media-libs/mesa gbm
