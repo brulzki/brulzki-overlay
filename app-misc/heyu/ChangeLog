@@ -1,0 +1,63 @@
+# ChangeLog for app-misc/heyu
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  22 Jun 2012; Thomas Sachau (Tommy[D]) <tommy@gentoo.org> heyu-2.8.0.ebuild:
+  inherit user eclass instead of eutils eclass for enewuser
+
+  04 Oct 2009; Sven Schwyn (svoop) <gentoo@bitcetera.com>
+  -heyu-2.7.0.ebuild, +heyu-2.8.0.ebuild:
+  Version bump to 2.8.0 (bug #91396)
+
+  12 Jul 2009; Thomas Sachau (Tommy[D]) <tommy@gentoo.org>
+  heyu-2.7.0.ebuild:
+  Drop useless Makefile statement
+
+  06 Jul 2009; Markos Chandras <hwoarang@gentoo.org> heyu-2.7.0.ebuild:
+  Eapi2fy it and clean up
+
+  30 Jun 2009; Sven Schwyn (svoop) <gentoo@bitcetera.com>
+  -heyu-2.6.0.ebuild, +heyu-2.7.0.ebuild:
+  Version bump for bug 91396
+
+  09 May 2009; Christian Ruppert <idl0r@gentoo.org> heyu-2.6.0.ebuild:
+  Use EPI 2. Use src_configure instead of src_compile. sed and
+  domanimproved, readability.
+
+  04 May 2009; Sven Schwyn (svoop) <gentoo@bitcetera.com> -files/2.5.0,
+  -heyu-2.5.0.ebuild, +heyu-2.6.0.ebuild, -files/2.5.0/heyu.init,
+  +files/heyu.init:
+  Version bump to 2.6.0 (bug 91396)
+
+  15 Feb 2009; Sven Schwyn (svoop) <gentoo@bitcetera.com> -files/2.4.0,
+  -heyu-2.4.0.ebuild, -files/2.4.0/heyu.init, +heyu-2.5.0.ebuild,
+  +files/2.5.0, +files/2.5.0/heyu.init:
+  Version bump and various - including security relevant - improvements,
+  thanks to Tommy.
+
+  12 Dec 2008; Thomas Sachau (Tommy[D]) <tommy@gentoo.org> -files/2.3.2,
+  -files/2.3.2/heyu.init:
+  Drop old files too
+
+  12 Dec 2008; Thomas Sachau (Tommy[D]) <tommy@gentoo.org>
+  -heyu-2.3.2.ebuild:
+  Drop old version
+
+  12 Dec 2008; Sven Schwyn (svoop) <gentoo@bitcetera.com> +files/2.4.0,
+  +heyu-2.4.0.ebuild, +files/2.4.0/heyu.init:
+  Version bump for bug 91396
+
+  23 Aug 2008; Thomas Beierlein (TomJBE) <tb@forth-ev.de> metadata.xml:
+  Added USE flag description wrt GLEP 56
+
+  29 Jun 2008; Thomas Sachau (Tommy[D]) <tommy@gentoo.org>
+  heyu-2.3.2.ebuild:
+  Remove mirror restriction
+
+  24 Jun 2008; Sven Schwyn (svoop) <gentoo@bitcetera.com> heyu-2.3.2.ebuild:
+  Minor changes according to input from IRC.
+
+  18 Jun 2008; Sven Schwyn (svoop) <gentoo@bitcetera.com> +files/2.3.2,
+  +files/2.3.2/heyu.init, +heyu-2.3.2.ebuild, +metadata.xml:
+  new ebuild app-misc/heyu (bug 91396)
+
