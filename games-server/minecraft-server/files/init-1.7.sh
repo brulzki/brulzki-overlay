@@ -35,6 +35,7 @@ start() {
 	# We can't get the final PID of tmux or the exit status of a
 	# program run within it so we use the PID of the server itself and
 	# check for success with ewaitfile.
+        mkdir -p "${PID%/*}" && chown games:games "${PID%/*}"
 	local CMD="/sbin/start-stop-daemon -S -p '${PID}' -m -k 027 -x ${EXE} -- '${MULTIVERSE}'"
 	su -c "/usr/bin/tmux -S '${SOCKET}' new-session -n 'minecraft-${MULTIVERSE}' -d \"${CMD}\"" "@GAMES_USER_DED@"
 	ewaitfile 10 "${PID}"
