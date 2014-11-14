@@ -116,3 +116,6 @@ net-voip/linphone video
 
 # 8/7/2014
 media-libs/mesa gbm
+
+# 14/11/2014
+media-video/ffmpeg threads
