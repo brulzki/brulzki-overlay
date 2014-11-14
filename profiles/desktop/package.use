@@ -119,3 +119,6 @@ media-libs/mesa gbm
 
 # 14/11/2014
 media-video/ffmpeg threads
+
+# required for congruity
+dev-libs/libconcord python
