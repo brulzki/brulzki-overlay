@@ -1,0 +1,6 @@
+
+dev-libs/openssl -bindist
+net-misc/openssh -bindist
+
+# 14/11/2014 at-most-one-of ( gstreamer ffmpeg )
+app-misc/tracker -ffmpeg
