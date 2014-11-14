@@ -14,3 +14,17 @@ sys-libs/tdb python
 # required by @selected
 # required by @world (argument)
 sys-libs/tevent python
+
+# 19/10/2014
+# required by sys-auth/sssd-1.12.1
+# required by sssd (argument)
+net-nds/openldap sasl
+# required by sys-auth/sssd-1.12.1
+# required by sssd (argument)
+dev-libs/cyrus-sasl kerberos
+# required by sys-auth/sssd-1.12.1
+# required by sssd (argument)
+net-dns/bind-tools gssapi
+# required by sys-auth/sssd-1.12.1
+# required by sssd (argument)
+sys-libs/glibc nscd
