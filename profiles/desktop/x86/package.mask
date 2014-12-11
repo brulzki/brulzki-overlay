@@ -42,7 +42,7 @@
 >=games-puzzle/gnome-klotski-3
 >=games-board/tali-3
 >=games-puzzle/five-or-more-3
->=dev-python/pygobject-3
+#>=dev-python/pygobject-3
 >=games-puzzle/gnome-sudoku-3
 >=games-board/gnome-chess-3
 #>=app-crypt/gcr-3

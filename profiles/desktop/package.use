@@ -122,3 +122,9 @@ media-video/ffmpeg threads
 
 # required for congruity
 dev-libs/libconcord python
+
+# we don't want qt4 globally
+net-misc/dhcpcd-ui -qt4 -qt5
+media-libs/phonon qt4 -vlc
+media-libs/phonon-gstreamer qt4
+

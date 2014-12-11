@@ -18,7 +18,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="+udev consolekit perl python"
 
 DEPEND="dev-libs/libusb
-		udev? ( sys-fs/udev )
+		udev? ( virtual/udev )
 		consolekit? ( sys-auth/consolekit )
 		perl? ( virtual/perl-Module-Build
 				dev-lang/swig )
