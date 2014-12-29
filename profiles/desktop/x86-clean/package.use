@@ -19,6 +19,9 @@ mate-base/mate-menus python
 mate-extra/mate-screensaver -systemd
 sys-apps/accountsservice -systemd
 
+# syslog-ng won't run under openrc if build with systemd
+app-admin/syslog-ng -systemd
+
 # gnome
 gnome-base/gnome-control-center gnome-online-accounts
 gnome-extra/evolution-data-server gnome-online-accounts
