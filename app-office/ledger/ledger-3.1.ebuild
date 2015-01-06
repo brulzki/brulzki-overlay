@@ -4,15 +4,16 @@
 
 EAPI=4
 
-inherit cmake-utils python git-2 bash-completion-r1
+inherit cmake-utils python bash-completion-r1
 
 DESCRIPTION="A double-entry accounting system with a command-line reporting interface"
 HOMEPAGE="http://ledger-cli.org/"
+SRC_URI="http://sunder.vehk.de/p/${P}.tar.bz2"
 
-EGIT_REPO_URI="git://github.com/ledger/ledger.git"
-EGIT_HAS_SUBMODULES=1
+RESTRICT="mirror"
 
 LICENSE="BSD"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE="debug doc gnuplot libedit python static-libs bash-completion"
 PYTHON_DEPEND="python? 2"
