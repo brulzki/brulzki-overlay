@@ -23,6 +23,5 @@ sys-apps/accountsservice -systemd
 app-admin/syslog-ng -systemd
 
 # gnome
-gnome-base/gnome-control-center gnome-online-accounts
-gnome-extra/evolution-data-server gnome-online-accounts
 >=app-misc/tracker-1 -ffmpeg
+gnome-base/gnome-extra-apps -shotwell

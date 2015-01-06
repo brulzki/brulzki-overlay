@@ -1,0 +1,2 @@
+# this is masked in /usr/portage/profiles/base/use.mask
+-openrc-force

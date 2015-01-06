@@ -1,6 +1,9 @@
 
-#USE="systemd"
-# gnome target defaults
-USE="colord eds evo gnome gnome-keyring gnome-online-accounts gstreamer introspection libsecret nautilus pulseaudio socialweb"
-# disable some of the gnome defaults
-USE="-eds -evo -gnome-online-accounts nautilus pulseaudio -socialweb"
+# disable systemd
+# Note: openrc-force doesn't seem to have a practical use currently
+USE="-systemd openrc-force"
+
+# disable some of the gnome defaults 
+# (from profiles/targets/gnome)
+#USE="colord eds evo gnome gnome-keyring gnome-online-accounts gstreamer introspection libsecret nautilus pulseaudio socialweb"
+USE="${USE} -eds -evo -gnome-online-accounts -socialweb"
