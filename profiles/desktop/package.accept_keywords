@@ -38,3 +38,6 @@ x11-misc/kxstitch
 
 # 18/5/2014 - python2.7 ConfigParser needed for icsv2ledger
 dev-python/configparser
+
+# 8/1/2015
+app-admin/checkrestart

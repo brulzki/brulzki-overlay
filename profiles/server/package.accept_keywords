@@ -2,3 +2,4 @@ sys-kernel/dracut
 net-misc/tinc
 app-emulation/lxc
 =net-misc/cfengine-3.4*
+app-admin/checkrestart
