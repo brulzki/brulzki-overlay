@@ -25,3 +25,6 @@ app-admin/syslog-ng -systemd
 # gnome
 >=app-misc/tracker-1 -ffmpeg
 gnome-base/gnome-extra-apps -shotwell
+
+# network manager uses this; avoid the gui
+net-dialup/rp-pppoe -X
