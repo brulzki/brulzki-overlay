@@ -128,3 +128,4 @@ net-misc/dhcpcd-ui -qt4 -qt5
 media-libs/phonon qt4 -vlc
 media-libs/phonon-gstreamer qt4
 
+media-sound/audacity libsamplerate
