@@ -35,3 +35,5 @@ dev-libs/libgdata -gnome
 # for USE=-eds
 dev-libs/folks -bluetooth
 
+# qt4 or qt5 ?
+sys-auth/polkit-qt qt4
