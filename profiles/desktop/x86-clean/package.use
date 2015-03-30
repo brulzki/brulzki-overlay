@@ -35,5 +35,3 @@ dev-libs/libgdata -gnome
 # for USE=-eds
 dev-libs/folks -bluetooth
 
-# stick with ffmpeg currently
-media-libs/gegl -libav
