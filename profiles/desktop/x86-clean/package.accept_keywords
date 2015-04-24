@@ -1,0 +1,5 @@
+mate-extra/caja-dropbox ~*
+
+# JVM 7
+dev-java/icedtea-bin:7
+=dev-java/icedtea-web-1.5.1*
