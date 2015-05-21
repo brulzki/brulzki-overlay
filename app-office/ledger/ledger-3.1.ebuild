@@ -13,7 +13,7 @@ SRC_URI="http://sunder.vehk.de/p/${P}.tar.bz2"
 RESTRICT="mirror"
 
 LICENSE="BSD"
-KEYWORDS="amd64 x86"
+#KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE="debug doc gnuplot libedit python static-libs bash-completion"
 PYTHON_DEPEND="python? 2"

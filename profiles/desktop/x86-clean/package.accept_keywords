@@ -4,3 +4,6 @@ mate-extra/caja-dropbox ~*
 dev-java/icedtea-bin:7
 =dev-java/icedtea-web-1.5.1*
 =dev-java/icedtea-sound-1.0.1*
+
+# ledger
+=app-office/ledger-3.1
