@@ -2,9 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
-inherit distutils perl-app
+PYTHON_COMPAT=( python{2_7,3_3} )
+inherit distutils-r1 perl-app
 
 MY_PN="concordance"
 MY_P="${MY_PN}-${PV}"
@@ -18,10 +19,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="+udev consolekit perl python"
 
 DEPEND="dev-libs/libusb
-		udev? ( sys-fs/udev )
-		consolekit? ( sys-auth/consolekit )
-		perl? ( virtual/perl-Module-Build
-				dev-lang/swig )
+	udev? ( virtual/udev )
+	consolekit? ( sys-auth/consolekit )
+	perl? ( virtual/perl-Module-Build
+		dev-lang/swig )
+	dev-libs/libzip
 "
 
 RDEPEND="${DEPEND}"
@@ -29,7 +31,8 @@ RDEPEND="${DEPEND}"
 S="${WORKDIR}/${MY_P}/libconcord"
 
 src_configure() {
-	econf
+	# future releases are deprecating libusb in favor of libhidapi
+	econf --enable-force-libusb-on-linux
 }
 
 src_compile() {
@@ -49,7 +52,7 @@ src_compile() {
 
 	if use python; then
 		cd "${S}/bindings/python"
-		distutils_src_compile
+		distutils-r1_src_compile
 	fi
 }
 
@@ -74,6 +77,6 @@ src_install() {
 
 	if use python; then
 		cd "${S}/bindings/python"
-		distutils_src_install
+		distutils-r1_src_install
 	fi
 }
