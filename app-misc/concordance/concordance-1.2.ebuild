@@ -1,8 +1,8 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="Program a Logitech Harmony universal remote controls"
 HOMEPAGE="http://phildev.net/concordance/"
@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-libs/libconcord"
+DEPEND=">=dev-libs/libconcord-1.2"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${P}/${PN}"
