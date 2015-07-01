@@ -43,3 +43,6 @@ sys-auth/polkit-qt qt4
 # required by x11-libs/mx-1.4.7-r1::gentoo
 # required by media-video/totem-3.14.2::gentoo
 media-libs/mesa gles2
+
+# needed for kdelibs
+app-crypt/qca qt4
