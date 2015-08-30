@@ -49,3 +49,5 @@ app-crypt/qca qt4
 
 # plugins for rhythmbox
 media-plugins/gst-plugins-meta lame
+
+x11-libs/gksu -gnome
