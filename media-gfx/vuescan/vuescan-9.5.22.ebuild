@@ -43,7 +43,7 @@ src_install() {
 		Type=Application
 		Comment=VueScan - easy scanning software
 		Exec=/opt/vuescan/${PN}
-		Icon=VueScan.png
+		Icon=/usr/share/pixmaps/VueScan.png
 		Categories=Graphics;Scanning;
 	EOF
 	
