@@ -48,6 +48,7 @@ media-libs/mesa gles2
 
 # needed for kdelibs
 app-crypt/qca qt4
+dev-libs/libdbusmenu-qt qt4
 
 # plugins for rhythmbox
 media-plugins/gst-plugins-meta lame
