@@ -1,6 +1,6 @@
 dev-vcs/mr
 =net-misc/cfengine-3.4*
-app-emacs/magit
+#app-emacs/magit
 =sys-auth/sssd-1.8.4*
 net-print/kyocera-mita-ppds
 
