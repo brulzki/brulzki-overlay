@@ -129,3 +129,6 @@ media-libs/phonon qt4 -vlc
 media-libs/phonon-gstreamer qt4
 
 media-sound/audacity libsamplerate soundtouch midi
+
+# 26/2/2016 this was added recently?
+dev-java/icedtea-bin -webstart
