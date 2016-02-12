@@ -1,4 +1,4 @@
-mate-extra/caja-dropbox ~*
+=mate-extra/caja-dropbox-1.8* ~*
 
 # JVM 7
 dev-java/icedtea-bin:7

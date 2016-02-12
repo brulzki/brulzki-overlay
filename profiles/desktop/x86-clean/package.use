@@ -58,3 +58,6 @@ x11-libs/gksu -gnome
 # needed for ledger
 dev-libs/boost python
 app-office/ledger python
+
+# needed for skype
+dev-qt/qtwebkit -exceptions
