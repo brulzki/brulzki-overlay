@@ -19,8 +19,8 @@ IUSE=""
 
 DEPEND="net-misc/wget"
 RDEPEND="x11-apps/xrandr
-	|| ( dev-java/icedtea-bin:6
-		dev-java/icedtea:6[X]
+	|| ( dev-java/icedtea-bin
+		dev-java/icedtea[X]
 		dev-java/oracle-jre-bin[X]
 		dev-java/sun-jre-bin[X] )"
 
