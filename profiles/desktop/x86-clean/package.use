@@ -64,3 +64,6 @@ dev-qt/qtwebkit -exceptions
 
 # required for simple-scan-3.18
 >=dev-libs/libgusb-0.2.8 vala
+
+# for samba
+sys-libs/ntdb python
