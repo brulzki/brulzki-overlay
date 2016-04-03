@@ -67,3 +67,6 @@ dev-qt/qtwebkit -exceptions
 
 # for samba
 sys-libs/ntdb python
+
+# need this for dependencies
+dev-libs/libpcre pcre16

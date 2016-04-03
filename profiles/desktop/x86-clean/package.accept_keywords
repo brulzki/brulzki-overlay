@@ -10,3 +10,6 @@ dev-java/icedtea-bin:7
 
 # unstable packages
 app-text/unpaper
+
+# mpv
+=media-video/mpv-0.16*
