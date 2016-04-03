@@ -1,6 +1,6 @@
 
 # disable systemd
-# Note: openrc-force doesn't seem to have a practical use currently
+# Note: openrc-force is used in gnome-shell and gnome-settings-daemon
 USE="-systemd openrc-force"
 
 # disable some of the gnome defaults 

@@ -1,7 +1,0 @@
-# 13/12/2013 - remove gnome3 deps
->=dev-libs/libgdata-0.14 -gnome
-gnome-extra/nm-applet -bluetooth
-
-# unmask gvfs-2.14
-# see https://forums.gentoo.org/viewtopic-t-948684.html
-gnome-base/gvfs -gnome-keyring
