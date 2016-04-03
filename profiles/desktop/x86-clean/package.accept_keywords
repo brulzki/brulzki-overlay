@@ -28,3 +28,7 @@ app-text/unpaper
 =dev-qt/qtdbus-5.5.1*
 =dev-qt/qtprintsupport-5.5.1*
 =net-misc/dropbox-3.17.31
+
+# simplescreenrecorder
+=dev-qt/qtx11extras-5.5.1*
+media-video/simplescreenrecorder

@@ -72,3 +72,5 @@ sys-libs/ntdb python
 >=dev-qt/qtcore-5.5.1 icu
 >=dev-libs/libpcre-8.38 pcre16
 
+# simplescreenrecorder
+media-video/simplescreenrecorder qt5
