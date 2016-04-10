@@ -1,0 +1,16 @@
+# 10/4/2016 common defaults for preferred packages
+
+# required by net-fs/samba-3.6.16
+sys-libs/talloc python
+
+# 19/10/2014 required by sys-auth/sssd-1.12.1
+net-nds/openldap sasl
+sys-libs/tevent python
+net-dns/bind-tools gssapi
+dev-libs/cyrus-sasl kerberos
+sys-libs/glibc nscd
+sys-libs/tdb python
+
+# 10/4/2016 required by net-fs/samba-4.2.9
+sys-libs/ntdb python
+

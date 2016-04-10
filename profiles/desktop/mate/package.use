@@ -1,11 +1,4 @@
 
-# required by sys-auth/sssd-1.12.1
-net-nds/openldap sasl
-sys-libs/tevent python
-net-dns/bind-tools gssapi
-dev-libs/cyrus-sasl kerberos
-sys-libs/glibc nscd
-
 # youtube-dl needs ssl on ffmpeg for plus7 content (gnutls or openssl)
 media-video/ffmpeg gnutls
 
@@ -64,9 +57,6 @@ dev-qt/qtwebkit -exceptions
 
 # required for simple-scan-3.18
 >=dev-libs/libgusb-0.2.8 vala
-
-# for samba
-sys-libs/ntdb python
 
 # 3/2/2016 dropbox-3
 >=dev-qt/qtcore-5.5.1 icu
