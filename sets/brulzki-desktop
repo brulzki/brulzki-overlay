@@ -1,0 +1,12 @@
+net-irc/hexchat
+net-misc/dhcpcd-ui
+x11-misc/xclip
+x11-misc/xsel
+x11-terms/xterm
+net-misc/autossh
+app-emulation/wine
+app-emulation/winetricks
+
+media-video/mpv
+app-admin/keepassx
+x11-misc/redshift
