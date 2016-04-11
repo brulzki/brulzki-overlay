@@ -1,0 +1,23 @@
+@desktop-core
+
+# mate packages
+mate-base/mate
+app-admin/system-config-printer
+#net-misc/networkmanager
+gnome-extra/nm-applet
+gnome-extra/nautilus-dropbox
+mail-client/mail-notification
+mate-extra/caja-dropbox
+media-sound/rhythmbox
+x11-themes/clearlooks-phenix
+media-radio/radiotray
+media-gfx/simple-scan
+
+# mate extra
+app-office/glabels
+app-office/libreoffice
+media-gfx/gimp
+media-gfx/gphoto2
+media-gfx/gthumb
+media-gfx/inkscape
+media-sound/audacity
