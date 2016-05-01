@@ -11,6 +11,7 @@ app-text/unpaper
 =media-video/mpv-0.16*
 
 # dropbox-3
+=net-misc/dropbox-3*
 =dev-qt/qtgui-5.5.1*
 =dev-qt/qtwidgets-5.5.1*
 =dev-qt/qtquick1-5.5.1*
@@ -23,7 +24,8 @@ app-text/unpaper
 =dev-qt/qtopengl-5.5.1*
 =dev-qt/qtdbus-5.5.1*
 =dev-qt/qtprintsupport-5.5.1*
-=net-misc/dropbox-3.17.31
+=dev-qt/qtdeclarative-5.5.1*
+=dev-qt/qttest-5.5.1*
 
 # simplescreenrecorder
 =dev-qt/qtx11extras-5.5.1*
