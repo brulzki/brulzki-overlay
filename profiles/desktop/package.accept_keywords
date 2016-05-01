@@ -19,7 +19,8 @@ media-gfx/iscan-plugin-gt-x770
 # we want to use btrfs send
 =sys-fs/btrfs-progs-0.20_rc1
 
-net-misc/tinc
+=net-misc/tinc-1.0*
+=net-misc/tinc-1.1
 
 games-action/minecraft
 dev-java/lwjgl

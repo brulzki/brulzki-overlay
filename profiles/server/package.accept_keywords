@@ -1,5 +1,6 @@
 sys-kernel/dracut
-net-misc/tinc
+=net-misc/tinc-1.0*
+=net-misc/tinc-1.1
 =net-misc/cfengine-3.4*
 app-admin/checkrestart
 
