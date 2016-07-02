@@ -30,18 +30,22 @@ dev-libs/libgdata -gnome
 # for USE=-eds
 dev-libs/folks -bluetooth
 
-# qt4 or qt5 ?
-sys-auth/polkit-qt qt4
-
 # required by media-libs/cogl-1.18.2-r1::gentoo[gles2]
 # required by media-libs/clutter-1.20.0::gentoo[egl]
 # required by x11-libs/mx-1.4.7-r1::gentoo
 # required by media-video/totem-3.14.2::gentoo
 media-libs/mesa gles2
 
-# needed for kdelibs
+# required by kdelibs:4
 app-crypt/qca qt4
+sys-auth/polkit-qt qt4
 dev-libs/libdbusmenu-qt qt4
+
+# needed for kdelibs:5
+dev-libs/libdbusmenu-qt qt5
+sys-auth/polkit-qt qt5
+media-libs/phonon qt5
+media-libs/phonon-gstreamer qt5
 
 # plugins for rhythmbox
 media-plugins/gst-plugins-meta lame
@@ -64,3 +68,6 @@ dev-qt/qtwebkit -exceptions
 
 # simplescreenrecorder
 media-video/simplescreenrecorder qt5
+
+# we don't need a java plugin
+dev-java/icedtea-bin -nsplugin
