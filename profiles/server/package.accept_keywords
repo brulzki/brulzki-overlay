@@ -6,3 +6,7 @@ app-admin/checkrestart
 
 app-emulation/lxc
 sys-process/criu
+
+# enable lxc-centos installs
+sys-apps/yum
+dev-python/pyliblzma
