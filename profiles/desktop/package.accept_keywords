@@ -32,7 +32,7 @@ dev-java/asm
 net-libs/dhcpcd-dbus
 net-misc/dhcpcd-ui
 
-x11-misc/kxstitch
+kde-apps/kxstitch
 
 # from http://bugs.gentoo.org/484528
 =app-misc/gourmet-0.16.1
