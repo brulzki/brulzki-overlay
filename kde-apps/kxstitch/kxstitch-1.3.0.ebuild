@@ -19,5 +19,6 @@ IUSE=""
 S="${WORKDIR}/${P}"
 
 DEPEND="kde-base/kdelibs
-	media-gfx/imagemagick"
+	media-gfx/imagemagick
+	!media-gfx/kxstitch"
 RDEPEND="${DEPEND}"
