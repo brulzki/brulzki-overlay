@@ -42,3 +42,6 @@ dev-python/configparser
 
 # 8/1/2015
 app-admin/checkrestart
+
+# 10/7/2016
+=app-pda/libimobiledevice-1.2*
