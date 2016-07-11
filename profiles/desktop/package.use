@@ -132,3 +132,6 @@ media-sound/audacity libsamplerate soundtouch midi
 
 # 26/2/2016 this was added recently?
 dev-java/icedtea-bin -webstart
+
+# 11/7/2016 remove annoying popups
+net-misc/dhcpcd-ui -libnotify
