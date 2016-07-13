@@ -135,3 +135,7 @@ dev-java/icedtea-bin -webstart
 
 # 11/7/2016 remove annoying popups
 net-misc/dhcpcd-ui -libnotify
+
+# 13/7/2016 required for accessing notes (maybe?)
+app-pda/libimobiledevice python
+app-pda/libplist python
