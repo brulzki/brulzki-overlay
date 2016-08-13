@@ -58,6 +58,7 @@ app-office/ledger python
 
 # needed for skype
 dev-qt/qtwebkit -exceptions
+dev-qt/qtwebkit:4 -gstreamer
 
 # required for simple-scan-3.18
 >=dev-libs/libgusb-0.2.8 vala
@@ -71,3 +72,6 @@ media-video/simplescreenrecorder qt5
 
 # we don't need a java plugin
 dev-java/icedtea-bin -nsplugin
+
+# 12/8/2016 - mate now uses mate-notification-daemon
+virtual/notification-daemon -gnome
