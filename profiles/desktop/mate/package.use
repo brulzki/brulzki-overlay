@@ -75,3 +75,8 @@ dev-java/icedtea-bin -nsplugin
 
 # 12/8/2016 - mate now uses mate-notification-daemon
 virtual/notification-daemon -gnome
+
+# 17/8/2016 - mate extras pulls in upower; breaks suspend
+# we still want to use upower-pm-utils (for the time being)
+# extra packages are pulled in with sets
+mate-base/mate -extras

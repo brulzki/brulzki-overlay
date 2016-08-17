@@ -2,10 +2,33 @@
 
 # mate packages
 mate-base/mate
+
+# we need upower-pm-utils or suspend breaks without systemd
+sys-power/upower-pm-utils
+
+# mate extras
+# these are normally pulled in with mate[extras] but
+# sys-apps/gnome-disk-utility ultimately pulls in upower
+# so we skip that and a few others
+app-arch/engrampa
+app-editors/pluma
+app-text/atril
+gnome-extra/gnome-calculator
+mate-extra/caja-extensions
+#mate-extra/mate-netbook
+mate-extra/mate-power-manager
+mate-extra/mate-screensaver
+mate-extra/mate-system-monitor
+mate-extra/mate-utils
+media-gfx/eom
+#net-analyzer/mate-netspeed
+#sys-apps/gnome-disk-utility
+
+# useful utilites and apps
 app-admin/system-config-printer
 #net-misc/networkmanager
 gnome-extra/nm-applet
-gnome-extra/nautilus-dropbox
+#gnome-extra/nautilus-dropbox
 mail-client/mail-notification
 mate-extra/caja-dropbox
 media-sound/rhythmbox
