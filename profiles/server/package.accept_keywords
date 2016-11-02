@@ -10,3 +10,11 @@ sys-process/criu
 # enable lxc-centos installs
 sys-apps/yum
 dev-python/pyliblzma
+
+# this is used for my virt script
+sys-apps/chname
+
+# beets music library manager
+media-sound/beets
+dev-python/jellyfish
+dev-python/munkres
