@@ -4,7 +4,7 @@
 mate-base/mate
 
 # we need upower-pm-utils or suspend breaks without systemd
-sys-power/upower-pm-utils
+#sys-power/upower-pm-utils
 
 # mate extras
 # these are normally pulled in with mate[extras] but
