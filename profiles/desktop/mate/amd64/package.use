@@ -478,3 +478,10 @@ dev-java/icedtea-bin -nsplugin
 # required by @selected
 # required by @world (argument)
 >=media-libs/libmad-0.15.1b-r8 abi_x86_32
+
+# required by dev-libs/glib-2.48.2::gentoo
+# required by app-text/atril-1.12.2-r3::gentoo
+# required by @mate-desktop
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre-8.38-r1 abi_x86_32
