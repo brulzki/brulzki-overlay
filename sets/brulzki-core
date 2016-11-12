@@ -15,6 +15,7 @@ sys-process/lsof
 app-admin/checkrestart
 sys-apps/usbutils
 net-misc/whois
+sys-apps/dmidecode
 
 app-misc/tmux
 app-editors/emacs
