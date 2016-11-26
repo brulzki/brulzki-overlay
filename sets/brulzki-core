@@ -16,6 +16,7 @@ app-admin/checkrestart
 sys-apps/usbutils
 net-misc/whois
 sys-apps/dmidecode
+net-misc/tinc
 
 app-misc/tmux
 app-editors/emacs
