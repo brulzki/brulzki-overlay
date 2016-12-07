@@ -45,3 +45,7 @@ app-admin/checkrestart
 
 # 10/7/2016
 =app-pda/libimobiledevice-1.2*
+
+# 7/12/2016
+# https://forums.gentoo.org/viewtopic-p-7996698.html
+~app-pda/libplist-1.12
