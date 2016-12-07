@@ -49,3 +49,7 @@ app-admin/checkrestart
 # 7/12/2016
 # https://forums.gentoo.org/viewtopic-p-7996698.html
 ~app-pda/libplist-1.12
+
+# 7/12/2016
+# devede replaced with devedeng
+media-video/devedeng
