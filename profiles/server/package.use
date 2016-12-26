@@ -1,6 +1,13 @@
+sys-libs/talloc python
+sys-libs/tdb python
+sys-libs/tevent python
+
+net-misc/youtube-dl offensive
+
 # required by sys-apps/yum
 dev-lang/python:2.7 sqlite
 dev-libs/libxml2 python
+app-arch/rpm python lua
 
 # beets music library manager
 media-sound/beets flac ogg replaygain gstreamer
