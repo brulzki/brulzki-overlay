@@ -22,3 +22,8 @@ app-misc/tmux
 app-editors/emacs
 app-editors/vim
 dev-vcs/git
+
+app-arch/zip
+app-arch/unzip
+sys-apps/pv
+net-misc/whois
