@@ -5,3 +5,6 @@ media-gfx/kxstitch ~*
 # see bug #594616
 # https://bugs.gentoo.org/show_bug.cgi?id=594616
 =www-client/firefox-45.4.0
+
+# 2/1/2017 only ~amd64
+=media-sound/morituri-0.2.3 ~*

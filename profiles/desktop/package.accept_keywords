@@ -53,3 +53,7 @@ app-admin/checkrestart
 # 7/12/2016
 # devede replaced with devedeng
 media-video/devedeng
+
+# 2/1/2017
+=media-sound/morituri-0.2.3
+dev-python/pycdio
