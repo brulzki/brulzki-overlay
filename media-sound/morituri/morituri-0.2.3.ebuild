@@ -28,8 +28,7 @@ RDEPEND="${PYTHON_DEPS}
 	wav? ( media-libs/gst-plugins-good )
 	wavpack? ( media-plugins/gst-plugins-wavpack )
 	dev-python/gst-python[${PYTHON_USEDEP}]
-	dev-python/pygobject[${PYTHON_USEDEP}]
-	dev-python/pygtk[${PYTHON_USEDEP}]
+	dev-python/pygobject:2[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	doc? ( dev-python/epydoc[${PYTHON_USEDEP}] )
