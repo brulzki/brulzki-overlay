@@ -22,3 +22,6 @@ dev-python/munkres
 # 2/1/2017
 =media-sound/morituri-0.2.3
 dev-python/pycdio
+
+# nextcloud
+=www-apps/nextcloud-11*

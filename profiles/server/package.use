@@ -14,3 +14,8 @@ media-sound/beets flac ogg replaygain gstreamer
 media-libs/gst-plugins-base -pango
 dev-python/pygobject -cairo
 dev-libs/gobject-introspection -cairo
+
+# nextcloud
+www-apps/nextcloud -sqlite postgres
+app-eselect/eselect-php fpm
+dev-lang/php curl fpm pdo postgres gd xmlreader xmlwriter zip ldap
