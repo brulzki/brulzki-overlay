@@ -25,3 +25,7 @@ dev-python/pycdio
 
 # nextcloud
 =www-apps/nextcloud-11*
+
+# 4/3/2017 temper-python is in the overlay
+sys-apps/temper-python
+dev-python/pyusb
