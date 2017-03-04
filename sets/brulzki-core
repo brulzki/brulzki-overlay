@@ -26,4 +26,6 @@ dev-vcs/git
 app-arch/zip
 app-arch/unzip
 sys-apps/pv
-net-misc/whois
+sys-apps/pciutils
+sys-apps/lm_sensors
+net-misc/chrony
