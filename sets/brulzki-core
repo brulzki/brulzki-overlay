@@ -29,3 +29,4 @@ sys-apps/pv
 sys-apps/pciutils
 sys-apps/lm_sensors
 net-misc/chrony
+sys-fs/dosfstools
