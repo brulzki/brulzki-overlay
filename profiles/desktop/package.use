@@ -139,3 +139,8 @@ net-misc/dhcpcd-ui -libnotify
 # 13/7/2016 required for accessing notes (maybe?)
 app-pda/libimobiledevice python
 app-pda/libplist python
+
+# 8/1/2017 brasero needs to use cdrdao to write cd-text
+# (although libburn added cd-text support in 2012, I can't
+# see that brasero has added support for it yet)
+app-cdr/brasero -libburn
