@@ -33,7 +33,7 @@ mail-client/mail-notification
 mate-extra/caja-dropbox
 media-sound/rhythmbox
 x11-themes/clearlooks-phenix
-media-radio/radiotray
+#media-radio/radiotray
 media-gfx/simple-scan
 
 # mate extra
@@ -44,3 +44,6 @@ media-gfx/gphoto2
 media-gfx/gthumb
 media-gfx/inkscape
 media-sound/audacity
+
+# choose ffmpeg over libav
+media-video/ffmpeg
