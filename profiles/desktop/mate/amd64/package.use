@@ -485,3 +485,14 @@ dev-java/icedtea-bin -nsplugin
 # required by @selected
 # required by @world (argument)
 >=dev-libs/libpcre-8.38-r1 abi_x86_32
+
+# 18/3/2017
+# required by media-video/ffmpeg-3.2.4::gentoo[sdl]
+# required by media-libs/gegl-0.2.0-r2::gentoo[-libav,ffmpeg]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=media-libs/libsdl2-2.0.4 abi_x86_32
+# required by media-libs/libsdl2-2.0.4::gentoo[X]
+# required by media-video/ffmpeg-3.2.4::gentoo[sdl]
+# required by media-libs/gegl-0.2.0-r2::gentoo[-libav,ffmpeg]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=x11-libs/libXt-1.1.5 abi_x86_32
