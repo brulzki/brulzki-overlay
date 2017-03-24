@@ -19,8 +19,9 @@ media-gfx/iscan-plugin-gt-x770
 # we want to use btrfs send
 =sys-fs/btrfs-progs-0.20_rc1
 
-=net-misc/tinc-1.0*
-=net-misc/tinc-1.1
+# 24/3/2017 tinc has move from net-misc -> net-vpn
+=net-vpn/tinc-1.0*
+=net-vpn/tinc-1.1
 
 games-action/minecraft
 dev-java/lwjgl
