@@ -1,36 +1,67 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=4
+EAPI=5
 
-inherit cmake-utils python git-2 bash-completion-r1
+PYTHON_COMPAT=( python2_7 )
+
+inherit check-reqs cmake-utils elisp-common python-single-r1 git-2
 
 DESCRIPTION="A double-entry accounting system with a command-line reporting interface"
 HOMEPAGE="http://ledger-cli.org/"
+#SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 EGIT_REPO_URI="git://github.com/ledger/ledger.git"
 EGIT_HAS_SUBMODULES=1
 
 LICENSE="BSD"
+#KEYWORDS="~amd64 ~x86"
 SLOT="0"
-IUSE="debug doc gnuplot libedit python static-libs bash-completion"
-PYTHON_DEPEND="python? 2"
+#IUSE="debug doc gnuplot libedit python static-libs bash-completion"
+IUSE="doc emacs python"
 
-DEPEND=">=dev-libs/boost-1.35[python?]
-	dev-libs/gmp
-	dev-libs/mpfr
-	doc? (
-		sys-apps/texinfo
-		dev-texlive/texlive-texinfo
-		virtual/latex-base
-	)
-	libedit? ( dev-libs/libedit )"
-RDEPEND="${DEPEND}
-	gnuplot? ( sci-visualization/gnuplot )"
+SITEFILE=50${PN}-gentoo-${PV}.el
 
-# include test/input/drewr.dat as it is referenced by the manual
-DOCS=(doc/LICENSE test/input/drewr.dat)
+CHECKREQS_MEMORY=8G
+
+COMMON_DEPEND="
+		dev-libs/boost:=[python?]
+		dev-libs/gmp:0=
+		dev-libs/mpfr:0=
+		emacs? ( virtual/emacs )
+"
+RDEPEND="
+		${COMMON_DEPEND}
+		python? ( dev-python/cheetah )
+"
+DEPEND="
+		${COMMON_DEPEND}
+		dev-libs/utfcpp
+		doc? (
+				sys-apps/texinfo
+				|| (
+						>=dev-texlive/texlive-plainextra-2013
+						dev-texlive/texlive-texinfo
+				)
+				dev-texlive/texlive-fontsrecommended
+		)
+"
+
+# Building with python integration seems to fail without 8G available
+# RAM(!)  Since the memory check in check-reqs doesn't count swap, it
+# may be unfair to fail the build entirely on the memory test alone.
+# Therefore check-reqs_pkg_pretend is deliberately omitted so that we
+# ewarn but not eerror.
+pkg_pretend() {
+	:
+}
+
+pkg_setup() {
+	if use python; then
+		check-reqs_pkg_setup
+		python-single-r1_pkg_setup
+	fi
+}
 
 src_prepare() {
 	cmake-utils_src_prepare
