@@ -21,9 +21,9 @@ inherit eutils fixheadtails flag-o-matic gnuconfig libtool multilib pax-utils to
 
 FEATURES=${FEATURES/multilib-strict/}
 
-EXPORT_FUNCTIONS="pkg_setup pkg_postinst pkg_postrm src_unpack src_configure src_compile src_install"
+EXPORT_FUNCTIONS pkg_setup pkg_postinst pkg_postrm src_unpack src_configure src_compile src_install
 
-IUSE="nls"
+IUSE="nls lto"
 # multilib is supported via profiles now, multilib usevar is deprecated
 
 RDEPEND="app-eselect/eselect-gnat
