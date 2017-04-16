@@ -81,3 +81,6 @@ virtual/notification-daemon -gnome
 # we still want to use upower-pm-utils (for the time being)
 # extra packages are pulled in with sets
 mate-base/mate -extras
+
+# spice support for qemu
+app-emulation/qemu spice
