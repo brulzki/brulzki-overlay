@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -7,14 +7,13 @@ EAPI="5"
 inherit flag-o-matic multilib-minimal
 
 if [[ ${PV} = 9999 ]]; then
-	inherit git-2
+	inherit git-r3
 fi
 
 DESCRIPTION="A Simple Screen Recorder"
 HOMEPAGE="http://www.maartenbaert.be/simplescreenrecorder"
 LICENSE="GPL-3"
 PKGNAME="ssr"
-S=${WORKDIR}/${PKGNAME}-${PV}
 if [[ ${PV} = 9999 ]]; then
 	EGIT_REPO_URI="git://github.com/MaartenBaert/${PKGNAME}.git
 		https://github.com/MaartenBaert/${PKGNAME}.git"
@@ -23,6 +22,8 @@ if [[ ${PV} = 9999 ]]; then
 else
 	SRC_URI="https://github.com/MaartenBaert/${PKGNAME}/archive/${PV}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
+
+	S=${WORKDIR}/${PKGNAME}-${PV}
 fi
 
 SLOT="0"
@@ -41,7 +42,7 @@ RDEPEND="
 		dev-qt/qtx11extras:5
 	)
 	virtual/glu[${MULTILIB_USEDEP}]
-	media-libs/alsa-lib
+	media-libs/alsa-lib:*
 	media-libs/mesa[${MULTILIB_USEDEP}]
 	x11-libs/libX11[${MULTILIB_USEDEP}]
 	x11-libs/libXext

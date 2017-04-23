@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -7,14 +7,13 @@ EAPI="5"
 inherit flag-o-matic multilib-minimal
 
 if [[ ${PV} = 9999 ]]; then
-	inherit git-2
+	inherit git-r3
 fi
 
 DESCRIPTION="A Simple Screen Recorder"
 HOMEPAGE="http://www.maartenbaert.be/simplescreenrecorder"
 LICENSE="GPL-3"
 PKGNAME="ssr"
-S=${WORKDIR}/${PKGNAME}-${PV}
 if [[ ${PV} = 9999 ]]; then
 	EGIT_REPO_URI="git://github.com/MaartenBaert/${PKGNAME}.git
 		https://github.com/MaartenBaert/${PKGNAME}.git"
@@ -22,11 +21,13 @@ if [[ ${PV} = 9999 ]]; then
 	KEYWORDS=""
 else
 	SRC_URI="https://github.com/MaartenBaert/${PKGNAME}/archive/${PV}.tar.gz"
-	KEYWORDS="amd64 x86"
+	KEYWORDS="~amd64 ~x86"
+
+	S=${WORKDIR}/${PKGNAME}-${PV}
 fi
 
 SLOT="0"
-IUSE="debug jack mp3 pulseaudio theora vorbis vpx x264 +qt4 qt5"
+IUSE="+asm debug jack mp3 pulseaudio theora vorbis vpx x264 +qt4 qt5"
 REQUIRED_USE="^^ ( qt4 qt5 )"
 
 RDEPEND="
@@ -41,7 +42,7 @@ RDEPEND="
 		dev-qt/qtx11extras:5
 	)
 	virtual/glu[${MULTILIB_USEDEP}]
-	media-libs/alsa-lib
+	media-libs/alsa-lib:*
 	media-libs/mesa[${MULTILIB_USEDEP}]
 	x11-libs/libX11[${MULTILIB_USEDEP}]
 	x11-libs/libXext
@@ -94,6 +95,7 @@ multilib_src_configure() {
 		$(multilib_native_use_with pulseaudio)
 		$(multilib_native_use_with jack)
 		$(multilib_native_use_with qt5)
+		$(use_enable asm x86-asm)
 	)
 
 	# libav doesn't have AVFrame::channels
