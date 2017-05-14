@@ -8,7 +8,7 @@
 app-text/unpaper
 
 # mpv
-=media-video/mpv-0.22*
+=media-video/mpv-0.25*
 
 # dropbox-3
 =net-misc/dropbox-3*
