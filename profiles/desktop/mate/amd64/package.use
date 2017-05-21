@@ -496,3 +496,13 @@ dev-java/icedtea-bin -nsplugin
 # required by media-libs/gegl-0.2.0-r2::gentoo[-libav,ffmpeg]
 # required by @__auto_slot_operator_replace_installed__ (argument)
 >=x11-libs/libXt-1.1.5 abi_x86_32
+
+# 22/5/2017
+# required by net-libs/gnutls-3.5.12::gentoo[idn]
+# required by net-mail/mailutils-3.1.1::gentoo[ssl]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=net-dns/libidn2-0.16-r1 abi_x86_32
+# required by net-libs/gnutls-3.5.12::gentoo
+# required by net-mail/mailutils-3.1.1::gentoo[ssl]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=dev-libs/libunistring-0.9.7 abi_x86_32
