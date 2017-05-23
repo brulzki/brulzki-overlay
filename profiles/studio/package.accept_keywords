@@ -1,0 +1,62 @@
+
+# stuff required for brulzki-core
+=net-vpn/tinc-1.0*
+=net-vpn/tinc-1.1
+
+app-admin/checkrestart
+
+# gentoostudio
+sys-kernel/rt-sources
+sys-kernel/rt-image
+
+# xfce4 plugins
+xfce-extra/xfce4-gvfs-mount
+xfce-extra/xfce4-indicator-plugin
+
+# ardour
+=media-sound/ardour-5.9*
+=media-libs/suil-0.8*
+
+# studio applications
+=media-sound/rosegarden-16.06
+
+# linuxsampler / qsampler
+media-sound/qsampler
+media-sound/linuxsampler
+media-libs/libgig
+media-libs/liblscp
+
+# lmms
+media-sound/lmms
+media-plugins/calf
+
+# sooperlooper
+media-sound/sooperlooper
+
+# specimen
+media-sound/specimen
+
+# LV2 plugins
+media-plugins/mda-lv2
+media-libs/lvtk
+media-plugins/ams-lv2
+
+# Soft synths
+media-sound/ams
+media-sound/bristol
+media-sound/din
+
+#media-sound/rtsynth
+
+# JACK utils
+media-sound/jack-smf-utils
+
+# Media players
+=media-video/mpv-0.25*
+
+# computer music programming
+media-sound/audicle
+app-eselect/eselect-audicle
+media-sound/chuck
+app-eselect/eselect-chuck
+media-sound/supercollider

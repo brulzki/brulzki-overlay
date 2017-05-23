@@ -1,0 +1,14 @@
+
+# this resolves circular dependencies with harfbuzz
+dev-util/cmake -qt5
+
+app-crypt/pinentry -qt4
+
+# required by x11-drivers/xf86-video-ati-7.8.0::gentoo[glamor]
+# for video_cards=radeon
+x11-base/xorg-server glamor
+
+# for ardour
+sci-libs/fftw threads
+
+media-sound/supercollider -portaudio
