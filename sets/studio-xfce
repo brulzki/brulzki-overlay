@@ -1,0 +1,14 @@
+xfce-base/xfce4-meta
+x11-misc/slim
+x11-themes/slim-themes
+x11-terms/xfce4-terminal
+
+# useful plugins
+xfce-extra/xfce4-power-manager
+xfce-extra/xfce4-taskmanager
+xfce-extra/xfce4-places-plugin
+xfce-extra/xfce4-notifyd
+xfce-extra/xfce4-mount-plugin
+xfce-extra/xfce4-messenger-plugin
+xfce-extra/xfce4-indicator-plugin
+xfce-extra/xfce4-gvfs-mount

@@ -1,0 +1,94 @@
+# Ardour daw
+media-sound/ardour
+
+# JACK
+media-sound/jack-audio-connection-kit
+media-sound/qjackctl
+
+media-sound/a2jmidid
+#dssi-vst
+
+# for ieee1394 interfaces
+#sys-apps/gscanbus
+
+# TODO keyword for latest rosegarden (v17.04)
+media-sound/rosegarden
+
+#emerge machina audacity jamin japa qsampler specimen hydrogen hydrogen-drumkits lmms sooperlooper chuck k3b
+
+media-sound/audacity
+media-sound/hydrogen
+media-sound/jamin
+media-sound/qsampler
+media-sound/lmms
+media-sound/sooperlooper
+media-sound/specimen
+#hydrogen-drumkits
+#machina
+
+# LV2 plugins
+#emerge invada-studio-plugins-lv2 midifilter-lv2 meters-lv2 lv2vocoder lv2fil convoLV2 balance-lv2 swh-lv2 mda-lv2 ams-lv2
+
+# (most of those are in the overlays)
+media-plugins/swh-lv2
+media-plugins/mda-lv2
+media-plugins/ams-lv2
+
+media-plugins/vamp-aubio-plugins
+
+# Soft synths
+#emerge aeolus ams amsynth bristol din fluidsynth-dssi mx44 phasex psindustrializer psychosynth rtsynth synthv1 triceratops-lv2 whysynth xsynth-dssi zynaddsubfx
+
+media-sound/aeolus
+media-sound/ams
+media-sound/amsynth
+media-sound/bristol
+media-sound/din
+media-libs/fluidsynth-dssi
+#mx44
+#phasex
+#psindustrialize
+#media-sound/rtsynth
+#synthv1
+#triceratops-lv2
+#whysynth
+media-plugins/xsynth-dssi
+media-sound/zynaddsubfx
+
+# JACK utils
+#emerge jackEQ ac3jack
+#emerge -pv silentjack qjackmmc jackmixdesk jackminimix jackmeter jack_snapshot jack_mixer jack_delay jack_capture jackEQ jack-tools ac3jack jack-smf-utils jack-rack jack-keyboard
+
+media-sound/jack-smf-utils
+media-sound/jack-rack
+media-sound/jack-keyboard
+
+# media players
+media-video/mpv
+
+# audio tools
+#emerge dir2ogg flac-image flack flacon mp32ogg mp3unicode mp3wrap mp3info mp3gain mp3diags mp3check mp3asm mp3_check ogg2mp3 oggtst redoflacs split2flac wavsplit wavbreaker vorbisgain
+# emerge k3b
+
+# computer music programming
+#emerge chuck supercollider audicle pd arduino
+
+media-sound/audicle
+media-sound/chuck
+media-sound/supercollider
+
+# add the pd-overlay
+# http://pd-overlay.sourceforge.net/
+#puredata-base/pd
+
+# Streaming tools
+#emerge idjc liquidsoap
+
+# audio for video
+#emerge lives kdenlive
+
+# Commercial software
+# Ardour
+# Harrison Mixbus
+# OverTone DSP (formerly LinuxDSP)
+# Renoise
