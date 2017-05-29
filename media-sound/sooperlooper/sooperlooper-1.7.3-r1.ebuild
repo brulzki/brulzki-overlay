@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -38,6 +38,7 @@ DOCS=( OSC README )
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-libsigc26.patch
 	epatch "${FILESDIR}"/${P}-wx3.0.patch
+	epatch "${FILESDIR}"/${P}-sigc-bind.patch
 
 	cp -rf "${WORKDIR}"/aclocal "${S}" || die "copying aclocal failed"
 
