@@ -33,6 +33,8 @@ RDEPEND="
 		dev-qt/qtpositioning:5
 		dev-qt/qtsensors:5
 		dev-qt/qtwebkit:5
+		dev-qt/qtdeclarative:5
+		dev-qt/qtconcurrent:5
 	)
 	sndfile? ( media-libs/libsndfile )
 	wiimote? ( app-misc/cwiid )"
