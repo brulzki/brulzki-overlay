@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -30,6 +30,7 @@ DOCS=( AUTHORS ChangeLog HOWTO NEWS README )
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-cflags.patch
 	epatch "${FILESDIR}"/${P}-implicit-dec.patch
+	epatch "${FILESDIR}"/${P}-alsa-iatomic.patch
 	eautoreconf
 }
 
