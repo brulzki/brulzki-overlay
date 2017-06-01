@@ -1,5 +1,4 @@
 dev-vcs/mr
-=net-misc/cfengine-3.4*
 #app-emacs/magit
 =sys-auth/sssd-1.8.4*
 net-print/kyocera-mita-ppds
@@ -19,10 +18,7 @@ media-gfx/iscan-plugin-gt-x770
 # we want to use btrfs send
 =sys-fs/btrfs-progs-0.20_rc1
 
-# 24/3/2017 tinc has move from net-misc -> net-vpn
-=net-vpn/tinc-1.0*
-=net-vpn/tinc-1.1
-
+# minecraft
 games-action/minecraft
 dev-java/lwjgl
 dev-java/jinput
@@ -40,9 +36,6 @@ media-gfx/kxstitch
 
 # 18/5/2014 - python2.7 ConfigParser needed for icsv2ledger
 dev-python/configparser
-
-# 8/1/2015
-app-admin/needrestart
 
 # 10/7/2016
 =app-pda/libimobiledevice-1.2*

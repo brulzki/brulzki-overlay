@@ -1,0 +1,10 @@
+# These packages are used commonly in all profiles
+
+# This is not used now, but keep it around anyhow
+=net-misc/cfengine-3.4*
+
+app-admin/needrestart
+
+# 24/3/2017 tinc has move from net-misc -> net-vpn
+#=net-vpn/tinc-1.0*
+=net-vpn/tinc-1.1

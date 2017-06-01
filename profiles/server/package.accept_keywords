@@ -1,13 +1,7 @@
 sys-kernel/dracut
-=net-misc/cfengine-3.4*
-app-admin/needrestart
 
 app-emulation/lxc
 sys-process/criu
-
-# 24/3/2017 tinc has move from net-misc -> net-vpn
-=net-vpn/tinc-1.0*
-=net-vpn/tinc-1.1
 
 # enable lxc-centos installs
 sys-apps/yum
