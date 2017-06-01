@@ -12,7 +12,7 @@ sys-auth/sssd
 sys-process/fcron
 net-misc/cfengine
 sys-process/lsof
-app-admin/checkrestart
+app-admin/needrestart
 sys-apps/usbutils
 net-misc/whois
 sys-apps/dmidecode
