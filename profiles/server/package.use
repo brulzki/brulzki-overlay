@@ -23,6 +23,7 @@ dev-lang/php curl fpm pdo postgres gd xmlreader xmlwriter zip ldap
 # spice support for qemu
 app-emulation/qemu spice
 
-media-video/ffmpeg x264
+media-video/ffmpeg gnutls x264
+media-video/libav x264
 
 net-misc/aria2 bittorrent
