@@ -14,3 +14,5 @@ sys-libs/tdb python
 # 10/4/2016 required by net-fs/samba-4.2.9
 sys-libs/ntdb python
 
+# 30/6/2017
+net-vpn/openvpn iproute2
