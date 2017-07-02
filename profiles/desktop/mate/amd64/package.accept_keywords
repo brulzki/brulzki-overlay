@@ -1,3 +1,6 @@
 
 # discord - only available for amd64
 #=x11-misc/discord-0.0.1 ~amd64
+
+# skypeforlinux is amd64 only
+net-im/skypeforlinux
