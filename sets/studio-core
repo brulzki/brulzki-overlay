@@ -22,7 +22,7 @@ app-misc/tmux
 app-editors/emacs
 app-emacs/ebuild-mode
 app-editors/vim
-#dev-vcs/git
+dev-vcs/git
 
 app-arch/zip
 app-arch/unzip
