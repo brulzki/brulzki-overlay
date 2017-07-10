@@ -8,6 +8,7 @@ sys-fs/btrfs-progs
 net-misc/dhcpcd
 sys-apps/iproute2
 net-dns/openresolv
+net-analyzer/traceroute
 sys-auth/sssd
 sys-process/fcron
 net-misc/cfengine
@@ -32,4 +33,3 @@ sys-apps/lm_sensors
 net-misc/chrony
 sys-fs/dosfstools
 sys-apps/smartmontools
-net-misc/whois
