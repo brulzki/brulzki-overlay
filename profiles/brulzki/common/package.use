@@ -16,3 +16,5 @@ sys-libs/ntdb python
 
 # 30/6/2017
 net-vpn/openvpn iproute2
+
+net-misc/youtube-dl offensive

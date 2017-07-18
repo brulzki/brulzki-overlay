@@ -8,3 +8,6 @@ app-admin/needrestart
 # 24/3/2017 tinc has move from net-misc -> net-vpn
 =net-vpn/tinc-1.0*
 =net-vpn/tinc-1.1
+
+# keep up with latest versions
+net-misc/youtube-dl
