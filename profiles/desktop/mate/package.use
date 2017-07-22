@@ -84,3 +84,10 @@ mate-base/mate -extras
 
 # spice support for qemu
 app-emulation/qemu spice
+
+# GLSA 201705-10
+# https://forums.gentoo.org/viewtopic-p-8075136.html
+# (this is defined in brulzki/common, but not picked up here.
+# I can't see why that is the case yet?)
+x11-libs/wxGTK:2.8 -gstreamer
+x11-libs/wxGTK:3.0 -gstreamer

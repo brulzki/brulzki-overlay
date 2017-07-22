@@ -18,3 +18,9 @@ sys-libs/ntdb python
 net-vpn/openvpn iproute2
 
 net-misc/youtube-dl offensive
+
+# GLSA 201705-10
+# https://forums.gentoo.org/viewtopic-p-8075136.html
+# (this is not picked up by the desktop/mate profile ... why?)
+x11-libs/wxGTK:2.8 -gstreamer
+x11-libs/wxGTK:3.0 -gstreamer
