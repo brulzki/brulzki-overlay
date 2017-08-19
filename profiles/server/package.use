@@ -27,6 +27,3 @@ media-video/ffmpeg gnutls x264
 media-video/libav x264
 
 net-misc/aria2 bittorrent
-
-# for git-svn
-dev-vcs/subversion perl -dso

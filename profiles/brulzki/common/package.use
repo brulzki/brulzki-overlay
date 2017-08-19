@@ -24,3 +24,10 @@ net-misc/youtube-dl offensive
 # (this is not picked up by the desktop/mate profile ... why?)
 x11-libs/wxGTK:2.8 -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
+
+# we don't want git depending on subversion; git us used everywhere
+# but don't always pull in subversion.
+# Note: the overlay has dev-vcs/git-svn to re-add the svn script.
+dev-vcs/git -subversion
+# why -dso here? (dso: enable runtime module search)
+dev-vcs/subversion perl -dso

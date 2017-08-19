@@ -11,3 +11,6 @@ app-admin/needrestart
 
 # keep up with latest versions
 net-misc/youtube-dl
+
+# 9/6/2017 my experimental git-svn package
+dev-vcs/git-svn
