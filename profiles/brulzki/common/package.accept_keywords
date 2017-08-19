@@ -14,3 +14,6 @@ net-misc/youtube-dl
 
 # 9/6/2017 my experimental git-svn package
 dev-vcs/git-svn
+
+app-text/tidy-html5
+dev-lang/gnat-gpl

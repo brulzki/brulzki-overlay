@@ -63,3 +63,5 @@ media-libs/rubberband
 # 2/1/2017
 =media-sound/morituri-0.2.3
 dev-python/pycdio
+
+media-sound/tuxguitar
