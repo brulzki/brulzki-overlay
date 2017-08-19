@@ -4,6 +4,9 @@ sys-libs/tevent python
 
 net-misc/youtube-dl offensive
 
+# mail
+mail-mta/postfix dovecot-sasl ldap
+
 # required by sys-apps/yum
 dev-lang/python:2.7 sqlite
 dev-libs/libxml2 python

@@ -16,4 +16,7 @@ net-misc/youtube-dl
 dev-vcs/git-svn
 
 app-text/tidy-html5
+# add support for tidy-html5 to pytidylib
+=dev-python/pytidylib-0.2.4-r1
+
 dev-lang/gnat-gpl
