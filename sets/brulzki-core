@@ -34,3 +34,7 @@ sys-apps/lm_sensors
 net-misc/chrony
 sys-fs/dosfstools
 sys-apps/smartmontools
+
+dev-vcs/mr
+dev-vcs/vcsh
+net-misc/keychain

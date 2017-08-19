@@ -1,0 +1,33 @@
+app-text/dos2unix
+dev-util/strace
+#net-misc/whois
+
+dev-vcs/bzr
+dev-vcs/bzr-fastimport
+dev-vcs/bzrtools
+dev-vcs/mercurial
+dev-vcs/subversion
+dev-vcs/git-svn::brulzki
+
+app-text/tidy-html5
+dev-python/pytidylib
+
+dev-python/beautifulsoup
+dev-python/configparser
+dev-python/pycrypto
+dev-python/requests
+dev-python/sqlalchemy
+
+# admin tools
+net-analyzer/fping
+net-analyzer/netcat
+net-analyzer/nmap
+net-analyzer/tcpdump
+net-misc/netkit-telnetd
+sys-apps/chname
+
+# should this be somewhere else? desktop or server?
+sys-fs/ntfs3g
+
+# emacs
+app-emacs/ebuild-mode

@@ -47,3 +47,7 @@ media-sound/audacity
 
 # choose ffmpeg over libav
 media-video/ffmpeg
+
+gnome-base/dconf-editor
+gnome-extra/gconf-editor
+media-video/cheese
