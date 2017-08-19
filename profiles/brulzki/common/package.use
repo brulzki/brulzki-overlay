@@ -1,5 +1,8 @@
 # 10/4/2016 common defaults for preferred packages
 
+# gcj is needed for pdftk builds
+sys-devel/gcc gcj
+
 # required by net-fs/samba-3.6.16
 sys-libs/talloc python
 
@@ -31,3 +34,6 @@ x11-libs/wxGTK:3.0 -gstreamer
 dev-vcs/git -subversion
 # why -dso here? (dso: enable runtime module search)
 dev-vcs/subversion perl -dso
+
+# for sqlalchemy
+dev-lang/python sqlite

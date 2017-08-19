@@ -9,7 +9,7 @@ net-misc/ntp caps
 # 29/12/2009 needed for various stuff to build (mostly firefox)
 #dev-db/sqlite fts3
 
-sys-devel/gcc -gtk gcj
+sys-devel/gcc -gtk
 media-video/mplayer -gtk dvb
 media-libs/libquicktime -gtk -X dv
 app-emulation/qemu-softmmu kqemu
