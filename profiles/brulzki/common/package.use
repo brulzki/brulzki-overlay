@@ -37,3 +37,6 @@ dev-vcs/subversion perl -dso
 
 # for sqlalchemy
 dev-lang/python sqlite
+
+# command line cd ripping
+media-sound/abcde -id3tag -lame cdparanoia cdr flac replaygain musicbrainz
