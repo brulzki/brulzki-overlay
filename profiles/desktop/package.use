@@ -44,8 +44,13 @@ media-gfx/gthumb http slideshow iptc
 
 app-emulation/wine gnutls
 
-# needed for sound-juicer
-gnome-base/gvfs cdda
+# cdda needed for sound-juicer
+# 18/11/2013 added fuse
+# 1/10/2017 added mtp, nfs & smb support
+gnome-base/gvfs cdda fuse mtp nfs samba
+
+# 1/10/2017 for smb support in gvfs
+net-fs/samba client
 
 app-editors/emacs toolkit-scroll-bars xft
 
@@ -100,9 +105,6 @@ app-emulation/virtualbox extensions
 dev-libs/libattica qt4
 
 app-misc/gourmet gnome-print
-
-# 18/11/2013
-gnome-base/gvfs fuse
 
 # 21/11/2103 - ekiga
 net-libs/opal sipim h224 h281 h323
