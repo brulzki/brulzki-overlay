@@ -27,4 +27,4 @@ SANE_BACKENDS="-* epson epson2 canon canon630u plustek genesys"
 LIRC_DEVICES="serial"
 
 # this was removed from the base profile (#584780)
-CAMERAS="ptp2"
+CAMERAS="-* ptp2"
