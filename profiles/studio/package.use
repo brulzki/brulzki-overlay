@@ -12,3 +12,11 @@ x11-base/xorg-server glamor
 sci-libs/fftw threads
 
 media-sound/supercollider -portaudio
+
+# gcj doesn't link with jack on multilib
+# https://forums.gentoo.org/viewtopic-t-1062272.html
+#sys-devel/gcc -gcj
+
+media-libs/libsamplerate abi_x86_32
+media-libs/alsa-lib abi_x86_32
+media-sound/jack-audio-connection-kit abi_x86_32
