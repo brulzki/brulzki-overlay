@@ -13,7 +13,7 @@ dev-libs/libxml2 python
 app-arch/rpm python lua
 
 # beets music library manager
-media-sound/beets flac ogg replaygain gstreamer
+media-sound/beets flac ogg replaygain gstreamer discogs
 media-libs/gst-plugins-base -pango
 dev-python/pygobject -cairo
 dev-libs/gobject-introspection -cairo
