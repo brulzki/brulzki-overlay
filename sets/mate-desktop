@@ -51,3 +51,4 @@ media-video/ffmpeg
 gnome-base/dconf-editor
 gnome-extra/gconf-editor
 media-video/cheese
+app-crypt/seahorse

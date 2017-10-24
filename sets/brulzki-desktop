@@ -10,14 +10,18 @@ app-emulation/winetricks
 media-video/mpv
 app-admin/keepassxc
 x11-misc/redshift
+net-misc/remmina
 
 app-office/ledger
 app-text/pdftk
+app-text/qpdf
 media-sound/musescore
 media-sound/tuxguitar
 net-misc/youtube-dl
 net-p2p/transmission-remote-gtk
 net-print/kyocera-mita-ppds
+net-print/brother-mfc9340cdw-bin
+media-gfx/brother-mfc9340cdw-bin
 
 # these are small x utilities that I don't use often but are occasionaly useful
 x11-apps/xkill
