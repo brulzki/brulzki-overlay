@@ -31,3 +31,10 @@ sys-fs/ntfs3g
 
 # emacs
 app-emacs/ebuild-mode
+
+# android
+dev-util/android-tools
+app-mobilephone/heimdall
+
+# unrar
+app-arch/unrar

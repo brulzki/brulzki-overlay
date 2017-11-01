@@ -23,3 +23,6 @@ dev-lang/gnat-gpl
 
 # command line cd-ripping
 media-sound/abcde
+
+# android tools
+app-mobilephone/heimdall
