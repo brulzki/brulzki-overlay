@@ -3,6 +3,9 @@
 # This is not used now, but keep it around anyhow
 =net-misc/cfengine-3.4*
 
+# a gtk-3 theme with proper scrollbars
+x11-themes/clearlooks-phenix:0
+
 app-admin/needrestart
 
 # 24/3/2017 tinc has move from net-misc -> net-vpn
