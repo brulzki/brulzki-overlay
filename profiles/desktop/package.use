@@ -143,3 +143,6 @@ app-pda/libplist python
 # (although libburn added cd-text support in 2012, I can't
 # see that brasero has added support for it yet)
 app-cdr/brasero -libburn
+
+# required by app-office/libreoffice-5.4.2.2
+dev-libs/xmlsec nss
