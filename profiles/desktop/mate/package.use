@@ -9,11 +9,10 @@ media-video/ffmpeg gnutls
 dev-libs/elfutils static-libs
 
 # mate
-mate-base/mate-session-manager -upower -systemd
+mate-base/mate-session-manager -systemd
 mate-base/mate-menus python
 mate-extra/mate-screensaver -systemd
 sys-apps/accountsservice -systemd
-mate-extra/mate-power-manager pm-utils
 
 # syslog-ng won't run under openrc if build with systemd
 app-admin/syslog-ng -systemd
