@@ -96,3 +96,11 @@ x11-libs/wxGTK:3.0 -gstreamer
 
 # this is for graphviz (used by scala)
 media-libs/gd fontconfig
+
+# https://bugs.gentoo.org/586302
+# (I think this only adds a dep, not fix mate suspend issues...
+# see patches in bugzilla)
+sys-auth/consolekit pm-utils
+
+# TODO revert the earlier change
+mate-extra/mate-power-manager pm-utils
