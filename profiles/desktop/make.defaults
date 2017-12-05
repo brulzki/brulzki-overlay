@@ -2,7 +2,7 @@ CUSTOM_PROFILE="yes"
 
 CONFIG_PROTECT_MASK="/etc/init.d"
 
-USE="-oss -arts -kde -qt3 -qt4 -esd
+USE="-oss -arts -kde -qt4 -qt5 -esd
 sse2 mmx vdpau
 evo gnome gstreamer gdu consolekit gnome-keyring pulseaudio sqlite
 imap maildir xattr xinerama exif iptc gphoto2 gimpprint ppds usb

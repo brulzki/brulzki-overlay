@@ -37,9 +37,9 @@ dev-libs/folks -bluetooth
 media-libs/mesa gles2
 
 # required by kdelibs:4
-app-crypt/qca qt4
-sys-auth/polkit-qt qt4
-dev-libs/libdbusmenu-qt qt4
+#app-crypt/qca qt4
+#sys-auth/polkit-qt qt4
+#dev-libs/libdbusmenu-qt qt4
 
 # needed for kdelibs:5
 dev-libs/libdbusmenu-qt qt5

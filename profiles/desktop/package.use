@@ -102,7 +102,7 @@ media-libs/lcms python
 # 6/3/2013 - virtualbox
 app-emulation/virtualbox extensions
 
-dev-libs/libattica qt4
+dev-libs/libattica qt5
 
 app-misc/gourmet gnome-print
 
@@ -124,8 +124,8 @@ dev-libs/libconcord python
 
 # we don't want qt4 globally
 net-misc/dhcpcd-ui -qt4 -qt5
-media-libs/phonon qt4 -vlc
-media-libs/phonon-gstreamer qt4
+media-libs/phonon qt5 -vlc
+media-libs/phonon-gstreamer qt5
 
 media-sound/audacity libsamplerate soundtouch midi
 
