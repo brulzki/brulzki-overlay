@@ -43,6 +43,7 @@ app-office/libreoffice binfilter java templates
 media-gfx/gthumb http slideshow iptc
 
 app-emulation/wine gnutls
+app-emulation/wine-vanilla gnutls
 
 # cdda needed for sound-juicer
 # 18/11/2013 added fuse
@@ -66,6 +67,7 @@ x11-libs/qt-sql qt3support
 # udisks requires udisks-2.0.90, udev-196
 #=app-emulation/wine-1.5.9 mono -udisks
 app-emulation/wine mono -udisks
+app-emulation/wine-vanilla mono -udisks
 
 # 20/8/2012
 dev-java/icedtea-bin nsplugin

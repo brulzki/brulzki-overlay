@@ -4,8 +4,8 @@ x11-misc/xclip
 x11-misc/xsel
 x11-terms/xterm
 net-misc/autossh
-app-emulation/wine
-app-emulation/winetricks
+app-emulation/wine-vanilla
+#app-emulation/winetricks
 
 media-video/mpv
 app-admin/keepassxc
