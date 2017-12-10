@@ -1,0 +1,4 @@
+
+# python-fastimport removed apis used by bzr-fastimport
+# fixed in bzr-fastimport-0.14 (in git but not released)
+>=dev-python/python-fastimport-0.9.3
