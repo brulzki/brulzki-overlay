@@ -6,4 +6,4 @@ media-sound/morituri
 media-video/ffmpeg
 net-misc/aria2
 app-office/ledger
-app-text/pdftk
+#app-text/pdftk

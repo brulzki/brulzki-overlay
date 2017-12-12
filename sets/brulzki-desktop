@@ -13,7 +13,7 @@ x11-misc/redshift
 net-misc/remmina
 
 app-office/ledger
-app-text/pdftk
+#app-text/pdftk
 app-text/qpdf
 media-sound/musescore
 media-sound/tuxguitar
