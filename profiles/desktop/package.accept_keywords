@@ -1,22 +1,14 @@
 dev-vcs/mr
 #app-emacs/magit
-=sys-auth/sssd-1.8.4*
 net-print/kyocera-mita-ppds
 
-=app-emulation/wine-1.6*
 app-emulation/winetricks
 
 =media-video/imagination-3.0-r1
-net-im/skype
 #=media-radio/radiotray-0.7.3*
-app-laptop/easy-slow-down-manager
-app-laptop/samsung-tools
 
 # the epson perfection V500 driver
 media-gfx/iscan-plugin-gt-x770
-
-# we want to use btrfs send
-=sys-fs/btrfs-progs-0.20_rc1
 
 # minecraft
 games-action/minecraft
@@ -25,24 +17,7 @@ dev-java/jinput
 dev-java/jutils
 dev-java/asm
 
-# 5/3/2013 - testing dhcpcp-ui
-net-libs/dhcpcd-dbus
-net-misc/dhcpcd-ui
-
 media-gfx/kxstitch
-
-# from http://bugs.gentoo.org/484528
-=app-misc/gourmet-0.16.1
-
-# 18/5/2014 - python2.7 ConfigParser needed for icsv2ledger
-dev-python/configparser
-
-# 10/7/2016
-=app-pda/libimobiledevice-1.2*
-
-# 7/12/2016
-# https://forums.gentoo.org/viewtopic-p-7996698.html
-~app-pda/libplist-1.12
 
 # 7/12/2016
 # devede replaced with devedeng
@@ -54,14 +29,14 @@ media-video/devedeng
 
 # 15/12/2016
 =media-sound/musescore-2.0.3*
+=media-sound/musescore-2.1.0*
 
-# 18/12/2016
-=media-sound/lilypond-2.18.2-r3
+# 18/12/2016 :: confirm this ... 1.0.2 is in the tree
 =media-sound/denemo-2.0.14
-media-libs/rubberband
 
 # 2/1/2017
 =media-sound/morituri-0.2.3
 dev-python/pycdio
 
 media-sound/tuxguitar
+sci-electronics/gspeakers
