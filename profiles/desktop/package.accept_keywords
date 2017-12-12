@@ -40,3 +40,6 @@ dev-python/pycdio
 
 media-sound/tuxguitar
 sci-electronics/gspeakers
+
+# used to support plymouth in openrc
+sys-boot/plymouth-openrc-plugin
