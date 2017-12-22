@@ -30,3 +30,6 @@ media-video/ffmpeg gnutls x264
 media-video/libav x264
 
 net-misc/aria2 bittorrent
+
+# required by www-apps/nextcloud-11.0.6::gentoo
+dev-lang/php session
