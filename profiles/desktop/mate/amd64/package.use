@@ -505,3 +505,12 @@ app-emulation/wine-gecko abi_x86_32
 # required by net-mail/mailutils-3.1.1::gentoo[ssl]
 # required by @__auto_slot_operator_replace_installed__ (argument)
 >=dev-libs/libunistring-0.9.7 abi_x86_32
+
+# 22/12/2017
+# required by media-plugins/gst-plugins-meta-1.12.3::gentoo[mp3]
+# required by app-cdr/brasero-3.12.2::gentoo
+# required by media-gfx/gthumb-3.4.5::gentoo[cdr]
+# required by @mate-desktop
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-mpg123-1.12.3 abi_x86_32
