@@ -514,3 +514,5 @@ app-emulation/wine-gecko abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=media-plugins/gst-plugins-mpg123-1.12.3 abi_x86_32
+
+sys-apps/keyutils abi_x86_32
