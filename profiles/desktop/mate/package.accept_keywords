@@ -1,3 +1,6 @@
+# blueman is recommended for managing bluetooth on mate
+=net-wireless/blueman-2.0.4
+
 # caja-dropbox is only keyworded ~amd64, but it works for x86 also
 =mate-extra/caja-dropbox-1.8* ~*
 

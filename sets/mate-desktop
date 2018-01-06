@@ -25,6 +25,7 @@ media-gfx/eom
 #sys-apps/gnome-disk-utility
 
 # useful utilites and apps
+net-wireless/blueman
 app-admin/system-config-printer
 #net-misc/networkmanager
 gnome-extra/nm-applet
