@@ -104,3 +104,9 @@ sys-auth/consolekit pm-utils
 
 # TODO revert the earlier change
 mate-extra/mate-power-manager pm-utils
+
+# audio apps using jack
+media-sound/pulseaudio jack
+media-sound/hydrogen jack
+# csound uses portaudio
+media-libs/portaudio jack

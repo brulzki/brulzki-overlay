@@ -516,3 +516,10 @@ app-emulation/wine-gecko abi_x86_32
 >=media-plugins/gst-plugins-mpg123-1.12.3 abi_x86_32
 
 sys-apps/keyutils abi_x86_32
+
+# jack
+virtual/jack abi_x86_32
+media-sound/jack-audio-connection-kit abi_x86_32
+media-sound/jack2 abi_x86_32
+media-libs/libsamplerate abi_x86_32
+media-plugins/gst-plugins-jack abi_x86_32
