@@ -1,0 +1,17 @@
+
+# JACK
+#media-sound/jack-audio-connection-kit
+#media-sound/jack2
+media-sound/qjackctl
+media-sound/a2jmidid
+
+# DAW
+#media-sound/ardour
+#media-sound/museseq
+#media-sound/lmms
+
+# toolkits ?
+media-sound/csound
+
+# drums
+media-sound/hydrogen
