@@ -26,3 +26,6 @@ media-gfx/brother-mfc9340cdw-bin
 # these are small x utilities that I don't use often but are occasionaly useful
 x11-apps/xkill
 x11-misc/grabc
+
+# I still prefer the gnome icons
+x11-themes/gnome-icon-theme
