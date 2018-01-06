@@ -1,0 +1,8 @@
+# arduino
+dev-embedded/arduino
+cross-avr/avr-libc
+cross-avr/binutils
+cross-avr/gcc
+dev-python/pyserial
+#net-dialup/minicom
+#net-dialup/picocom
