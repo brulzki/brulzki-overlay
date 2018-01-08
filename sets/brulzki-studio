@@ -6,9 +6,12 @@ media-sound/qjackctl
 media-sound/a2jmidid
 
 # DAW
-#media-sound/ardour
+media-sound/ardour
 #media-sound/museseq
-#media-sound/lmms
+media-sound/lmms
+
+# loopers
+media-sound/sooperlooper
 
 # toolkits ?
 media-sound/csound
