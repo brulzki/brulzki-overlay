@@ -1,3 +1,10 @@
 # ardour
 media-sound/ardour
 media-libs/suil
+
+# lmms
+media-sound/lmms
+media-plugins/calf
+
+# sooperlooper
+media-sound/sooperlooper

@@ -11,3 +11,7 @@ sci-libs/fftw threads
 media-sound/ardour jack
 media-libs/slv2 jack
 media-libs/aubio jack
+
+# lmms
+media-sound/lmms jack
+media-plugins/calf jack
