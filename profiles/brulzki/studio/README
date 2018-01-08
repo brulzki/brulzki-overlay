@@ -1,0 +1,9 @@
+This profile add-in enables options for audio workstations.
+
+Supported applications:
+
+media-sound/ardour
+media-sound/hydrogen
+media-sound/csound
+media-sound/qjackctl
+media-sound/a2jmidid

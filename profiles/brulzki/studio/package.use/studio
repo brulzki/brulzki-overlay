@@ -1,0 +1,13 @@
+# don't assume that jack is enabled globally
+
+# audio apps using jack
+media-sound/pulseaudio jack
+media-sound/hydrogen jack
+# csound uses portaudio
+media-libs/portaudio jack
+
+# ardour
+sci-libs/fftw threads
+media-sound/ardour jack
+media-libs/slv2 jack
+media-libs/aubio jack
