@@ -2,6 +2,7 @@
 # on servers which are accessed by users on the shell
 net-misc/youtube-dl
 media-sound/beets
+media-sound/abcde
 media-sound/morituri
 media-video/ffmpeg
 net-misc/aria2
