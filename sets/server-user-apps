@@ -7,3 +7,6 @@ media-video/ffmpeg
 net-misc/aria2
 app-office/ledger
 #app-text/pdftk
+app-text/qpdf
+app-cdr/cuetools
+media-sound/shntool

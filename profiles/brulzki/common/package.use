@@ -40,3 +40,7 @@ dev-lang/python sqlite
 
 # command line cd ripping
 media-sound/abcde -id3tag -lame cdparanoia cdr flac replaygain musicbrainz
+
+# enable shnsplit for flac files
+media-sound/shntool flac
+app-cdr/cuetools flac
