@@ -12,19 +12,18 @@ ffmpeg v4l v4l2 theora xvid flac avi aac a52 x264 dvdnav ipod ios
 # these are modified here ... I don't know if this is right, but without
 # adding the local USE_EXPAND definitioon, portage doesn't recognise the
 # default settings from the profile
-USE_EXPAND="CAMERAS INPUT_DEVICES L10N LINGUAS LIRC_DEVICES SANE_BACKENDS VIDEO_CARDS"
+USE_EXPAND="CAMERAS INPUT_DEVICES L10N LIRC_DEVICES SANE_BACKENDS VIDEO_CARDS"
 
 L10N="en"
-LINGUAS="-* en"
 
 # Xorg config
-INPUT_DEVICES="-* evdev synaptics"
-VIDEO_CARDS="-* mga radeon intel vesa cirrus fbdev"
+INPUT_DEVICES="evdev synaptics"
+VIDEO_CARDS="mga radeon intel vesa cirrus fbdev"
 
-SANE_BACKENDS="-* epson epson2 canon canon630u plustek genesys"
+SANE_BACKENDS="epson epson2 canon canon630u plustek genesys"
 
 # lirc
 LIRC_DEVICES="serial"
 
 # this was removed from the base profile (#584780)
-CAMERAS="-* ptp2"
+CAMERAS="ptp2"
