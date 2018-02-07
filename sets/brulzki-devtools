@@ -38,3 +38,6 @@ app-mobilephone/heimdall
 
 # unrar
 app-arch/unrar
+
+# flask for web apps
+dev-python/flask

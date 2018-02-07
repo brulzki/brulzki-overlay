@@ -6,3 +6,8 @@ cross-avr/gcc
 dev-python/pyserial
 #net-dialup/minicom
 #net-dialup/picocom
+
+# electronics
+sci-electronics/kicad
+sci-electronics/oregano
+sci-electronics/xcircuit
