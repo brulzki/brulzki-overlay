@@ -43,3 +43,6 @@ sci-electronics/gspeakers
 
 # used to support plymouth in openrc
 sys-boot/plymouth-openrc-plugin
+
+# csound
+media-sound/csound
