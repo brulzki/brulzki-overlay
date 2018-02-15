@@ -11,3 +11,7 @@ dev-python/pyserial
 sci-electronics/kicad
 sci-electronics/oregano
 sci-electronics/xcircuit
+
+# GNU Octave (matlab)
+sci-mathematics/octave
+#sci-mathematics/octave-epstk
