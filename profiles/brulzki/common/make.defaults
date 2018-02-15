@@ -1,3 +1,7 @@
 USE_EXPAND="GRUB_PLATFORMS"
 
 GRUB_PLATFORMS="efi-64 pc"
+
+# https://wiki.gentoo.org/wiki/Project:Ada
+ADA=x86_64-pc-linux-gnu-gcc-6.3.0
+USE="gnat_2017"
