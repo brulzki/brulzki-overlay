@@ -41,3 +41,6 @@ app-arch/unrar
 
 # flask for web apps
 dev-python/flask
+
+# ada
+dev-lang/gnat-gpl
