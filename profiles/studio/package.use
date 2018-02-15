@@ -20,3 +20,12 @@ media-sound/supercollider -portaudio
 media-libs/libsamplerate abi_x86_32
 media-libs/alsa-lib abi_x86_32
 media-sound/jack-audio-connection-kit abi_x86_32
+
+# csound build options
+# Note: enable keyboard with fltk for csound-6.09.1 to add the
+# fltk include path. Fixed in csound develop branch.
+# http://csound.1045644.n5.nabble.com/Csnd-dev-compilation-fails-can-t-find-Fl-H-td5759241.html
+# (searching through CMakeLists.txt files found that the path is
+# added for the virtual keyboard, hence adding USE=keyboard was
+# the simplest solution.
+media-sound/csound osc jack fltk keyboard python double-precision csoundac
