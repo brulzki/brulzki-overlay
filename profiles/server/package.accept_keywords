@@ -1,7 +1,8 @@
 sys-kernel/dracut
 
-app-emulation/lxc
-sys-process/criu
+# lxc-2.0.x is the LTS release... now stable on gentoo
+#app-emulation/lxc
+#sys-process/criu
 
 # enable lxc-centos installs
 sys-apps/yum
