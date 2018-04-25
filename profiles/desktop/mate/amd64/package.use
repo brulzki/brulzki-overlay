@@ -523,3 +523,4 @@ media-sound/jack-audio-connection-kit abi_x86_32
 media-sound/jack2 abi_x86_32
 media-libs/libsamplerate abi_x86_32
 media-plugins/gst-plugins-jack abi_x86_32
+sys-libs/db abi_x86_32
