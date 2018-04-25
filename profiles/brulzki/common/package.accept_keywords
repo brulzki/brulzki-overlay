@@ -1,5 +1,8 @@
 # These packages are used commonly in all profiles
 
+# kernel sources
+=sys-kernel/gentoo-sources-4.14.20
+
 # This is not used now, but keep it around anyhow
 =net-misc/cfengine-3.4*
 
