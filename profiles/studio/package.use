@@ -17,6 +17,8 @@ media-sound/supercollider -portaudio
 # https://forums.gentoo.org/viewtopic-t-1062272.html
 #sys-devel/gcc -gcj
 
+# maintain support for qt
+media-libs/dssi qt4
 
 # csound build options
 # Note: enable keyboard with fltk for csound-6.09.1 to add the
