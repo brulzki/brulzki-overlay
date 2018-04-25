@@ -11,3 +11,4 @@ app-office/ledger
 app-text/qpdf
 app-cdr/cuetools
 media-sound/shntool
+media-gfx/qrencode
