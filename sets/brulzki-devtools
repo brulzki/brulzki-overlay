@@ -44,3 +44,6 @@ dev-python/flask
 
 # ada
 dev-lang/gnat-gpl
+
+# pelican
+app-text/pelican
