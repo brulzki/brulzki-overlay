@@ -46,3 +46,6 @@ sys-boot/plymouth-openrc-plugin
 
 # csound
 media-sound/csound
+
+# xoscope-2.0 doesn't work well with pulseaudio
+=sci-electronics/xoscope-2.1*
