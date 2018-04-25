@@ -28,4 +28,4 @@ x11-apps/xkill
 x11-misc/grabc
 
 # I still prefer the gnome icons
-x11-themes/gnome-icon-theme
+x11-themes/gnome-icon-theme::brulzki
