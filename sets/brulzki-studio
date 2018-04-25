@@ -9,6 +9,7 @@ media-sound/a2jmidid
 media-sound/ardour
 #media-sound/museseq
 media-sound/lmms
+media-sound/rosegarden
 
 # loopers
 media-sound/sooperlooper
