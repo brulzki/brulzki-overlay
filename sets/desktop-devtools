@@ -12,6 +12,10 @@ sci-electronics/kicad
 sci-electronics/oregano
 sci-electronics/xcircuit
 
+# audio measurement
+sci-electronics/xoscope
+media-sound/baudline
+
 # GNU Octave (matlab)
 sci-mathematics/octave
 #sci-mathematics/octave-epstk
