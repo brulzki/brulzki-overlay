@@ -19,3 +19,22 @@ media-sound/baudline
 # GNU Octave (matlab)
 sci-mathematics/octave
 #sci-mathematics/octave-epstk
+
+# graphics
+media-gfx/librecad
+
+# not sure about these yet
+sci-electronics/gnucap
+sci-electronics/gspeakers
+app-emulation/qemu
+sys-boot/grub
+app-admin/testdisk
+net-wireless/rfkill
+sys-fs/fatsort
+#media-sound/morituri
+dev-vcs/cvs2svn
+sys-boot/efibootmgr
+sys-apps/usbredir
+dev-vcs/rcs
+net-misc/rdesktop
+dev-vcs/cvs

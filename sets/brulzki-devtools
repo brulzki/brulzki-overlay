@@ -47,3 +47,6 @@ dev-lang/gnat-gpl
 
 # pelican
 app-text/pelican
+
+# does this belong here?
+media-gfx/qrencode

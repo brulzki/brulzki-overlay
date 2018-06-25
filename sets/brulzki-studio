@@ -19,3 +19,14 @@ media-sound/csound
 
 # drums
 media-sound/hydrogen
+
+# proaudio overlay
+media-sound/museseq
+
+# midi stuff
+media-sound/fluidsynth
+media-sound/fluid-soundfont
+
+# ABC notation
+media-sound/abcm2ps
+media-sound/abcmidi
