@@ -4,7 +4,11 @@ sys-kernel/rt-image
 
 # xfce4 plugins
 xfce-extra/xfce4-gvfs-mount
-xfce-extra/xfce4-indicator-plugin
+#xfce-extra/xfce4-indicator-plugin
+=xfce-extra/xfce4-indicator-plugin-2.3.3*
+
+# 16/3/2017 this is needed for the indicator plugin 2.3.4
+#=xfce-base/xfconf-4.13.4
 
 # ardour
 =media-sound/ardour-5.9*

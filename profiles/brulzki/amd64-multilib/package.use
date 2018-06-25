@@ -64,7 +64,7 @@ app-emulation/wine-gecko abi_x86_32
 >=dev-libs/elfutils-0.163 abi_x86_32
 >=media-libs/glu-9.0.0-r1 abi_x86_32
 >=net-nds/openldap-2.4.38-r2 abi_x86_32
->=x11-proto/xcb-proto-1.11 abi_x86_32
+>=x11-base/xcb-proto-1.11 abi_x86_32
 >=x11-proto/xextproto-7.3.0 abi_x86_32
 >=x11-libs/libX11-1.6.3 abi_x86_32
 >=dev-libs/openssl-1.0.2g-r2 abi_x86_32

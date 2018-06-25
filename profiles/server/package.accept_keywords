@@ -19,7 +19,9 @@ dev-python/munkres
 
 # 2/1/2017
 =media-sound/morituri-0.2.3
-dev-python/pycdio
+#dev-python/pycdio
+# 25/6/2018 - libcdio-2.0 has just been added; wait for it go stable
+<dev-python/pycdio-2.0
 
 # nextcloud
 =www-apps/nextcloud-11*

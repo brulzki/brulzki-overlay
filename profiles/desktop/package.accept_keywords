@@ -36,7 +36,9 @@ media-video/devedeng
 
 # 2/1/2017
 =media-sound/morituri-0.2.3
-dev-python/pycdio
+#dev-python/pycdio
+# 25/6/2018 - libcdio-2.0 has just been added; wait for it go stable
+<dev-python/pycdio-2.0
 
 media-sound/tuxguitar
 sci-electronics/gspeakers
@@ -46,6 +48,13 @@ sys-boot/plymouth-openrc-plugin
 
 # csound
 media-sound/csound
+
+# mps-youtube
+dev-python/pafy
+media-sound/mps-youtube
+
+# proaudio overlay
+media-sound/museseq
 
 # xoscope-2.0 doesn't work well with pulseaudio
 =sci-electronics/xoscope-2.1*
