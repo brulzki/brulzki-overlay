@@ -21,7 +21,7 @@ media-sound/csound
 media-sound/hydrogen
 
 # proaudio overlay
-media-sound/museseq
+#media-sound/museseq
 
 # midi stuff
 media-sound/fluidsynth
