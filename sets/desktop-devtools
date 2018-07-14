@@ -29,7 +29,6 @@ sci-electronics/gspeakers
 app-emulation/qemu
 sys-boot/grub
 app-admin/testdisk
-net-wireless/rfkill
 sys-fs/fatsort
 #media-sound/morituri
 dev-vcs/cvs2svn
