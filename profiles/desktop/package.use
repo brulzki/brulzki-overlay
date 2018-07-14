@@ -163,3 +163,6 @@ media-sound/csound osc jack fltk keyboard python double-precision csoundac
 
 # This has been disabled in gentoo profile
 x11-base/xorg-server kdrive
+
+# required by sci-electronics/kicad-4.0.7::gentoo
+dev-libs/boost context
