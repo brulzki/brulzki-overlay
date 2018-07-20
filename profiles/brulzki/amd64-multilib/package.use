@@ -459,6 +459,10 @@ app-emulation/wine-gecko abi_x86_32
 # required by @world (argument)
 >=media-libs/libmad-0.15.1b-r8 abi_x86_32
 
+# 19/7/2018
+media-plugins/gst-plugins-gtk abi_x86_32
+# ------
+
 # required by dev-libs/glib-2.48.2::gentoo
 # required by app-text/atril-1.12.2-r3::gentoo
 # required by @mate-desktop
