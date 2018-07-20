@@ -34,6 +34,7 @@ sys-apps/lm_sensors
 net-misc/chrony
 sys-fs/dosfstools
 sys-apps/smartmontools
+app-backup/btrbk
 
 dev-vcs/mr
 dev-vcs/vcsh
