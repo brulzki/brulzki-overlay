@@ -20,7 +20,7 @@ dev-python/sqlalchemy
 
 # admin tools
 net-analyzer/fping
-net-analyzer/netcat
+net-analyzer/netcat6
 net-analyzer/nmap
 net-analyzer/tcpdump
 net-misc/netkit-telnetd

@@ -166,3 +166,6 @@ x11-base/xorg-server kdrive
 
 # required by sci-electronics/kicad-4.0.7::gentoo
 dev-libs/boost context
+
+# for virt-manager
+net-misc/spice-gtk usbredir
