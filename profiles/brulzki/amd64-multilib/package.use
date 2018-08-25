@@ -591,3 +591,5 @@ sys-libs/db abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=media-libs/ladspa-sdk-1.13-r2 abi_x86_32
+
+>=dev-libs/fribidi-0.19.7 abi_x86_32
