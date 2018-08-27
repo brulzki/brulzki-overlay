@@ -38,3 +38,9 @@ app-mobilephone/heimdall
 
 # abc notation
 media-sound/abcmidi
+
+# Beets music library
+media-sound/beets
+dev-python/jellyfish
+dev-python/munkres
+media-plugins/beets-copyartifacts
