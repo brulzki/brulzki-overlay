@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>brulzki@gmail.com</email>
+	</maintainer>
+	<longdescription lang="en">
+		beets plugin to copy non-music files to import path
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">beets-copyartifacts</remote-id>
+	</upstream>
+</pkgmetadata>
