@@ -47,3 +47,8 @@ app-cdr/cuetools flac
 
 # enable markdown for pelican
 app-text/pelican markdown
+
+# default +suid enables startx as non-root user
+# I never use that, so this is maybe more secure? (although lightdm probably
+# runs as root anyway?)
+x11-base/xorg-server -suid
