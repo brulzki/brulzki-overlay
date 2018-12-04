@@ -3,7 +3,7 @@
 net-misc/youtube-dl
 media-sound/beets
 media-sound/abcde
-media-sound/morituri
+#media-sound/morituri
 media-video/ffmpeg
 net-misc/aria2
 app-office/ledger
@@ -12,3 +12,4 @@ app-text/qpdf
 app-cdr/cuetools
 media-sound/shntool
 media-gfx/qrencode
+net-misc/iperf
