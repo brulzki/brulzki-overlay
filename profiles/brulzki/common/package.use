@@ -52,3 +52,6 @@ app-text/pelican markdown
 # I never use that, so this is maybe more secure? (although lightdm probably
 # runs as root anyway?)
 x11-base/xorg-server -suid
+
+# avr-gcc does not support -pie
+cross-avr/gcc -pie
