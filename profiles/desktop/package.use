@@ -169,3 +169,6 @@ dev-libs/boost context
 
 # for virt-manager
 net-misc/spice-gtk usbredir
+
+# for dev-embedded/arduino
+dev-util/astyle java
