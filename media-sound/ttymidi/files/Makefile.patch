@@ -1,0 +1,15 @@
+--- ttymidi-orig/Makefile
++++ ttymidi/Makefile
+@@ -1,8 +1,9 @@
+ all:
+-	gcc src/ttymidi.c -o ttymidi -lasound
++	gcc src/ttymidi.c -o ttymidi -lasound -lpthread
+ clean:
+ 	rm ttymidi
+ install:
+-	install -m 0755 ttymidi /usr/local/bin
++	mkdir -p $(DESTDIR)/usr/bin
++	cp ttymidi $(DESTDIR)/usr/bin
+ uninstall:
+-	rm /usr/local/bin/ttymidi
++	rm $(DESTDIR)/usr/bin/ttymidi
