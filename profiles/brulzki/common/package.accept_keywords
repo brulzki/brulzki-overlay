@@ -47,3 +47,7 @@ media-plugins/beets-copyartifacts
 
 # 14/12/2018 - btrbk is blocking sys-fs/btrfs-progs-4.19
 =app-backup/btrbk-0.27.1
+
+# bzr 2.7.0 is broken by python updates
+# https://bugs.launchpad.net/bzr/+bug/1644003
+=dev-vcs/bzr-2.7.1_pre
