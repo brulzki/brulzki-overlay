@@ -21,7 +21,7 @@ dev-libs/gobject-introspection -cairo
 # nextcloud
 www-apps/nextcloud -sqlite postgres
 app-eselect/eselect-php fpm
-dev-lang/php curl fpm pdo postgres gd xmlreader xmlwriter zip ldap
+dev-lang/php curl fpm pdo postgres gd xmlreader xmlwriter zip ldap intl truetype
 
 # spice support for qemu
 app-emulation/qemu spice
