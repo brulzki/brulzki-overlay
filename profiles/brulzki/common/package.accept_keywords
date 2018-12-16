@@ -44,3 +44,6 @@ media-sound/beets
 dev-python/jellyfish
 dev-python/munkres
 media-plugins/beets-copyartifacts
+
+# 14/12/2018 - btrbk is blocking sys-fs/btrfs-progs-4.19
+=app-backup/btrbk-0.27.1
