@@ -11,8 +11,8 @@ xfce-extra/xfce4-gvfs-mount
 #=xfce-base/xfconf-4.13.4
 
 # ardour
-=media-sound/ardour-5.9*
-=media-libs/suil-0.8*
+=media-sound/ardour-5.12*
+=media-libs/suil-0.10*
 
 # studio applications
 =media-sound/rosegarden-16.06
