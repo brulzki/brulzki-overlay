@@ -593,3 +593,6 @@ sys-libs/db abi_x86_32
 >=media-libs/ladspa-sdk-1.13-r2 abi_x86_32
 
 >=dev-libs/fribidi-0.19.7 abi_x86_32
+
+# required by media-libs/gst-plugins-base-1.14.4-r1
+>=media-libs/graphene-1.8.2 abi_x86_32
