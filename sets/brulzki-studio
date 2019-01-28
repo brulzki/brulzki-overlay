@@ -26,6 +26,8 @@ media-sound/hydrogen
 # midi stuff
 media-sound/fluidsynth
 media-sound/fluid-soundfont
+media-sound/timidity++
+media-sound/timidity-freepats
 
 # ABC notation
 media-sound/abcm2ps
