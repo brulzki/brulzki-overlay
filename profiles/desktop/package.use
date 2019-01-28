@@ -172,3 +172,12 @@ net-misc/spice-gtk usbredir
 
 # for dev-embedded/arduino
 dev-util/astyle java
+
+# don't use jack for some typical desktop apps and libraries
+www-client/firefox -jack
+mail-client/thunderbird -jack
+media-video/ffmpeg -jack
+media-sound/mpg123 -jack
+media-plugins/gst-plugins-meta -jack
+# I'll probably want to change this one day
+media-sound/audacity -jack
