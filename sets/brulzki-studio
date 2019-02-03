@@ -1,7 +1,7 @@
 
 # JACK
 #media-sound/jack-audio-connection-kit
-#media-sound/jack2
+media-sound/jack2
 media-sound/qjackctl
 media-sound/a2jmidid
 
@@ -12,10 +12,12 @@ media-sound/lmms
 media-sound/rosegarden
 
 # loopers
-media-sound/sooperlooper
+# overlay has a patch for virtual/jack
+media-sound/sooperlooper::brulzki
 
 # toolkits ?
-media-sound/csound
+# overlay has a patch for virtual/jack
+media-sound/csound::brulzki
 
 # drums
 media-sound/hydrogen
