@@ -36,7 +36,19 @@ dev-lang/php session
 
 # 16/6/2017 - yum-3.4.3 only supports python-2.7
 #>=app-arch/rpm-4.14.1 PYTHON_SINGLE_TARGET: -* python2_7
->=app-arch/rpm-4.14.1 -python_single_target_python3_5 python_single_target_python2_7
+#>=app-arch/rpm-4.14.1 -python_single_target_python3_5 python_single_target_python2_7
+app-arch/rpm -python_single_target_python3_6 python_single_target_python2_7
 
 # required for slapd
 net-nds/openldap berkdb
+
+dev-util/schroot btrfs
+
+##### 15/1/2019
+# this is for arm chroot
+# (used on laptop? should be moved to common...)
+dev-libs/glib static-libs
+sys-libs/zlib static-libs
+sys-apps/attr static-libs
+dev-libs/libpcre static-libs
+app-emulation/qemu static-user qemu_user_targets_aarch64 qemu_user_targets_arm
