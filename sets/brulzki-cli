@@ -4,6 +4,7 @@ net-misc/youtube-dl
 media-sound/beets
 media-sound/abcde
 #media-sound/morituri
+media-sound/mpc
 media-video/ffmpeg
 net-misc/aria2
 app-office/ledger

@@ -11,6 +11,7 @@ media-video/mpv
 app-admin/keepassxc
 x11-misc/redshift
 net-misc/remmina
+media-sound/mpc
 
 app-office/ledger
 #app-text/pdftk
