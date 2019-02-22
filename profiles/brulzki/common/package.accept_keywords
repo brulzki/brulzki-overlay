@@ -51,3 +51,11 @@ media-plugins/beets-copyartifacts
 # bzr 2.7.0 is broken by python updates
 # https://bugs.launchpad.net/bzr/+bug/1644003
 =dev-vcs/bzr-2.7.1_pre
+
+# chrony-3.3 has an issue with kernel urandom changes
+# https://bugs.gentoo.org/665210
+# http://gentoo.2317880.n4.nabble.com/chrony-3-3-hangs-at-boot-td338048.html
+=net-misc/chrony-3.4*
+
+# this updated with some doc fixes
+=media-sound/mpc-0.31-r1
