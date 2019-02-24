@@ -28,3 +28,8 @@ media-libs/dssi qt4
 # added for the virtual keyboard, hence adding USE=keyboard was
 # the simplest solution.
 media-sound/csound osc jack fltk keyboard python double-precision csoundac
+
+# this is for jack2 dependency libffado
+media-libs/libffado -qt5
+#dev-python/PyQt5 gui widgets
+#app-text/xmlto text

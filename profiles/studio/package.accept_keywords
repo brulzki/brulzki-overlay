@@ -46,7 +46,13 @@ media-sound/din
 #media-sound/rtsynth
 
 # JACK utils
+media-sound/jack2
 media-sound/jack-smf-utils
+
+# required for jack2
+media-libs/libffado
+dev-libs/dbus-c++
+dev-util/scons
 
 # Media players
 =media-video/mpv-0.25*
@@ -58,3 +64,16 @@ media-sound/chuck
 app-eselect/eselect-chuck
 media-sound/supercollider
 media-sound/csound
+
+# These are modified in the overlay for virtual/jack. Updates in gentoo
+# should hopefully pick that up, or it will give a merge error.
+
+# GentooStudio overlay
+=media-sound/jamin-0.95.0-r3
+=media-sound/jack-rack-1.4.8_rc1
+
+# brulzki overlay
+=media-sound/aeolus-0.9.5
+=media-sound/ams-2.1.2
+=media-sound/bristol-0.60.11-r1
+=media-sound/specimen-0.5.2_rc3-r2

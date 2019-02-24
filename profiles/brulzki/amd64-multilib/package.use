@@ -596,3 +596,14 @@ sys-libs/db abi_x86_32
 
 # required by media-libs/gst-plugins-base-1.14.4-r1
 >=media-libs/graphene-1.8.2 abi_x86_32
+
+# required by media-sound/jack2-1.9.12-r1::gentoo[ieee1394]
+>=media-libs/libffado-2.4.1 abi_x86_32
+# required by media-libs/libffado-2.4.1::gentoo
+>=dev-cpp/libxmlpp-2.40.1:2.6 abi_x86_32
+>=dev-libs/libconfig-1.5 abi_x86_32
+>=media-libs/libiec61883-1.2.0-r1 abi_x86_32
+>=sys-libs/libavc1394-0.5.4-r1 abi_x86_32
+
+>=dev-cpp/glibmm-2.56.0 abi_x86_32
+>=dev-libs/libsigc++-2.10.1 abi_x86_32

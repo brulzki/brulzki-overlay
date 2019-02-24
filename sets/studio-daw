@@ -2,7 +2,8 @@
 media-sound/ardour
 
 # JACK
-media-sound/jack-audio-connection-kit
+#media-sound/jack-audio-connection-kit
+media-sound/jack2
 media-sound/qjackctl
 
 media-sound/a2jmidid
@@ -40,7 +41,7 @@ media-plugins/vamp-aubio-plugins
 #emerge aeolus ams amsynth bristol din fluidsynth-dssi mx44 phasex psindustrializer psychosynth rtsynth synthv1 triceratops-lv2 whysynth xsynth-dssi zynaddsubfx
 
 media-sound/aeolus
-media-sound/ams
+#media-sound/ams
 media-sound/amsynth
 media-sound/bristol
 media-sound/din
