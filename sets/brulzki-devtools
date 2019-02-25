@@ -29,8 +29,9 @@ sys-apps/chname
 # should this be somewhere else? desktop or server?
 sys-fs/ntfs3g
 
-# emacs
+# gentoo
 app-emacs/ebuild-mode
+app-portage/repoman
 
 # android
 dev-util/android-tools
