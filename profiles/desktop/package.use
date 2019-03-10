@@ -181,3 +181,6 @@ media-sound/mpg123 -jack
 media-plugins/gst-plugins-meta -jack
 # I'll probably want to change this one day
 media-sound/audacity -jack
+
+# needed for wine-vanilla-4.0
+media-libs/libsdl2 haptic
