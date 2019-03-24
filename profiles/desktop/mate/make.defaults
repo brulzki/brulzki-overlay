@@ -8,5 +8,9 @@ USE="-systemd openrc-force"
 #USE="colord eds evo gnome gnome-keyring gnome-online-accounts gstreamer introspection libsecret nautilus pulseaudio socialweb"
 USE="${USE} -eds -evo -gnome-online-accounts -socialweb -nautilus"
 
+# these were enabled globally for targets/gnome; elogind is not
+# currently supported by mate desktop, so stick with consolekit
+USE="${USE} -networkmanager -elogind"
+
 # use ffmpeg over libav
 USE="${USE} -libav"
