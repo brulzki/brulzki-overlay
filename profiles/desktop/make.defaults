@@ -18,7 +18,7 @@ L10N="en"
 
 # Xorg config
 INPUT_DEVICES="-* evdev synaptics"
-VIDEO_CARDS="-* mga radeon intel vesa cirrus fbdev"
+VIDEO_CARDS="-* mga radeon intel i915 i965 vesa cirrus fbdev"
 
 SANE_BACKENDS="-* epson epson2 canon canon630u plustek genesys"
 
