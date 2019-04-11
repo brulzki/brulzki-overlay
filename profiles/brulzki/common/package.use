@@ -55,3 +55,5 @@ x11-base/xorg-server -suid
 
 # avr-gcc does not support -pie
 cross-avr/gcc -pie
+
+sys-apps/smartmontools update_drivedb
