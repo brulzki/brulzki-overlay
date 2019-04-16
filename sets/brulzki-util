@@ -1,2 +1,6 @@
-net-analyzer/traceroute
+app-text/dos2unix
+dev-util/strace
+net-analyzer/fping
 net-analyzer/nmap
+net-analyzer/traceroute
+net-misc/iperf

@@ -1,5 +1,6 @@
 # these are commandline apps/utilities which should be installed
 # on servers which are accessed by users on the shell
+@brulzki-util
 net-misc/youtube-dl
 media-sound/beets
 media-sound/abcde
@@ -13,4 +14,3 @@ app-text/qpdf
 app-cdr/cuetools
 media-sound/shntool
 media-gfx/qrencode
-net-misc/iperf

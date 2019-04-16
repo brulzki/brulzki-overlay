@@ -45,6 +45,9 @@ media-gfx/gphoto2
 media-gfx/gthumb
 media-gfx/inkscape
 media-sound/audacity
+# for audacity (hidden deps?)
+media-libs/lilv
+media-libs/suil
 
 # choose ffmpeg over libav
 media-video/ffmpeg
@@ -53,3 +56,6 @@ gnome-base/dconf-editor
 gnome-extra/gconf-editor
 media-video/cheese
 app-crypt/seahorse
+
+# for modemmanager / networkmanager
+sys-apps/usb_modeswitch

@@ -1,7 +1,13 @@
-app-text/dos2unix
-dev-util/strace
-#net-misc/whois
 
+# admin tools
+@brulzki-util
+net-analyzer/openbsd-netcat
+net-analyzer/tcpdump
+net-misc/netkit-telnetd
+sys-apps/chname
+app-arch/unrar
+
+# dev tools
 dev-vcs/bzr
 dev-vcs/bzr-fastimport
 dev-vcs/bzrtools
@@ -17,17 +23,11 @@ dev-python/configparser
 dev-python/pycrypto
 dev-python/requests
 dev-python/sqlalchemy
+dev-python/flask
 
-# admin tools
-net-analyzer/fping
-net-analyzer/openbsd-netcat
-net-analyzer/nmap
-net-analyzer/tcpdump
-net-misc/netkit-telnetd
-sys-apps/chname
-
-# should this be somewhere else? desktop or server?
+# filesystems
 sys-fs/ntfs3g
+sys-fs/squashfs-tools
 
 # gentoo
 app-emacs/ebuild-mode
@@ -37,17 +37,8 @@ app-portage/repoman
 dev-util/android-tools
 app-mobilephone/heimdall
 
-# unrar
-app-arch/unrar
-
-# flask for web apps
-dev-python/flask
-
 # ada
 dev-lang/gnat-gpl
 
 # pelican
 app-text/pelican
-
-# does this belong here?
-media-gfx/qrencode
