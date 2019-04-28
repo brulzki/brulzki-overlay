@@ -155,3 +155,9 @@ sys-apps/keyutils abi_x86_32
 
 >=dev-cpp/glibmm-2.56.0 abi_x86_32
 >=dev-libs/libsigc++-2.10.1 abi_x86_32
+
+# 28/4/2019
+virtual/pam abi_x86_32
+sys-libs/pam abi_x86_32
+sys-libs/cracklib abi_x86_32
+sys-devel/flex abi_x86_32
