@@ -13,7 +13,7 @@ mate-base/mate
 app-arch/engrampa
 app-editors/pluma
 app-text/atril
-gnome-extra/gnome-calculator
+mate-extra/mate-calc
 mate-extra/caja-extensions
 #mate-extra/mate-netbook
 mate-extra/mate-power-manager
