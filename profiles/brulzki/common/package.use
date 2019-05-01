@@ -57,3 +57,6 @@ x11-base/xorg-server -suid
 cross-avr/gcc -pie
 
 sys-apps/smartmontools update_drivedb
+
+# this is used by media-sound/beets-1.4.7
+media-plugins/gst-plugins-meta ffmpeg flac ogg aac mp3 opus vorbis
