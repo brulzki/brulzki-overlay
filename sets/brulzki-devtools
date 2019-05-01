@@ -42,3 +42,6 @@ dev-lang/gnat-gpl
 
 # pelican
 app-text/pelican
+
+# ansible
+app-admin/ansible

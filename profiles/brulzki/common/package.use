@@ -60,3 +60,7 @@ sys-apps/smartmontools update_drivedb
 
 # this is used by media-sound/beets-1.4.7
 media-plugins/gst-plugins-meta ffmpeg flac ogg aac mp3 opus vorbis
+
+# required for ansible, but netaddr[cli] pulls in ipython and a whole
+# realm of unwanted deps
+dev-python/netaddr -cli
