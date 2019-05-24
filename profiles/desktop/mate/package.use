@@ -104,3 +104,6 @@ sys-auth/consolekit pm-utils
 
 # TODO revert the earlier change
 mate-extra/mate-power-manager pm-utils
+
+# (dependency required by "media-gfx/simple-scan-3.30.2::gentoo[colord]" [ebuild])
+x11-misc/colord vala
