@@ -10,7 +10,7 @@ ffmpeg v4l v4l2 theora xvid flac avi aac a52 x264 dvdnav ipod ios
 -gnome-online-accounts -socialweb"
 
 # these are modified here ... I don't know if this is right, but without
-# adding the local USE_EXPAND definitioon, portage doesn't recognise the
+# adding the local USE_EXPAND definition, portage doesn't recognise the
 # default settings from the profile
 USE_EXPAND="CAMERAS INPUT_DEVICES L10N LIRC_DEVICES SANE_BACKENDS VIDEO_CARDS"
 
@@ -27,3 +27,8 @@ LIRC_DEVICES="serial"
 
 # this was removed from the base profile (#584780)
 CAMERAS="-* ptp2"
+
+# 25/5/2019 - changed gentoo license default
+# License groups for profiles in this repo are defined in
+# profiles/license_groups
+ACCEPT_LICENSE="${ACCEPT_LICENSE} @BRULZKI-DESKTOP"

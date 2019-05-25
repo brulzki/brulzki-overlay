@@ -5,3 +5,13 @@ GRUB_PLATFORMS="efi-64 pc"
 # https://wiki.gentoo.org/wiki/Project:Ada
 ADA=x86_64-pc-linux-gnu-gcc-6.3.0
 USE="gnat_2017"
+
+# 25/5/2019 - changed gentoo license default
+# I would prefer if I could define licenses for specific packages
+# for the profiles in package.license, but that is not supported
+# by portage (per man portage), so we are forced to enable them
+# globally across all packages here.
+#
+# License groups for profiles in this repo are defined in
+# profiles/license_groups
+ACCEPT_LICENSE="${ACCEPT_LICENSE} @BINARY-REDISTRIBUTABLE @BRULZKI"
