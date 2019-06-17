@@ -5,6 +5,7 @@ net-analyzer/openbsd-netcat
 net-analyzer/tcpdump
 net-misc/netkit-telnetd
 sys-apps/chname
+app-arch/p7zip
 app-arch/unrar
 
 # dev tools
