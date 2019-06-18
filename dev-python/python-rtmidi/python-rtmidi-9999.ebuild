@@ -15,7 +15,7 @@ if [[ ${PV} = 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/SpotlightKid/${PN}.git"
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/SpotlightKid/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://files.pythonhosted.org/packages/source/p/${PN}/${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
