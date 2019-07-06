@@ -33,3 +33,8 @@ media-sound/csound osc jack fltk keyboard python double-precision csoundac
 media-libs/libffado -qt5
 #dev-python/PyQt5 gui widgets
 #app-text/xmlto text
+
+# required by media-sound/supercollider
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+media-libs/libvpx svc
