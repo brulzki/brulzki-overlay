@@ -62,3 +62,6 @@ media-plugins/beets-copyartifacts
 
 net-im/profanity
 dev-libs/libmesode
+
+x11-plugins/purple-facebook
+x11-plugins/purple-hangouts
