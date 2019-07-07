@@ -1,0 +1,4 @@
+# Raspberry Pi 1 (A, A+, B, B+)
+CHOST="armv6j-unknown-linux-gnueabihf"
+CFLAGS="-O2 -march=armv6j -mfpu=vfp -mfloat-abi=hard"
+CXXFLAGS="${CFLAGS}"

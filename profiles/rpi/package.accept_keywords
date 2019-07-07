@@ -1,0 +1,7 @@
+# use the binary kernel image and firmware
+sys-boot/raspberrypi-firmware
+sys-kernel/raspberrypi-image
+
+# media player
+media-sound/mpd
+media-sound/shairport-sync

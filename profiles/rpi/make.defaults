@@ -1,0 +1,2 @@
+# accept the license for the raspberrypi firmware
+ACCEPT_LICENSE="${ACCEPT_LICENSE} raspberrypi-videocore-bin"
