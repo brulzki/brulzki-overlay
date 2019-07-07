@@ -1,0 +1,24 @@
+#!/sbin/openrc-run
+# Copyright 1999-2019 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+#: ${CFGFILE:=/etc/shairport-sync.conf}
+
+depend() {
+	need localmount
+#	use net netmount nfsmount alsasound esound pulseaudio
+#	config ${CFGFILE}
+}
+
+description="Shairport Sync daemon"
+command=/usr/bin/shairport-sync
+command_args="-d ${SHAIRPORT_OPTS}"
+command_user="shairport-sync:audio"
+pidfile="/run/shairport-sync/shairport-sync.pid"
+extra_started_commands='reload'
+
+reload() {
+         ebegin "Reloading ${RC_SVCNAME}"
+         start-stop-daemon --pidfile ${pidfile} --signal HUP
+         eend $?
+}
