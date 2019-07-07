@@ -20,6 +20,7 @@ net-misc/whois
 sys-apps/dmidecode
 net-vpn/tinc
 sys-power/acpi
+net-fs/nfs-utils
 
 app-misc/tmux
 app-editors/emacs
