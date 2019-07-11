@@ -15,6 +15,7 @@ dev-vcs/bzrtools
 dev-vcs/mercurial
 dev-vcs/subversion
 dev-vcs/git-svn::brulzki
+dev-vcs/git-remote-bzr
 
 app-text/tidy-html5
 dev-python/pytidylib

@@ -65,3 +65,6 @@ dev-libs/libmesode
 
 x11-plugins/purple-facebook
 x11-plugins/purple-hangouts
+
+# 11/7/2019 - added to the overlay
+dev-vcs/git-remote-bzr
