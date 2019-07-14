@@ -23,6 +23,11 @@ sci-mathematics/octave
 # graphics
 media-gfx/librecad
 
+# desktop apps
+dev-util/glade
+dev-util/gtk-builder-convert
+dev-db/sqlitebrowser
+
 # not sure about these yet
 sci-electronics/gnucap
 sci-electronics/gspeakers
