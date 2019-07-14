@@ -60,3 +60,7 @@ media-sound/museseq
 =sci-electronics/xoscope-2.1*
 
 media-sound/jack2
+
+# 13/7/2019 sqlitebrowser
+dev-db/sqlitebrowser
+app-editors/qhexedit2
