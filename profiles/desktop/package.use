@@ -191,3 +191,7 @@ media-sound/audacity -jack
 
 # needed for wine-vanilla-4.0
 media-libs/libsdl2 haptic
+
+# 9/8/2019
+net-misc/remmina rdp vnc ssh spice
+net-libs/libvncserver gcrypt
