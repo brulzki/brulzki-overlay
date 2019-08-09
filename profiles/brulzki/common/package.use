@@ -67,3 +67,7 @@ media-plugins/gst-plugins-meta ffmpeg flac ogg aac mp3 opus vorbis
 # required for ansible, but netaddr[cli] pulls in ipython and a whole
 # realm of unwanted deps
 dev-python/netaddr -cli
+
+# 10/8/2019 csound fails to build with fluidsynth-2.x
+# https://github.com/csound/csound/issues/1036
+<media-sound/csound-6.13 -fluidsynth
