@@ -68,3 +68,7 @@ x11-plugins/purple-hangouts
 
 # 11/7/2019 - added to the overlay
 dev-vcs/git-remote-bzr
+
+# 10/8/2019 csound fails to build with fluidsynth-2.x
+# https://github.com/csound/csound/issues/1036
+<media-sound/csound-6.13 -fluidsynth
