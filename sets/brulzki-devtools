@@ -9,6 +9,7 @@ app-arch/p7zip
 app-arch/unrar
 
 # dev tools
+dev-util/ctags
 dev-vcs/bzr
 dev-vcs/bzr-fastimport
 dev-vcs/bzrtools
@@ -26,6 +27,7 @@ dev-python/pycrypto
 dev-python/requests
 dev-python/sqlalchemy
 dev-python/flask
+dev-python/versioneer
 
 # filesystems
 sys-fs/ntfs3g
@@ -47,3 +49,6 @@ app-text/pelican
 
 # ansible
 app-admin/ansible
+
+# sqlite-2 (for db conversion)
+dev-db/sqlite:0

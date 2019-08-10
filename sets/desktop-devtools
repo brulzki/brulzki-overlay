@@ -42,3 +42,11 @@ sys-apps/usbredir
 dev-vcs/rcs
 net-misc/rdesktop
 dev-vcs/cvs
+
+# for xmpp, mostly
+net-im/pidgin
+x11-plugins/purple-facebook
+
+# not really devtools; not general pkgs either
+media-gfx/qrencode
+media-sound/mpd
