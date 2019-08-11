@@ -23,10 +23,14 @@ sci-mathematics/octave
 # graphics
 media-gfx/librecad
 
-# desktop apps
+# development apps
 dev-util/glade
 dev-util/gtk-builder-convert
 dev-db/sqlitebrowser
+dev-python/versioneer
+
+# sqlite-2 (for db conversion)
+dev-db/sqlite:0
 
 # not sure about these yet
 sci-electronics/gnucap

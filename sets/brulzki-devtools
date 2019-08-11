@@ -27,7 +27,6 @@ dev-python/pycrypto
 dev-python/requests
 dev-python/sqlalchemy
 dev-python/flask
-dev-python/versioneer
 
 # filesystems
 sys-fs/ntfs3g
@@ -49,6 +48,3 @@ app-text/pelican
 
 # ansible
 app-admin/ansible
-
-# sqlite-2 (for db conversion)
-dev-db/sqlite:0
