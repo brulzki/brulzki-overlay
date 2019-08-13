@@ -28,7 +28,10 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
-PATCHES=( "${FILESDIR}"/${PN}-2.1.2-fix-build-system.patch )
+PATCHES=(
+	"${FILESDIR}"/${PN}-2.1.2-fix-build-system.patch
+	"${FILESDIR}"/${PN}-2.1.2-fix-m_vocoder.patch
+)
 
 src_prepare() {
 	default
@@ -36,9 +39,6 @@ src_prepare() {
 }
 
 src_configure() {
-	# C++11/14 fails:
-	# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=811645
-	append-cxxflags -std=gnu++98
 	econf \
 		--disable-nsm \
 		--enable-qt5 \
