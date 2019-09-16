@@ -28,7 +28,7 @@ app-arch/zip
 app-arch/unzip
 sys-apps/pv
 sys-apps/pciutils
-sys-apps/lm_sensors
+sys-apps/lm-sensors
 net-misc/chrony
 sys-fs/dosfstools
 sys-apps/smartmontools
