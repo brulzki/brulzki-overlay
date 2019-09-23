@@ -17,7 +17,7 @@ app-office/ledger
 #app-text/pdftk
 app-text/qpdf
 media-sound/musescore
-media-sound/tuxguitar
+#media-sound/tuxguitar
 net-misc/youtube-dl
 net-p2p/transmission-remote-gtk
 net-print/kyocera-mita-ppds
