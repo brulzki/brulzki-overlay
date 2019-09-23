@@ -27,6 +27,7 @@ dev-python/pycrypto
 dev-python/requests
 dev-python/sqlalchemy
 dev-python/flask
+dev-python/lz4
 
 # filesystems
 sys-fs/ntfs3g
