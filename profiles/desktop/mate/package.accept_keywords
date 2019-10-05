@@ -34,6 +34,7 @@ app-text/unpaper
 
 # dropbox
 net-misc/dropbox
+dev-libs/libffi-compat:6
 
 # simplescreenrecorder
 =dev-qt/qtx11extras-5.5.1*
