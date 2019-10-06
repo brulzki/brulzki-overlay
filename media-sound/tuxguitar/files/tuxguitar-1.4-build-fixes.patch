@@ -141,3 +141,31 @@ diff -purN a/TuxGuitar-gtp-ui/build.xml b/TuxGuitar-gtp-ui/build.xml
  	
  	<path id="class.path">
  		<pathelement location="${path.tuxguitar-lib}"/>
+diff --git a/TuxGuitar-tray/build.properties b/TuxGuitar-tray/build.properties
+index 50636a4e..0bec4c95 100644
+--- a/TuxGuitar-tray/build.properties
++++ b/TuxGuitar-tray/build.properties
+@@ -6,6 +6,8 @@ ant.build.javac.target=1.5
+ 
+ path.tuxguitar=../TuxGuitar/tuxguitar.jar
+ path.tuxguitar-lib=../TuxGuitar-lib/tuxguitar-lib.jar
++path.tuxguitar-gm-utils=../TuxGuitar-gm-utils/tuxguitar-gm-utils.jar
++path.tuxguitar-editor-utils=../TuxGuitar-editor-utils/tuxguitar-editor-utils.jar
+ path.tuxguitar-ui-toolkit=../TuxGuitar-ui-toolkit/tuxguitar-ui-toolkit.jar
+-path.tuxguitar-ui-toolkit-swt=../TuxGuitar-ui-toolkit/tuxguitar-ui-toolkit-swt.jar
++path.tuxguitar-ui-toolkit-swt=../TuxGuitar-ui-toolkit-swt/tuxguitar-ui-toolkit-swt.jar
+ path.swt=../TuxGuitar/lib/swt.jar
+\ No newline at end of file
+diff --git a/TuxGuitar-tray/build.xml b/TuxGuitar-tray/build.xml
+index 0ff987c6..ac2cac6d 100644
+--- a/TuxGuitar-tray/build.xml
++++ b/TuxGuitar-tray/build.xml
+@@ -17,6 +17,8 @@
+ 	<path id="class.path">
+ 		<pathelement location="${path.tuxguitar-lib}"/>
+ 		<pathelement location="${path.tuxguitar}"/>
++		<pathelement location="${path.tuxguitar-gm-utils}"/>
++		<pathelement location="${path.tuxguitar-editor-utils}"/>
+ 		<pathelement location="${path.tuxguitar-ui-toolkit}"/>
+ 		<pathelement location="${path.tuxguitar-ui-toolkit-swt}"/>
+ 		<pathelement location="${path.swt}"/>

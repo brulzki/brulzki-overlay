@@ -31,7 +31,6 @@ DEPEND="${COMMON_DEPEND}
 	>=virtual/jdk-1.5
 "
 
-#PATCHES=( "${FILESDIR}"/${PN}-fixed-ant-files.patch )
 PATCHES=( "${FILESDIR}"/${P}-build-fixes.patch )
 
 S="${WORKDIR}/${MY_P}"
@@ -45,10 +44,6 @@ src_prepare() {
 
 	sed -e "s|../TuxGuitar/lib/swt.jar|$(java-pkg_getjar swt-3.7 swt.jar)|" \
 		-i TuxGuitar*/build.properties || die "sed TuxGuitar*/build.properties failed"
-
-	# TuxGuitar-image/build.properties
-	#sed -e "s|../TuxGuitar-ui-toolkit/tuxguitar-ui-toolkit-swt.jar|../TuxGuitar-ui-toolkit-swt/tuxguitar-ui-toolkit-swt.jar|" \
-	#	-i TuxGuitar-image/build.properties || die "sed TuxGuitar-image/build.properties failed"
 
 	if use pdf; then
 		sed -e "s|../TuxGuitar/lib/itext.jar|$(java-pkg_getjar itext-5 itext.jar)|" \
@@ -123,6 +118,7 @@ src_install() {
 
 pkg_postinst() {
 	xdg_desktop_database_update
+	xdg_mimeinfo_database_update
 	xdg_icon_cache_update
 	if use fluidsynth; then
 		ewarn "Fluidsynth plugin blocks behavior of JSA plugin."
@@ -132,5 +128,6 @@ pkg_postinst() {
 
 pkg_postrm() {
 	xdg_desktop_database_update
+	xdg_mimeinfo_database_update
 	xdg_icon_cache_update
 }
