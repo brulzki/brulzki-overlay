@@ -14,3 +14,25 @@ app-text/qpdf
 app-cdr/cuetools
 media-sound/shntool
 media-gfx/qrencode
+
+# need to clean up these
+sys-apps/chname
+sys-fs/squashfs-tools
+net-analyzer/netperf
+#sys-apps/ethtool
+dev-util/debootstrap
+#sys-fs/cryptsetup
+media-plugins/beets-copyartifacts
+dev-util/schroot
+sys-fs/ntfs3g
+app-arch/dpkg
+
+#media-sound/id3v2
+#media-sound/audiotag
+#media-sound/id3tool
+#media-libs/exiftool
+#media-sound/id3ted
+#media-video/atomicparsley
+#media-sound/vorbis-tools
+#media-libs/taglib
+#media-libs/id3lib
