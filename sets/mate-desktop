@@ -1,7 +1,6 @@
-@desktop-core
-
 # mate packages
 mate-base/mate
+x11-misc/lightdm
 
 # we need upower-pm-utils or suspend breaks without systemd
 #sys-power/upower-pm-utils
@@ -14,11 +13,13 @@ app-arch/engrampa
 app-editors/pluma
 app-text/atril
 mate-extra/mate-calc
+#mate-extra/caja-dropbox
 mate-extra/caja-extensions
 #mate-extra/mate-netbook
 mate-extra/mate-power-manager
 mate-extra/mate-screensaver
 mate-extra/mate-system-monitor
+#mate-extra/mate-user-share
 mate-extra/mate-utils
 media-gfx/eom
 #net-analyzer/mate-netspeed
@@ -26,36 +27,8 @@ media-gfx/eom
 
 # useful utilites and apps
 net-wireless/blueman
-app-admin/system-config-printer
-#net-misc/networkmanager
-gnome-extra/nm-applet
-#gnome-extra/nautilus-dropbox
-mail-client/mail-notification
-mate-extra/caja-dropbox
-media-sound/rhythmbox
+#app-admin/system-config-printer
+#mail-client/mail-notification
 x11-themes/clearlooks-phenix
-#media-radio/radiotray
-media-gfx/simple-scan
-
-# mate extra
-app-office/glabels
-app-office/libreoffice
-media-gfx/gimp
-media-gfx/gphoto2
-media-gfx/gthumb
-media-gfx/inkscape
-media-sound/audacity
-# for audacity (hidden deps?)
-media-libs/lilv
-media-libs/suil
-
-# choose ffmpeg over libav
-media-video/ffmpeg
-
 gnome-base/dconf-editor
 gnome-extra/gconf-editor
-media-video/cheese
-app-crypt/seahorse
-
-# for modemmanager / networkmanager
-sys-apps/usb_modeswitch

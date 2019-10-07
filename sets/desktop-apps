@@ -1,0 +1,46 @@
+#@desktop-core
+#x11-base/xorg-server
+#x11-misc/lightdm
+
+www-client/firefox
+mail-client/thunderbird
+net-print/gutenprint
+media-fonts/corefonts
+net-misc/chrony
+media-fonts/dejavu
+
+# useful utilites and apps
+#net-wireless/blueman
+#app-admin/system-config-printer
+##net-misc/networkmanager
+gnome-extra/nm-applet
+##gnome-extra/nautilus-dropbox
+#mail-client/mail-notification
+mate-extra/caja-dropbox
+media-sound/rhythmbox
+#x11-themes/clearlooks-phenix
+##media-radio/radiotray
+media-gfx/simple-scan
+
+# useful desktop apps
+app-office/glabels
+app-office/libreoffice
+media-gfx/gimp
+media-gfx/gphoto2
+media-gfx/gthumb
+media-gfx/inkscape
+media-sound/audacity
+# for audacity (hidden deps?)
+media-libs/lilv
+media-libs/suil
+
+# choose ffmpeg over libav
+media-video/ffmpeg
+
+#gnome-base/dconf-editor
+#gnome-extra/gconf-editor
+media-video/cheese
+app-crypt/seahorse
+
+# for modemmanager / networkmanager
+sys-apps/usb_modeswitch

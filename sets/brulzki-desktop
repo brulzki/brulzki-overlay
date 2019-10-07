@@ -1,3 +1,8 @@
+@desktop-apps
+
+app-admin/system-config-printer
+mail-client/mail-notification
+
 net-irc/hexchat
 net-misc/dhcpcd-ui
 x11-misc/xclip
