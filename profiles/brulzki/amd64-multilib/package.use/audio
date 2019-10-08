@@ -95,3 +95,6 @@ sys-libs/db abi_x86_32
 >=dev-libs/libconfig-1.5 abi_x86_32
 >=media-libs/libiec61883-1.2.0-r1 abi_x86_32
 >=sys-libs/libavc1394-0.5.4-r1 abi_x86_32
+
+# for ffmpeg
+media-libs/libbs2b abi_x86_32

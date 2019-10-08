@@ -195,3 +195,6 @@ media-libs/libsdl2 haptic
 # 9/8/2019
 net-misc/remmina rdp vnc ssh spice
 net-libs/libvncserver gcrypt
+
+# enable LV2 plugins for calf
+media-plugins/calf lv2
