@@ -11,6 +11,10 @@ media-sound/ardour
 media-sound/lmms
 media-sound/rosegarden
 
+# plugins
+media-plugins/calf
+media-plugins/ladspa-bs2b
+
 # loopers
 # overlay has a patch for virtual/jack
 media-sound/sooperlooper::brulzki
@@ -19,8 +23,9 @@ media-sound/sooperlooper::brulzki
 # overlay has a patch for virtual/jack
 media-sound/csound::brulzki
 
-# drums
+# instruments
 media-sound/hydrogen
+media-sound/tuxguitar
 
 # proaudio overlay
 #media-sound/museseq

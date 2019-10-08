@@ -7,6 +7,7 @@ net-misc/netkit-telnetd
 sys-apps/chname
 app-arch/p7zip
 app-arch/unrar
+app-arch/cpio
 
 # dev tools
 dev-util/ctags
