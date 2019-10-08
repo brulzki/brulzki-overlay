@@ -1,5 +1,6 @@
 # mate packages
 mate-base/mate
+x11-base/xorg-server
 x11-misc/lightdm
 
 # we need upower-pm-utils or suspend breaks without systemd
