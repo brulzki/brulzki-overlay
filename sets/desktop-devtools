@@ -15,6 +15,7 @@ sci-electronics/xcircuit
 # audio measurement
 sci-electronics/xoscope
 media-sound/baudline
+media-sound/sox
 
 # GNU Octave (matlab)
 sci-mathematics/octave
@@ -54,3 +55,7 @@ x11-plugins/purple-facebook
 # not really devtools; not general pkgs either
 media-gfx/qrencode
 media-sound/mpd
+
+# this has a unclear license (free-noncommercial) so keep it out of
+# brulzki-studio
+media-sound/timidity-eawpatches

@@ -39,3 +39,7 @@ x11-themes/gnome-icon-theme::brulzki
 
 # not sure if this fits in this group or elsewhere?
 x11-misc/vdpauinfo
+
+# mount iphone
+app-pda/usbmuxd
+app-pda/ifuse

@@ -12,7 +12,8 @@ BRULZKI fping netperf MPEG-4
 #media-gfx/brother-scan4-bin brother-eula
 #media-gfx/iscan-plugin-gt-x770 AVASYS
 #media-gfx/iscan AVASYS
+#media-sound/timidity-eawpatches free-noncomm
 #net-print/brother-mfc9340cdw-bin brother-eula
 #net-print/kyocera-mita-ppds kyocera-mita-ppds
 #net-im/skypeforlinux Skype-TOS
-BRULZKI-DESKTOP CC-BY-ND-3.0 dropbox MSttfEULA brother-eula AVASYS kyocera-mita-ppds Skype-TOS
+BRULZKI-DESKTOP CC-BY-ND-3.0 dropbox MSttfEULA brother-eula AVASYS kyocera-mita-ppds Skype-TOS free-noncomm
