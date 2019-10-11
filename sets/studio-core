@@ -10,7 +10,6 @@ sys-apps/iproute2
 net-dns/openresolv
 sys-auth/sssd
 sys-process/fcron
-#net-misc/cfengine
 sys-process/lsof
 app-admin/needrestart
 sys-apps/usbutils

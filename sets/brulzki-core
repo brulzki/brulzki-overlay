@@ -12,7 +12,6 @@ net-dns/openresolv
 net-analyzer/traceroute
 sys-auth/sssd
 sys-process/fcron
-net-misc/cfengine
 sys-process/lsof
 app-admin/needrestart
 sys-apps/usbutils
