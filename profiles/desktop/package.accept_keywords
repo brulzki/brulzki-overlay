@@ -64,3 +64,6 @@ media-sound/jack2
 # 13/7/2019 sqlitebrowser
 dev-db/sqlitebrowser
 app-editors/qhexedit2
+
+# required for xfce-4.14
+=xfce-extra/xfce4-indicator-plugin-2.3.4
