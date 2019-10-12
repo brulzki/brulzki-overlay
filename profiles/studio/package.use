@@ -58,3 +58,5 @@ dev-java/swt cairo
 # maybe make udisks a bit lighter?
 # this installs only libdevmapper from lvm2
 sys-fs/lvm2 device-mapper-only -thin
+
+net-wireless/wpa_supplicant -qt5

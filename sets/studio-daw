@@ -1,6 +1,7 @@
 # desktop apps
 www-client/firefox
 media-video/mpv
+net-misc/dhcpcd-ui
 
 # JACK
 #media-sound/jack-audio-connection-kit

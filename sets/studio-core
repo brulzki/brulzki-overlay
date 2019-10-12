@@ -6,6 +6,7 @@ app-portage/gentoolkit
 app-portage/portage-utils
 sys-fs/btrfs-progs
 net-misc/dhcpcd
+net-wireless/wpa_supplicant
 sys-apps/iproute2
 net-dns/openresolv
 sys-auth/sssd
