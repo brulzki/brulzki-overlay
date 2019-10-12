@@ -77,6 +77,7 @@ media-sound/csound
 =media-sound/ams-2.1.2
 =media-sound/bristol-0.60.11-r1
 =media-sound/specimen-0.5.2_rc3-r2
+media-sound/tuxguitar
 
 # required by media-sound/supercollider-3.10.2
 =dev-libs/boost-1.70.0
