@@ -85,3 +85,6 @@ media-sound/tuxguitar
 
 # required for @mate-desktop
 net-wireless/blueman
+
+# required for xfce-4.14
+=xfce-extra/xfce4-indicator-plugin-2.3.4
