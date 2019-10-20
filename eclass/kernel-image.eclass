@@ -57,9 +57,4 @@ kernel-image_src_install() {
 	# remove firmware
 	einfo "removing firmware"
 	rm -rf "${D}/lib/firmware"
-	# move the modules into the correct lib dir
-	if [[ $(get_libdir) != lib ]]; then
-	   einfo "renaming lib to $(get_libdir)"
-	   mv "${D}/lib" "${D}/$(get_libdir)"
-	fi
 }
