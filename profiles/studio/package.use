@@ -39,6 +39,9 @@ dev-qt/qtwebengine widgets
 dev-qt/qtwebchannel qml
 media-libs/libvpx svc
 
+# build sooperlooper with a gui
+media-sound/sooperlooper wxwidgets
+
 # required for @mate-desktop
 mate-base/mate -extras
 gnome-base/gvfs udisks
