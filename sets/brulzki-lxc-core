@@ -1,18 +1,23 @@
-app-admin/sudo
+# @profile
+#app-admin/needrestart
+#app-admin/sudo
+#app-editors/vim
+#dev-vcs/git
+#sys-apps/iproute2
+#sys-auth/sssd
+
+# these are under consideration for @profile
 app-admin/logrotate
 app-admin/syslog-ng
-app-portage/eix
-app-portage/gentoolkit
-app-portage/portage-utils
 net-misc/dhcpcd
-sys-apps/iproute2
 net-dns/openresolv
-net-analyzer/traceroute
-sys-auth/sssd
-app-admin/needrestart
+#sys-fs/eudev
 
 app-misc/tmux
 app-editors/emacs
-app-emacs/ebuild-mode
-app-editors/vim
-dev-vcs/git
+net-analyzer/traceroute
+
+# these are nice-to-haves
+app-portage/eix
+app-portage/gentoolkit
+app-portage/portage-utils

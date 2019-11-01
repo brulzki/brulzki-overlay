@@ -1,42 +1,58 @@
-sys-fs/eudev
-app-admin/sudo
+# @profile
+#app-admin/needrestart
+#app-admin/sudo
+#app-editors/vim
+#dev-vcs/git
+#sys-apps/iproute2
+#sys-auth/sssd
+
+# these are under consideration for @profile
 app-admin/logrotate
 app-admin/syslog-ng
-app-portage/eix
-app-portage/gentoolkit
-app-portage/portage-utils
-sys-fs/btrfs-progs
 net-misc/dhcpcd
-sys-apps/iproute2
 net-dns/openresolv
-net-analyzer/traceroute
-sys-auth/sssd
-sys-process/fcron
-sys-process/lsof
-app-admin/needrestart
-sys-apps/usbutils
-net-misc/whois
-sys-apps/dmidecode
-net-vpn/tinc
-sys-power/acpi
-net-fs/nfs-utils
+sys-fs/eudev
+
+# necessary on bare metal to maintain entropy
+sys-apps/haveged
 
 app-misc/tmux
 app-editors/emacs
-app-emacs/ebuild-mode
-app-editors/vim
-dev-vcs/git
+net-analyzer/traceroute
 
+# these are nice-to-haves; containers don't really need them
+app-portage/eix
+app-portage/gentoolkit
+app-portage/portage-utils
+
+# for bare-metal installs
+sys-fs/btrfs-progs
+sys-process/fcron
+sys-process/lsof
+sys-apps/usbutils
+net-misc/whois
+sys-apps/dmidecode
+sys-power/acpi
+net-fs/nfs-utils
+net-misc/chrony
+sys-apps/pciutils
+sys-apps/lm-sensors
+sys-fs/dosfstools
+sys-apps/smartmontools
+
+sys-apps/hdparm
+app-admin/hddtemp
+sys-apps/idle3-tools
+
+app-backup/btrbk
+
+# user utilities
 app-arch/zip
 app-arch/unzip
 sys-apps/pv
-sys-apps/pciutils
-sys-apps/lm-sensors
-net-misc/chrony
-sys-fs/dosfstools
-sys-apps/smartmontools
-app-backup/btrbk
 
 dev-vcs/mr
 dev-vcs/vcsh
 net-misc/keychain
+
+net-vpn/tinc

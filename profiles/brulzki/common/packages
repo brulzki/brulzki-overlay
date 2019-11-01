@@ -1,0 +1,7 @@
+# These packages are always installed
+app-admin/needrestart
+app-admin/sudo
+app-editors/vim
+dev-vcs/git
+sys-apps/iproute2
+sys-auth/sssd
