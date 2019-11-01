@@ -28,8 +28,7 @@ media-video/devedeng
 =media-sound/mup-6.5
 
 # 15/12/2016
-=media-sound/musescore-2.0.3*
-=media-sound/musescore-2.1.0*
+=media-sound/musescore-3.0*
 
 # 18/12/2016 :: confirm this ... 1.0.2 is in the tree
 =media-sound/denemo-2.0.14
