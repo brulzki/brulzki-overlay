@@ -29,6 +29,7 @@ dev-util/glade
 dev-util/gtk-builder-convert
 dev-db/sqlitebrowser
 dev-python/versioneer
+dev-util/d-feet
 
 # sqlite-2 (for db conversion)
 dev-db/sqlite:0
