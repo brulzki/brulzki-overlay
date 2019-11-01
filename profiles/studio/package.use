@@ -67,3 +67,7 @@ net-wireless/wpa_supplicant -qt5
 # csound-6.10.0 build fails with fluidsynth
 # fix for fluidsynth-2 is in csound-6.13.0
 <media-sound/csound-6.13.0 -fluidsynth
+
+# required for firefox-68.x
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete

@@ -196,5 +196,9 @@ media-libs/libsdl2 haptic
 net-misc/remmina rdp vnc ssh spice
 net-libs/libvncserver gcrypt
 
+# required for firefox-68.x
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete
+
 # enable LV2 plugins for calf
 media-plugins/calf lv2
