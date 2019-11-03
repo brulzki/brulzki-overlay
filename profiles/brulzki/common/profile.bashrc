@@ -15,7 +15,7 @@ if [[ "${ARCH}" == "amd64" && "${EBUILD_PHASE}" == "setup" ]] ; then
 		eerror "Use 'unsymlink-lib --finish' to continue migration"
 		eerror "Or 'unsymlink-lib --rollback' to abandon"
 		die "ERROR: 17.1 migration is incomplete!!"
-	else
+	elif [[ -d "${ROOT%/}/lib" && ! -L "${ROOT%/}/lib" ]]; then
 		# Migration has finished; this is the 17.1 profile
 		einfo "System migration is complete"
 		export LIBDIR_x86="lib"
