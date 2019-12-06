@@ -19,8 +19,10 @@ dev-vcs/subversion
 dev-vcs/git-svn::brulzki
 dev-vcs/git-remote-bzr
 
+# note: pytidylib modified in overlay for tidy-html5
+# https://bugs.gentoo.org/671444
 app-text/tidy-html5
-dev-python/pytidylib
+dev-python/pytidylib::brulzki
 
 dev-python/beautifulsoup
 dev-python/configparser
