@@ -60,3 +60,8 @@ media-sound/mpd
 # this has a unclear license (free-noncommercial) so keep it out of
 # brulzki-studio
 media-sound/timidity-eawpatches
+
+# stuff I have installed, needs cleanup
+net-dns/dnsmasq
+media-video/mediainfo
+media-libs/exiftool
