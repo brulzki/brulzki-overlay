@@ -200,5 +200,9 @@ net-libs/libvncserver gcrypt
 media-libs/libvpx postproc
 dev-db/sqlite secure-delete
 
+# mpv: filters, av1 and opus
+media-video/ffmpeg bs2b ladspa dav1d opus
+#media-libs/opus custom-modes
+
 # enable LV2 plugins for calf
 media-plugins/calf lv2

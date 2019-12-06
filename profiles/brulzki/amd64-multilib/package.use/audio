@@ -98,3 +98,5 @@ sys-libs/db abi_x86_32
 
 # for ffmpeg
 media-libs/libbs2b abi_x86_32
+media-libs/opus abi_x86_32
+media-libs/dav1d abi_x86_32
