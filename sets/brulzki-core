@@ -2,6 +2,7 @@
 #app-admin/needrestart
 #app-admin/sudo
 #app-editors/vim
+#app-portage/gentoolkit
 #dev-vcs/git
 #sys-apps/iproute2
 #sys-auth/sssd
@@ -22,7 +23,6 @@ net-analyzer/traceroute
 
 # these are nice-to-haves; containers don't really need them
 app-portage/eix
-app-portage/gentoolkit
 app-portage/portage-utils
 
 # for bare-metal installs

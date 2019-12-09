@@ -2,6 +2,7 @@
 #app-admin/needrestart
 #app-admin/sudo
 #app-editors/vim
+#app-portage/gentoolkit
 #dev-vcs/git
 #sys-apps/iproute2
 #sys-auth/sssd
@@ -19,5 +20,4 @@ net-analyzer/traceroute
 
 # these are nice-to-haves
 app-portage/eix
-app-portage/gentoolkit
 app-portage/portage-utils

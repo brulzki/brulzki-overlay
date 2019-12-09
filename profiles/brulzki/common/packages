@@ -2,6 +2,7 @@
 app-admin/needrestart
 app-admin/sudo
 app-editors/vim
+app-portage/gentoolkit
 dev-vcs/git
 sys-apps/iproute2
 sys-auth/sssd
