@@ -7,7 +7,7 @@
 if [[ "$(realpath ${ROOT%/}/lib)" == "${ROOT%/}/lib64" || \
       "$(realpath ${ROOT%/}/usr/lib)" == "${ROOT%/}/usr/lib64" ]] ; then
     einfo "System has not yet migrated to 17.1 profile"
-    eval "$(grep ^PORTAGE_BINHOST /etc/portage/make.conf)"
+    [[ -v PORTAGE_BINHOST ]] || eval "$(grep ^PORTAGE_BINHOST /etc/portage/make.conf)"
     debug "PORTAGE_BINHOST = ${PORTAGE_BINHOST}"
     if [[ -v PORTAGE_BINHOST ]]; then
 	export PORTAGE_BINHOST="${PORTAGE_BINHOST/\/packages\//\/packages\/17.0\/}"
