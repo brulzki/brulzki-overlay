@@ -66,3 +66,6 @@ app-editors/qhexedit2
 
 # required for xfce-4.14
 =xfce-extra/xfce4-indicator-plugin-2.3.4
+
+# replaces sci-electronics/oregano
+sci-electronics/drahnr-oregano

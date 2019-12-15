@@ -9,7 +9,8 @@ dev-python/pyserial
 
 # electronics
 sci-electronics/kicad
-sci-electronics/oregano
+#sci-electronics/oregano
+sci-electronics/drahnr-oregano
 sci-electronics/xcircuit
 
 # audio measurement
