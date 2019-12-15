@@ -1,6 +1,8 @@
 # ardour
 media-sound/ardour
 media-libs/suil
+# suil needs a later lv2 than in stable
+=media-libs/lv2-1.16*
 
 # lmms
 media-sound/lmms

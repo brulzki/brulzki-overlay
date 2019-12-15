@@ -13,6 +13,7 @@ xfce-extra/xfce4-gvfs-mount
 # ardour
 =media-sound/ardour-5.12*
 =media-libs/suil-0.10*
+=media-libs/lv2-1.16*
 
 # studio applications
 =media-sound/rosegarden-16.06
