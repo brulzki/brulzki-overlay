@@ -5,7 +5,7 @@ cross-avr/binutils
 cross-avr/gcc
 dev-python/pyserial
 #net-dialup/minicom
-#net-dialup/picocom
+net-dialup/picocom
 
 # electronics
 sci-electronics/kicad

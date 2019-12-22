@@ -10,6 +10,7 @@ app-arch/unrar
 app-arch/cpio
 
 # dev tools
+dev-python/pytest
 dev-util/ctags
 dev-vcs/bzr
 dev-vcs/bzr-fastimport
@@ -35,10 +36,6 @@ dev-python/lz4
 # filesystems
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
-
-# gentoo
-app-emacs/ebuild-mode
-app-portage/repoman
 
 # android
 dev-util/android-tools

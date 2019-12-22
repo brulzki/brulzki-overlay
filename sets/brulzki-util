@@ -4,3 +4,10 @@ net-analyzer/fping
 net-analyzer/nmap
 net-analyzer/traceroute
 net-misc/iperf
+
+sys-process/iotop
+sys-apps/hwinfo
+
+# gentoo
+app-emacs/ebuild-mode
+app-portage/repoman
