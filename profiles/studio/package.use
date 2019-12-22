@@ -71,3 +71,10 @@ net-wireless/wpa_supplicant -qt5
 # required for firefox-68.x
 media-libs/libvpx postproc
 dev-db/sqlite secure-delete
+
+# enable eliptic curve
+# https://bugs.gentoo.org/531540
+dev-libs/openssl -bindist
+net-wireless/wpa_supplicant -bindist
+net-misc/openssh -bindist
+dev-qt/qtnetwork -bindist
