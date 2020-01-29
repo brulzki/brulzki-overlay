@@ -73,3 +73,11 @@ sci-electronics/drahnr-oregano
 # libracad fails build
 # https://bugs.gentoo.org/699716
 =media-gfx/librecad-2.1.3-r5
+
+# kicad fails build
+# https://bugs.gentoo.org/704926
+=sci-electronics/kicad-5.1.5
+=sci-electronics/ngspice-31-r1
+=sci-libs/oce-0.18.3-r1
+=dev-python/wxpython-4.0.6
+=sci-visualization/xgraph-12.1-r4

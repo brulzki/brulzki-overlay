@@ -16,4 +16,6 @@ BRULZKI fping netperf MPEG-4
 #net-print/brother-mfc9340cdw-bin brother-eula
 #net-print/kyocera-mita-ppds kyocera-mita-ppds
 #net-im/skypeforlinux Skype-TOS
-BRULZKI-DESKTOP CC-BY-ND-3.0 dropbox MSttfEULA brother-eula AVASYS kyocera-mita-ppds Skype-TOS free-noncomm
+## for kicad
+#sci-visualization/xgraph xgraph
+BRULZKI-DESKTOP CC-BY-ND-3.0 dropbox MSttfEULA brother-eula AVASYS kyocera-mita-ppds Skype-TOS free-noncomm xgraph
