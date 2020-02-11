@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -21,15 +21,18 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="
 	${PYTHON_DEPS}
-	app-arch/rpm[python,${PYTHON_USEDEP}]
-	dev-python/sqlitecachec[${PYTHON_USEDEP}]
-	dev-libs/libxml2[python,${PYTHON_USEDEP}]
-	dev-python/pyliblzma[${PYTHON_USEDEP}]
-	dev-python/urlgrabber[${PYTHON_USEDEP}]"
-
+	$(python_gen_cond_dep '
+		app-arch/rpm[python,${PYTHON_MULTI_USEDEP}]
+		dev-python/sqlitecachec[${PYTHON_MULTI_USEDEP}]
+		dev-libs/libxml2[python,${PYTHON_MULTI_USEDEP}]
+		dev-python/pyliblzma[${PYTHON_MULTI_USEDEP}]
+		dev-python/urlgrabber[${PYTHON_MULTI_USEDEP}]
+	')"
 DEPEND="${RDEPEND}
 	dev-util/intltool
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
+	$(python_gen_cond_dep '
+		test? ( dev-python/nose[${PYTHON_MULTI_USEDEP}] )
+	')"
 
 src_prepare() {
 	sed -i -e 's/make/$(MAKE)/' Makefile || die
