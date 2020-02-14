@@ -9,6 +9,13 @@ net-dialup/picocom
 
 # electronics
 sci-electronics/kicad
+sci-electronics/kicad-symbols
+sci-electronics/kicad-footprints
+#sci-electronics/kicad-packages3d
+sci-electronics/kicad-templates
+#sci-electronics/kicad-i18n
+#app-doc/kicad-doc
+#media-gfx/wings
 #sci-electronics/oregano
 sci-electronics/drahnr-oregano
 sci-electronics/xcircuit

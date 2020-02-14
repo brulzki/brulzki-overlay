@@ -76,8 +76,16 @@ sci-electronics/drahnr-oregano
 
 # kicad fails build
 # https://bugs.gentoo.org/704926
-=sci-electronics/kicad-5.1.5
+=sci-electronics/kicad-5.1.5*
 =sci-electronics/ngspice-31-r1
 =sci-libs/oce-0.18.3-r1
 =dev-python/wxpython-4.0.6
 =sci-visualization/xgraph-12.1-r4
+
+=sci-electronics/kicad-symbols-5.1.5*
+=sci-electronics/kicad-footprints-5.1.5*
+=sci-electronics/kicad-packages3d-5.1.5*
+=sci-electronics/kicad-templates-5.1.5*
+#sci-electronics/kicad-i18n
+#app-doc/kicad-doc
+#media-gfx/wings
