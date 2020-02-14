@@ -161,3 +161,6 @@ virtual/pam abi_x86_32
 sys-libs/pam abi_x86_32
 sys-libs/cracklib abi_x86_32
 sys-devel/flex abi_x86_32
+
+# 14/2/2020
+virtual/libcrypt abi_x86_32
