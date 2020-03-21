@@ -81,3 +81,7 @@ app-emulation/lxc python
 # 13/1/2020
 # required by >=required by net-nds/rpcbind-1.2.5-r1
 sys-fs/quota rpc
+
+# 3/3/2020 sasl should be enabled for ansible
+# (should I just set the use flag globally?)
+dev-python/python-ldap sasl
