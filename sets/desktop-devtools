@@ -31,6 +31,9 @@ sci-mathematics/octave
 
 # graphics
 media-gfx/librecad
+media-gfx/graphviz
+dev-python/blockdiag
+media-gfx/nwdiag
 
 # development apps
 dev-util/glade
