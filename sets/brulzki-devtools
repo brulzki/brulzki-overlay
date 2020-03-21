@@ -49,3 +49,4 @@ app-text/pelican
 
 # ansible
 app-admin/ansible
+dev-python/python-ldap
