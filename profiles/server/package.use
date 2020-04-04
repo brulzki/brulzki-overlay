@@ -52,3 +52,10 @@ sys-libs/zlib static-libs
 sys-apps/attr static-libs
 dev-libs/libpcre static-libs
 app-emulation/qemu static-user qemu_user_targets_aarch64 qemu_user_targets_arm
+
+net-p2p/go-ethereum opencl
+media-libs/mesa opencl video_cards_radeonsi -video_cards_radeon -video_cards_intel -video_cards_nouveau
+media-libs/mesa lm-sensors
+# X is needed for opencl support
+media-libs/mesa X
+media-libs/libglvnd X
