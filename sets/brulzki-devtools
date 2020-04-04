@@ -27,7 +27,7 @@ dev-python/pytidylib::brulzki
 
 dev-python/beautifulsoup
 dev-python/configparser
-dev-python/pycrypto
+dev-python/pycryptodome
 dev-python/requests
 dev-python/sqlalchemy
 dev-python/flask
