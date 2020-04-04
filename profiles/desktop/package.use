@@ -35,9 +35,6 @@ net-libs/libtirpc kerberos
 # gnome-cups-manager is crap... try system-config-print-gnome instead
 gnome-base/gnome -cups
 
-# 21/2/2011 needed to update... why??
-dev-libs/libgcrypt static-libs
-
 # 11/6/2019 - mariadb added ~6.2; defaults to enabled
 #  - binfilter & templates were removed from the ebuild
 app-office/libreoffice java
