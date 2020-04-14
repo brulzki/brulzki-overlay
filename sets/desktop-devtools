@@ -25,6 +25,10 @@ sci-electronics/xoscope
 media-sound/baudline
 media-sound/sox
 
+# logic analyser
+#sci-electronics/pulseview
+#sci-electronics/sigrok-cli
+
 # GNU Octave (matlab)
 sci-mathematics/octave
 #sci-mathematics/octave-epstk

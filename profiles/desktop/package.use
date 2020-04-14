@@ -212,3 +212,7 @@ net-im/pidgin python
 # 21/3/2020 cxx has been removed from defaults
 # this is still required for sci-mathematics/octave and media-gfx/kxstitch
 media-gfx/imagemagick cxx
+
+# logic analyser
+sci-electronics/sigrok-cli decode
+sci-libs/libsigrok cxx serial

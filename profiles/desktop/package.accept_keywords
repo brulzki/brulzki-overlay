@@ -89,3 +89,10 @@ sci-electronics/drahnr-oregano
 #sci-electronics/kicad-i18n
 #app-doc/kicad-doc
 #media-gfx/wings
+
+# logic analyser
+sci-electronics/pulseview
+sci-electronics/sigrok-cli
+sci-libs/libsigrok
+sci-libs/libsigrokdecode
+sys-firmware/sigrok-firmware-fx2lafw
