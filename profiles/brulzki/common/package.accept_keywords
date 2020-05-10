@@ -68,3 +68,7 @@ x11-plugins/purple-hangouts
 
 # 11/7/2019 - added to the overlay
 dev-vcs/git-remote-bzr
+
+# 8/5/2020 - version bump is unstable
+# used by beets
+dev-python/discogs-client
