@@ -218,4 +218,4 @@ app-emulation/wine-vanilla -faudio
 
 # logic analyser
 sci-electronics/sigrok-cli decode
-sci-libs/libsigrok cxx serial
+sci-libs/libsigrok cxx python serial
