@@ -219,3 +219,5 @@ app-emulation/wine-vanilla -faudio
 # logic analyser
 sci-electronics/sigrok-cli decode
 sci-libs/libsigrok cxx python serial
+# for sys-firmware/sigrok-firmware-fx2lafw
+dev-embedded/sdcc device-lib mcs51

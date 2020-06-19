@@ -26,8 +26,9 @@ media-sound/baudline
 media-sound/sox
 
 # logic analyser
-#sci-electronics/pulseview
-#sci-electronics/sigrok-cli
+sci-electronics/pulseview
+sci-electronics/sigrok-cli
+sys-firmware/sigrok-firmware-fx2lafw
 
 # GNU Octave (matlab)
 sci-mathematics/octave
