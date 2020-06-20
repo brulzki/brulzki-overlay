@@ -27,12 +27,17 @@ dev-util/schroot
 sys-fs/ntfs3g
 app-arch/dpkg
 
-#media-sound/id3v2
-#media-sound/audiotag
-#media-sound/id3tool
-#media-libs/exiftool
-#media-sound/id3ted
-#media-video/atomicparsley
-#media-sound/vorbis-tools
-#media-libs/taglib
+# on harry
+app-admin/ansible
+sys-fs/cryptsetup
+sys-apps/ethtool
+
+media-sound/id3v2
+media-sound/audiotag
+media-sound/id3tool
+media-libs/exiftool
+media-sound/id3ted
+media-libs/taglib
 #media-libs/id3lib
+media-sound/vorbis-tools
+#media-video/atomicparsley

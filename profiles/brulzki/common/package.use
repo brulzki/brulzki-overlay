@@ -85,3 +85,5 @@ sys-fs/quota rpc
 # 3/3/2020 sasl should be enabled for ansible
 # (should I just set the use flag globally?)
 dev-python/python-ldap sasl
+
+media-sound/vorbis-tools flac
