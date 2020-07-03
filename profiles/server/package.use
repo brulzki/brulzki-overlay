@@ -59,3 +59,7 @@ media-libs/mesa lm-sensors
 # X is needed for opencl support
 media-libs/mesa X
 media-libs/libglvnd X
+
+# these are defaulted to on in the ebuild; we want to disable them;
+# it's failing on missing libGL since 1.16.2
+media-libs/gst-plugins-base -X -egl -opengl
