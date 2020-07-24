@@ -32,6 +32,8 @@ app-admin/ansible
 sys-fs/cryptsetup
 sys-apps/ethtool
 
+#sys-apps/temper-python
+
 media-sound/id3v2
 media-sound/audiotag
 media-sound/id3tool
