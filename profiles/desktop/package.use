@@ -37,7 +37,8 @@ gnome-base/gnome -cups
 
 # 11/6/2019 - mariadb added ~6.2; defaults to enabled
 #  - binfilter & templates were removed from the ebuild
-app-office/libreoffice java
+# 25/7/2020 - add pdfimport for signing pdf files
+app-office/libreoffice java pdfimport
 
 media-gfx/gthumb http slideshow iptc
 
