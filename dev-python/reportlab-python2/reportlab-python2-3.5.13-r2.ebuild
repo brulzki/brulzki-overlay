@@ -7,10 +7,14 @@ PYTHON_COMPAT=( python2_7 ) # Tests crash with pypy
 
 inherit distutils-r1 flag-o-matic
 
+MY_PN=${PN/-python2}
+MY_P=${MY_PN}-${PV}
+
 DESCRIPTION="Tools for generating printable PDF documents from any data source"
 HOMEPAGE="http://www.reportlab.com/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz
+SRC_URI="mirror://pypi/${P:0:1}/${MY_PN}/${MY_P}.tar.gz
 	http://www.reportlab.com/ftp/fonts/pfbfer-20070710.zip"
+S="${WORKDIR}/${MY_P}"
 
 LICENSE="BSD"
 SLOT="0"
@@ -18,7 +22,8 @@ KEYWORDS="~alpha amd64 arm ~arm64 ~hppa ppc ppc64 sparc x86 ~amd64-linux ~x86-li
 IUSE="-doc -examples"
 
 RDEPEND="
-	dev-python2/pillow[tiff,truetype,jpeg(+),${PYTHON_USEDEP}]
+	dev-python/pillow-python2[tiff,truetype,jpeg(+),${PYTHON_USEDEP}]
+	!dev-python/reportlab[${PYTHON_USEDEP}]
 	media-libs/libart_lgpl
 	sys-libs/zlib
 "
@@ -28,13 +33,13 @@ DEPEND="${RDEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}/${PN}-3.5.13-disable-network-tests.patch"
-	"${FILESDIR}/${PN}-3.5.13-pillow-VERSION.patch"
+	"${FILESDIR}/${MY_PN}-3.5.13-disable-network-tests.patch"
+	"${FILESDIR}/${MY_PN}-3.5.13-pillow-VERSION.patch"
 )
 
 src_unpack() {
-	unpack ${P}.tar.gz
-	cd ${P}/src/reportlab/fonts || die
+	unpack ${MY_P}.tar.gz
+	cd ${MY_P}/src/reportlab/fonts || die
 	unpack pfbfer-20070710.zip
 }
 

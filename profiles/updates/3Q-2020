@@ -1,0 +1,2 @@
+move dev-python2/pillow dev-python/pillow-python2
+move dev-python2/reportlab dev-python/reportlab-python2

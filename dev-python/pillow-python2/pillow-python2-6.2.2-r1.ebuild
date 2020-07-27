@@ -8,13 +8,13 @@ PYTHON_REQ_USE='tk?,threads(+)'
 
 inherit distutils-r1 toolchain-funcs virtualx
 
-MY_PN=Pillow
+MY_PN=${PN/-python2}
 MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Python Imaging Library (fork)"
 HOMEPAGE="https://python-pillow.org/"
-SRC_URI="https://github.com/python-pillow/Pillow/archive/${PV}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/${MY_P}"
+SRC_URI="https://github.com/python-pillow/Pillow/archive/${PV}.tar.gz -> ${MY_P}.tar.gz"
+S="${WORKDIR}/${MY_P/pillow/Pillow}"
 
 LICENSE="HPND"
 SLOT="0"
