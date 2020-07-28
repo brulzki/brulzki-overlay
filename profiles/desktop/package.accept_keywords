@@ -100,4 +100,3 @@ sys-firmware/sigrok-firmware-fx2lafw
 # 7/5/2020 temporary updates for stabilisation after python2 removal
 # and python3.7 update
 =mate-extra/caja-dropbox-1.22*
-=app-pda/usbmuxd-1.1.1*
