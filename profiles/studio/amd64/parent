@@ -1,3 +1,3 @@
 gentoo:default/linux/amd64/17.1
-brulzki:brulzki/amd64-multilib
+brulzki:base/amd64-multilib
 ..
