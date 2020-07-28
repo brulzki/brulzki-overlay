@@ -17,9 +17,9 @@ if [[ "${ARCH}" == "amd64" && "${EBUILD_PHASE}" == "setup" ]] ; then
 		die "ERROR: 17.1 migration is incomplete!!"
 	elif [[ -d "${ROOT%/}/lib" && ! -L "${ROOT%/}/lib" ]]; then
 		# Migration has finished; this is the 17.1 profile
-		einfo "System migration is complete"
-		export LIBDIR_x86="lib"
-		export SYMLINK_LIB="no"
+		#einfo "System migration is complete"
+		#export LIBDIR_x86="lib"
+		#export SYMLINK_LIB="no"
 		if [[ -L "${ROOT%/}/lib32" || -L "${ROOT%/}/usr/lib32" ]]; then
 			elog "System migration to 17.1 profile is complete, but one of the"
 			elog "/lib32 or /usr/lib32 symlinks still remains."
