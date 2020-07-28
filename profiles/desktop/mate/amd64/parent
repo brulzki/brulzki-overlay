@@ -1,4 +1,4 @@
-gentoo:default/linux/amd64/17.0
+gentoo:default/linux/amd64/17.1
 brulzki:base/amd64-multilib
 brulzki:base/studio
 ..
