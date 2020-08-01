@@ -43,3 +43,6 @@ x11-misc/vdpauinfo
 # mount iphone
 app-pda/usbmuxd
 app-pda/ifuse
+
+# for eq & bs2b
+media-sound/pulseeffects
