@@ -103,3 +103,6 @@ mate-extra/mate-power-manager pm-utils
 x11-misc/colord vala
 
 media-sound/pulseeffects bs2b calf
+
+# Enable support for reading epub docs
+app-text/atril epub
