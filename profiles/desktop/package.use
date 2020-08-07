@@ -222,3 +222,6 @@ sci-electronics/sigrok-cli decode
 sci-libs/libsigrok cxx python serial
 # for sys-firmware/sigrok-firmware-fx2lafw
 dev-embedded/sdcc device-lib mcs51
+
+# enable x0vncserver
+net-misc/tigervnc gnutls server
