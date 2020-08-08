@@ -1,11 +1,11 @@
 # These changes minimise the depenencies in the @system set
-sys-auth/pambase -gnome-keyring
+sys-auth/pambase -gnome-keyring -pam_krb5
 sys-fs/eudev -introspection
 www-client/w3m -X -gtk
 net-misc/openssh -X
 sys-apps/groff -X
 # but sys-auth/consolekit still depends on libX11 :(
-sys-auth/pambase -consolekit -pam_krb5
+#sys-auth/pambase -consolekit -pam_krb5
 # once that consolekit depenency is broken, we can allow these
 # (which are required further up the desktop stack)
 #sys-auth/polkit -gtk -introspection

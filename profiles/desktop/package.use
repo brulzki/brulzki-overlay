@@ -28,10 +28,6 @@ net-print/cups avahi
 net-fs/nfs-utils kerberos
 net-libs/libtirpc kerberos
 
-# hal is depricated
-# see http://bugs.gentoo.org/296692
-#=sys-apps/hal-0.5.13* -consolekit -policykit
-
 # gnome-cups-manager is crap... try system-config-print-gnome instead
 gnome-base/gnome -cups
 
