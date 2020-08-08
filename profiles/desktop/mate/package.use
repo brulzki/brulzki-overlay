@@ -1,26 +1,40 @@
+# mate desktop use flags
 
-# youtube-dl needs ssl on ffmpeg for plus7 content (gnutls or openssl)
-media-video/ffmpeg gnutls
+# 8/8/2020 this excludes only mate-netbook from the mate-1.24 extras
+# packages. The rest are pulled in by @mate-desktop.
+mate-base/mate -extras
 
-# mate
+# bluetooth pulls in net-wireless/blueman, but is disabled since
+# blueman is currently marked as unstable
+#mate-base/mate bluetooth
+
 mate-base/mate-session-manager -systemd
 mate-base/mate-menus python
 mate-extra/mate-screensaver -systemd
 sys-apps/accountsservice -systemd
 
+# Enable support for reading epub docs
+app-text/atril epub
+
 # syslog-ng won't run under openrc if build with systemd
 app-admin/syslog-ng -systemd
 
+# youtube-dl needs ssl on ffmpeg for plus7 content (gnutls or openssl)
+media-video/ffmpeg gnutls
+
+# depricated ??
 # gnome
->=app-misc/tracker-1 -ffmpeg
 gnome-base/gnome-extra-apps -shotwell
 
+# depricated ??
 # network manager uses this; avoid the gui
 net-dialup/rp-pppoe -X
 
+# depricated
 # fix totem trying to pull in gnome-online-accounts
 dev-libs/libgdata -gnome
 
+# depricated
 # for USE=-eds
 dev-libs/folks -bluetooth
 
@@ -30,36 +44,15 @@ dev-libs/folks -bluetooth
 # required by media-video/totem-3.14.2::gentoo
 media-libs/mesa gles2
 
-# required by kdelibs:4
-#app-crypt/qca qt4
-#sys-auth/polkit-qt qt4
-#dev-libs/libdbusmenu-qt qt4
-
-# needed for kdelibs:5
-dev-libs/libdbusmenu-qt qt5
-sys-auth/polkit-qt qt5
-media-libs/phonon qt5
-media-libs/phonon-gstreamer qt5
-
 # plugins for rhythmbox
 media-plugins/gst-plugins-meta lame
-
-x11-libs/gksu -gnome
 
 # needed for ledger
 dev-libs/boost python
 app-office/ledger python
 
-# needed for skype
-dev-qt/qtwebkit -exceptions
-dev-qt/qtwebkit:4 -gstreamer
-
 # required for simple-scan-3.18
 >=dev-libs/libgusb-0.2.8 vala
-
-# 3/2/2016 dropbox-3
->=dev-qt/qtcore-5.5.1 icu
->=dev-libs/libpcre-8.38 pcre16
 
 # simplescreenrecorder
 media-video/simplescreenrecorder qt5
@@ -69,11 +62,6 @@ dev-java/icedtea-bin -nsplugin
 
 # 12/8/2016 - mate now uses mate-notification-daemon
 virtual/notification-daemon -gnome
-
-# 17/8/2016 - mate extras pulls in upower; breaks suspend
-# we still want to use upower-pm-utils (for the time being)
-# extra packages are pulled in with sets
-mate-base/mate -extras
 
 # spice support for qemu
 app-emulation/qemu spice
@@ -85,24 +73,12 @@ app-emulation/qemu usbredir
 # https://forums.gentoo.org/viewtopic-p-8075136.html
 # (this is defined in brulzki/common, but not picked up here.
 # I can't see why that is the case yet?)
-x11-libs/wxGTK:2.8 -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
 
 # this is for graphviz (used by scala)
 media-libs/gd fontconfig
 
-# https://bugs.gentoo.org/586302
-# (I think this only adds a dep, not fix mate suspend issues...
-# see patches in bugzilla)
-sys-auth/consolekit pm-utils
-
-# TODO revert the earlier change
-mate-extra/mate-power-manager pm-utils
-
 # (dependency required by "media-gfx/simple-scan-3.30.2::gentoo[colord]" [ebuild])
 x11-misc/colord vala
 
 media-sound/pulseeffects bs2b calf
-
-# Enable support for reading epub docs
-app-text/atril epub
