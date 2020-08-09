@@ -16,8 +16,7 @@ media-plugins/calf
 media-plugins/ladspa-bs2b
 
 # loopers
-# overlay has a patch for virtual/jack
-media-sound/sooperlooper::brulzki
+media-sound/sooperlooper
 
 # toolkits ?
 # overlay has a patch for virtual/jack
