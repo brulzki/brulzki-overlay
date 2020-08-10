@@ -24,6 +24,7 @@ REQUIRED_USE="test? ( jpeg tiff )"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
+	!dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/olefile[${PYTHON_USEDEP}]
 	imagequant? ( media-gfx/libimagequant:0 )
 	jpeg? ( virtual/jpeg:0 )
