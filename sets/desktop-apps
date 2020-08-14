@@ -1,46 +1,40 @@
-#@desktop-core
-#x11-base/xorg-server
-#x11-misc/lightdm
+# common useful desktop apps
 
-www-client/firefox
-mail-client/thunderbird
-net-print/gutenprint
-media-fonts/corefonts
-net-misc/chrony
-media-fonts/dejavu
-
-# useful utilites and apps
-#net-wireless/blueman
-#app-admin/system-config-printer
-##net-misc/networkmanager
-gnome-extra/nm-applet
-##gnome-extra/nautilus-dropbox
-#mail-client/mail-notification
-mate-extra/caja-dropbox
-media-sound/rhythmbox
-#x11-themes/clearlooks-phenix
-##media-radio/radiotray
-media-gfx/simple-scan
-
-# useful desktop apps
+app-admin/keepassxc
+app-admin/system-config-printer
+app-crypt/seahorse
+app-emulation/wine-vanilla
 app-office/glabels
 app-office/libreoffice
+app-text/qpdf
+mail-client/thunderbird
+media-fonts/corefonts
+media-fonts/dejavu
 media-gfx/gimp
 media-gfx/gphoto2
 media-gfx/gthumb
 media-gfx/inkscape
+media-gfx/simple-scan
+##media-radio/radiotray
 media-sound/audacity
-# for audacity (hidden deps?)
+media-sound/rhythmbox
+# lilv and suil for audacity (hidden deps?)
 media-libs/lilv
 media-libs/suil
-
+media-video/cheese
 # choose ffmpeg over libav
 media-video/ffmpeg
+media-video/mpv
+net-misc/youtube-dl
+net-print/gutenprint
+www-client/firefox
+x11-misc/x11vnc
 
-#gnome-base/dconf-editor
-#gnome-extra/gconf-editor
-media-video/cheese
-app-crypt/seahorse
+# useful utilites and apps
+#net-wireless/blueman
+##net-misc/networkmanager
+gnome-extra/nm-applet
+mate-extra/caja-dropbox
 
 # for modemmanager / networkmanager
 sys-apps/usb_modeswitch

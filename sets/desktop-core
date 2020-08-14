@@ -1,9 +1,0 @@
-# core packages
-x11-base/xorg-server
-x11-misc/lightdm
-www-client/firefox
-mail-client/thunderbird
-net-print/gutenprint
-media-fonts/corefonts
-net-misc/chrony
-media-fonts/dejavu

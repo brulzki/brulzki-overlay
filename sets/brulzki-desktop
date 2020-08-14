@@ -1,6 +1,5 @@
 @desktop-apps
 
-app-admin/system-config-printer
 mail-client/mail-notification
 
 net-irc/hexchat
@@ -9,21 +8,15 @@ x11-misc/xclip
 x11-misc/xsel
 x11-terms/xterm
 net-misc/autossh
-app-emulation/wine-vanilla
 #app-emulation/winetricks
 
-media-video/mpv
-app-admin/keepassxc
 x11-misc/redshift
 net-misc/remmina
 media-sound/mpc
 
 app-office/ledger
-#app-text/pdftk
-app-text/qpdf
 media-sound/musescore
 #media-sound/tuxguitar
-net-misc/youtube-dl
 net-p2p/transmission-remote-gtk
 net-print/kyocera-mita-ppds
 net-print/brother-mfc9340cdw-bin
