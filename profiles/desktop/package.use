@@ -221,3 +221,6 @@ dev-embedded/sdcc device-lib mcs51
 
 # enable x0vncserver
 net-misc/tigervnc gnutls server
+
+# enable vaapi-utils
+x11-libs/libva utils

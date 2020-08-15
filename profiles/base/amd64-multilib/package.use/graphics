@@ -2,3 +2,8 @@
 # for media-libs/mesa
 media-libs/libglvnd abi_x86_32
 app-arch/zstd abi_x86_32
+x11-libs/libva abi_x86_32
+x11-libs/libva-intel-driver abi_x86_32
+x11-libs/libva-intel-media-driver abi_x86_32
+x11-libs/libva-vdpau-driver abi_x86_32
+media-plugins/gst-plugins-vaapi abi_x86_32

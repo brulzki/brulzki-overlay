@@ -6,7 +6,7 @@ USE="-oss -arts -kde -qt4 -qt5 -esd
 sse2 mmx vdpau jack
 evo gnome gstreamer gdu gnome-keyring pulseaudio sqlite
 imap maildir xattr xinerama exif iptc gphoto2 gimpprint ppds usb
-ffmpeg v4l v4l2 theora xvid flac avi aac a52 x264 dvdnav ipod ios
+ffmpeg v4l v4l2 vaapi theora xvid flac avi aac a52 x264 dvdnav ipod ios
 -gnome-online-accounts -socialweb"
 
 # these are modified here ... I don't know if this is right, but without
@@ -18,7 +18,9 @@ L10N="en"
 
 # Xorg config
 INPUT_DEVICES="-* evdev synaptics"
-VIDEO_CARDS="-* mga radeon intel i915 i965 vesa cirrus fbdev"
+VIDEO_CARDS="-* mga radeon r300 r600 intel i915 i965 iris vesa cirrus fbdev"
+# intel iris support for HD620
+# also consider radeonsi & nouveau
 
 SANE_BACKENDS="-* epson epson2 canon canon630u plustek genesys"
 
