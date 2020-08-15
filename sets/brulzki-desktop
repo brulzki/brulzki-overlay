@@ -32,6 +32,7 @@ x11-themes/gnome-icon-theme::brulzki
 
 # not sure if this fits in this group or elsewhere?
 x11-misc/vdpauinfo
+x11-apps/mesa-progs
 
 # mount iphone
 app-pda/usbmuxd
