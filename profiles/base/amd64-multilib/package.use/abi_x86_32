@@ -164,3 +164,6 @@ sys-devel/flex abi_x86_32
 
 # 14/2/2020
 virtual/libcrypt abi_x86_32
+
+virtual/rust abi_x86_32
+dev-lang/rust abi_x86_32
