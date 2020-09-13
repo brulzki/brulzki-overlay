@@ -5,8 +5,9 @@ USE="-systemd openrc-force"
 
 # disable some of the gnome defaults 
 # (from profiles/targets/gnome)
+# 1/9/2020 wayland is now the default for gnome
 #USE="colord eds evo gnome gnome-keyring gnome-online-accounts gstreamer introspection libsecret nautilus pulseaudio socialweb"
-USE="${USE} -eds -evo -gnome-online-accounts -socialweb -nautilus"
+USE="${USE} -eds -evo -gnome-online-accounts -socialweb -nautilus -wayland"
 
 # networkmanager is enabled globally by targets/gnome
 USE="${USE} -networkmanager"
