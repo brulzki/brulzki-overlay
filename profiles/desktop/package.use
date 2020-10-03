@@ -225,3 +225,6 @@ net-misc/tigervnc gnutls server
 
 # enable vaapi-utils
 x11-libs/libva utils
+
+# required by dev-libs/quazip for net-im/zoom
+sys-libs/zlib minizip
