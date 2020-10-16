@@ -25,7 +25,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	!dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/olefile[${PYTHON_USEDEP}]
+	dev-python/olefile-python2[${PYTHON_USEDEP}]
 	imagequant? ( media-gfx/libimagequant:0 )
 	jpeg? ( virtual/jpeg:0 )
 	jpeg2k? ( media-libs/openjpeg:2= )
