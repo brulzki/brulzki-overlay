@@ -1,0 +1,99 @@
+diff --git a/templates/passwd.tpl b/templates/passwd.tpl
+index 101a5fc..cf9aaa5 100644
+--- a/templates/passwd.tpl
++++ b/templates/passwd.tpl
+@@ -1,8 +1,8 @@
+ auth		sufficient	pam_rootok.so
+ auth		include		system-auth
+ account		include		system-auth
+-password	include		system-auth
++password	substack	system-auth
+ 
+ {% if gnome_keyring %}
+-password	optional	pam_gnome_keyring.so {{ unix_authtok }}
++-password	optional	pam_gnome_keyring.so {{ unix_authtok }}
+ {% endif %}
+diff --git a/templates/system-auth.tpl b/templates/system-auth.tpl
+index 19e08fa..764d72c 100644
+--- a/templates/system-auth.tpl
++++ b/templates/system-auth.tpl
+@@ -1,4 +1,5 @@
+ auth		required	pam_env.so {{ debug|default('', true) }}
++auth		required	pam_group.so
+ {% if pam_ssh %}
+ auth		sufficient	pam_ssh.so
+ {% endif %}
+@@ -8,9 +9,11 @@ auth		[success=3 default=ignore]      pam_krb5.so {{ krb5_params }}
+ {% endif %}
+ 
+ auth		requisite	pam_faillock.so preauth
+-auth		[success=1 default=ignore]	pam_unix.so {{ nullok|default('', true) }} {{ debug|default('', true) }} try_first_pass
++auth		sufficient	pam_unix.so {{ nullok|default('', true) }} {{ debug|default('', true) }} try_first_pass
++auth		[success=ok default=1]	pam_succeed_if.so uid >= 1000 quiet_success
++auth		sufficient	pam_sss.so forward_pass {{ debug|default('', true) }}
+ auth		[default=die]	pam_faillock.so authfail
+-auth		optional	pam_permit.so
++auth            required        pam_deny.so
+ 
+ {% if caps %}
+ -auth		optional	pam_cap.so
+@@ -21,6 +24,11 @@ account		[success=2 default=ignore]	pam_krb5.so {{ krb5_params }}
+ {% endif %}
+ account		required	pam_unix.so {{ debug|default('', true) }}
+ account         required        pam_faillock.so
++
++account         sufficient      pam_localuser.so
++account         sufficient      pam_succeed_if.so uid < 1000 quiet
++account		[success=ok default=bad user_unknown=ignore] pam_sss.so
++
+ account         optional        pam_permit.so
+ 
+ {% if passwdqc %}
+@@ -39,13 +47,17 @@ password        required        pam_pwhistory.so use_authtok remember=5 retry=3
+ password	[success=1 default=ignore]	pam_krb5.so {{ krb5_params }}
+ {% endif %}
+ 
++password	[success=ok default=1]	pam_localuser.so
++
+ {% if passwdqc or pwquality %}
+-password	required	pam_unix.so try_first_pass {{ unix_authtok|default('', true) }} {{ nullok|default('', true) }} {{ unix_extended_encryption|default('', true) }} {{ debug|default('', true) }}
++password	sufficient	pam_unix.so try_first_pass {{ unix_authtok|default('', true) }} {{ nullok|default('', true) }} {{ unix_extended_encryption|default('', true) }} {{ debug|default('', true) }}
+ {% else %}
+-password        required        pam_unix.so try_first_pass {{ nullok|default('', true) }} {{ unix_extended_encryption|default('', true) }} {{ debug|default('', true) }}
++password        sufficient        pam_unix.so try_first_pass {{ nullok|default('', true) }} {{ unix_extended_encryption|default('', true) }} {{ debug|default('', true) }}
+ {% endif %}
+ 
+-password	optional	pam_permit.so
++password	sufficient	pam_sss.so use_authtok
++
++password	required	pam_deny.so
+ 
+ {% if pam_ssh %}
+ session		optional	pam_ssh.so
+diff --git a/templates/system-login.tpl b/templates/system-login.tpl
+index 0c60bb6..33698f0 100644
+--- a/templates/system-login.tpl
++++ b/templates/system-login.tpl
+@@ -16,7 +16,8 @@ session		required	pam_env.so envfile=/etc/profile.env {{ debug|default('', true)
+ {% if not minimal %}
+ session		optional	pam_lastlog.so silent {{ debug|default('', true) }}
+ {% endif %}
+-session		include		system-auth
++session		substack	system-auth
++session         optional        pam_mkhomedir.so
+ {% if selinux %}
+  # Note: modules that run in the user's context must come after this line.
+ session		required	pam_selinux.so multiple open
+diff --git a/templates/system-session.tpl b/templates/system-session.tpl
+index ce3afa5..568dae2 100644
+--- a/templates/system-session.tpl
++++ b/templates/system-session.tpl
+@@ -8,6 +8,8 @@ session		optional	pam_mktemp.so
+ session		[success=1 default=ignore]	pam_krb5.so {{ krb5_params }}
+ {% endif %}
+ 
++session		sufficient	pam_sss.so
++
+ session		required	pam_unix.so {{ debug|default('', true) }}
+ 
+ session		optional	pam_permit.so
