@@ -3,8 +3,9 @@
 # These are included in the common profile
 #net-analyzer/fping fping
 #net-analyzer/netperf netperf
+#net-analyzer/nmap NPSL
 #media-libs/faac MPEG-4
-BRULZKI fping netperf MPEG-4
+BRULZKI fping netperf NPSL MPEG-4
 
 # These are desktop specific packages
 #net-misc/dropbox CC-BY-ND-3.0 dropbox
