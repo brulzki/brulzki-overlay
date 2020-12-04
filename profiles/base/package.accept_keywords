@@ -72,3 +72,6 @@ dev-vcs/git-remote-bzr
 # 8/5/2020 - version bump is unstable
 # used by beets
 dev-python/discogs-client
+
+# 5/12/2020 - python3.8
+app-text/pelican
