@@ -40,3 +40,9 @@ dev-python/pyusb
 net-misc/ucarp
 
 net-p2p/go-ethereum
+
+# 30/8/2020 - for ECC memory logging
+app-admin/rasdaemon
+
+app-misc/cm-rgb
+dev-python/cython-hidapi
