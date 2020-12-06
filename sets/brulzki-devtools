@@ -12,13 +12,13 @@ app-arch/cpio
 # dev tools
 dev-python/pytest
 dev-util/ctags
-dev-vcs/bzr
-dev-vcs/bzr-fastimport
-dev-vcs/bzrtools
+#dev-vcs/bzr
+#dev-vcs/bzr-fastimport
+#dev-vcs/bzrtools
 dev-vcs/mercurial
 dev-vcs/subversion
 dev-vcs/git-svn::brulzki
-dev-vcs/git-remote-bzr
+#dev-vcs/git-remote-bzr
 
 # note: pytidylib modified in overlay for tidy-html5
 # https://bugs.gentoo.org/671444
@@ -26,7 +26,7 @@ app-text/tidy-html5
 dev-python/pytidylib::brulzki
 
 dev-python/beautifulsoup
-dev-python/configparser
+#dev-python/configparser
 dev-python/pycryptodome
 dev-python/requests
 dev-python/sqlalchemy
