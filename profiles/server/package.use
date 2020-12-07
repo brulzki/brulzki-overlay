@@ -23,8 +23,8 @@ www-apps/nextcloud -sqlite postgres
 app-eselect/eselect-php fpm
 dev-lang/php curl fpm pdo postgres gd xmlreader xmlwriter zip ldap intl truetype
 
-# spice support for qemu
-app-emulation/qemu spice
+# spice support for qemu; drop X deps
+app-emulation/qemu spice -xkb
 
 media-video/ffmpeg gnutls x264
 media-video/libav x264
