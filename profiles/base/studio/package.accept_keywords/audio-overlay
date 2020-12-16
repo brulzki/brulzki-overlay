@@ -1,0 +1,7 @@
+# Enable packages from the audio-overlay
+
+#*/*::audio-overlay
+media-sound/carla
+media-sound/ladish
+media-sound/new-session-manager
+media-libs/pyliblo

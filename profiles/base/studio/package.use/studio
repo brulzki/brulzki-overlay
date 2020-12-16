@@ -15,3 +15,11 @@ media-libs/aubio jack
 # lmms
 media-sound/lmms jack
 media-plugins/calf jack
+
+# enable LV2 plugins for calf
+media-plugins/calf lv2
+
+# studio
+media-sound/guitarix lv2 nsm
+media-sound/cadence a2jmidid
+dev-python/PyQt5 widgets
