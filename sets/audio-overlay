@@ -1,0 +1,4 @@
+# packages dependant on the audio-overlay
+
+media-sound/carla
+media-sound/new-session-manager
