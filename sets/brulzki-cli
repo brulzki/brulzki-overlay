@@ -32,8 +32,14 @@ app-admin/ansible
 dev-python/python3-lxc
 sys-fs/cryptsetup
 sys-apps/ethtool
+sys-apps/ipmitool
+sys-process/glances
 
 #sys-apps/temper-python
+
+# suspend and wake
+sys-power/pm-utils
+net-misc/wol
 
 media-sound/id3v2
 media-sound/audiotag
