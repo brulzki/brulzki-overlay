@@ -11,12 +11,13 @@ media-sound/ardour
 media-sound/lmms
 media-sound/rosegarden
 
+# live
+media-sound/guitarix
+media-sound/sooperlooper
+
 # plugins
 media-plugins/calf
 media-plugins/ladspa-bs2b
-
-# loopers
-media-sound/sooperlooper
 
 # toolkits ?
 # overlay has a patch for virtual/jack
