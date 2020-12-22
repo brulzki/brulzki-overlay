@@ -26,7 +26,7 @@ src_install() {
 	dobin mma-gb mma-libdoc mma-renum mma-splitrec
 
 	insinto /usr/share/mma
-	doins -r MMA lib includes egs
+	doins -r MMA lib includes egs plugins
 
 	dodoc -r text/* docs/html
 	#dohtml -r docs
