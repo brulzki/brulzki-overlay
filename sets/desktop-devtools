@@ -58,7 +58,7 @@ sys-boot/grub
 app-admin/testdisk
 sys-fs/fatsort
 #media-sound/morituri
-dev-vcs/cvs2svn
+#dev-vcs/cvs2svn
 sys-boot/efibootmgr
 sys-apps/usbredir
 dev-vcs/rcs
