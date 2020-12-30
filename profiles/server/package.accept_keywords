@@ -7,7 +7,7 @@ sys-kernel/dracut
 # enable lxc-centos installs
 sys-apps/yum
 dev-python/pyliblzma
-app-arch/rpm
+#app-arch/rpm
 
 # this is used for my virt script
 sys-apps/chname
