@@ -41,6 +41,7 @@ sys-process/glances
 sys-power/pm-utils
 net-misc/wol
 
+media-sound/mpd
 media-sound/id3v2
 media-sound/audiotag
 media-sound/id3tool
