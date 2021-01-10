@@ -38,7 +38,7 @@ sys-process/glances
 #sys-apps/temper-python
 
 # suspend and wake
-sys-power/pm-utils
+sys-auth/elogind
 net-misc/wol
 
 media-sound/mpd

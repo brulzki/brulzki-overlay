@@ -4,6 +4,9 @@ sys-libs/tevent python
 
 net-misc/youtube-dl offensive
 
+# elogind for power management; disable polkit
+sys-auth/elogind -policykit
+
 # mail
 mail-mta/postfix dovecot-sasl ldap
 
