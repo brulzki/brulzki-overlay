@@ -1,17 +1,17 @@
-# Copyright 2018-2020 Bruce Schultz
+# Copyright 2018-2021 Bruce Schultz
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python3_{6,7,8} )
-inherit distutils-r1 eutils
+DISTUTILS_SINGLE_IMPL=1
+PYTHON_COMPAT=( python3_{7,8,9} )
 
-if [[ ${PV} = 9999 ]]; then
-	inherit git-r3
-fi
+inherit distutils-r1 eutils
 
 DESCRIPTION="A plugin for beets that moves non-music files during the import process"
 HOMEPAGE="https://github.com/sbarakat/beets-copyartifacts"
+
 if [[ ${PV} = 9999 ]]; then
+	inherit git-r3
 	EGIT_REPO_URI="https://github.com/sbarakat/${PN}.git"
 	EGIT_BOOTSTRAP=""
 	KEYWORDS="~amd64"
@@ -23,7 +23,12 @@ fi
 SLOT=0
 LICENSE="MIT"
 
-RDEPEND="media-sound/beets[${PYTHON_USEDEP}]"
+RDEPEND="
+	$(python_gen_cond_dep '
+		media-sound/beets[${PYTHON_SINGLE_USEDEP}]
+	')"
 
 DEPEND="${RDEPEND}
-		dev-python/setuptools[${PYTHON_USEDEP}]"
+	$(python_gen_cond_dep '
+		dev-python/setuptools[${PYTHON_MULTI_USEDEP}]
+	')"
