@@ -5,6 +5,7 @@ media-sound/jack2
 media-sound/qjackctl
 media-sound/a2jmidid
 media-sound/cadence
+media-sound/jack-rack
 
 # DAW
 media-sound/ardour
