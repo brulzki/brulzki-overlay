@@ -23,3 +23,4 @@ media-plugins/calf lv2
 media-sound/guitarix lv2 nsm
 media-sound/cadence a2jmidid
 dev-python/PyQt5 widgets
+dev-qt/qtmultimedia widgets

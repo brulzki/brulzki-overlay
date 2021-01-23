@@ -199,9 +199,6 @@ dev-db/sqlite secure-delete
 media-video/ffmpeg bs2b ladspa dav1d opus
 #media-libs/opus custom-modes
 
-# enable LV2 plugins for calf
-media-plugins/calf lv2
-
 # python enabled automatically when dbus is enabled
 # "dbus is enabled, no way to disable linkage with python => python is
 # enabled"

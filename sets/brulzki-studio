@@ -4,6 +4,7 @@
 media-sound/jack2
 media-sound/qjackctl
 media-sound/a2jmidid
+media-sound/cadence
 
 # DAW
 media-sound/ardour
@@ -34,6 +35,7 @@ media-sound/fluidsynth
 media-sound/fluid-soundfont
 media-sound/timidity++
 media-sound/timidity-freepats
+media-sound/linuxsampler
 
 # ABC notation
 media-sound/abcm2ps
