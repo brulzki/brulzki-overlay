@@ -11,3 +11,5 @@ sys-apps/hwinfo
 # gentoo
 app-emacs/ebuild-mode
 app-portage/repoman
+
+app-shells/bash-completion
