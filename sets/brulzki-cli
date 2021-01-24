@@ -2,7 +2,6 @@
 # on servers which are accessed by users on the shell
 @brulzki-util
 net-misc/youtube-dl
-media-sound/beets
 media-sound/abcde
 #media-sound/morituri
 media-sound/mpc
@@ -22,10 +21,21 @@ net-analyzer/netperf
 #sys-apps/ethtool
 dev-util/debootstrap
 #sys-fs/cryptsetup
-media-plugins/beets-copyartifacts
 dev-util/schroot
 sys-fs/ntfs3g
 app-arch/dpkg
+
+# beets and optional dependencies
+media-sound/beets
+media-plugins/beets-copyartifacts
+# discogs
+dev-python/discogs-client
+# gstreamer
+media-libs/gst-plugins-bad
+media-libs/gst-plugins-good
+# replaygain (via gstreamer)
+dev-python/pygobject
+media-plugins/gst-plugins-libav
 
 # on harry
 app-admin/ansible
