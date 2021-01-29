@@ -1,0 +1,9 @@
+# !!! One of the following packages is required to complete your request:
+# - dev-util/sysprof-capture-3.36.0-r1::gentoo (Change USE: +abi_x86_32)
+# - x11-libs/gtk+-3.24.24-r1::gentoo (Change USE: -abi_x86_32)
+# (dependency required by "x11-libs/gtk+-3.24.24-r1::gentoo" [ebuild])
+# (dependency required by "app-crypt/gcr-3.36.0::gentoo[gtk]" [installed])
+# (dependency required by "app-crypt/pinentry-1.1.0-r4::gentoo[gtk]" [installed])
+# (dependency required by "app-crypt/gnupg-2.2.25::gentoo" [installed])
+# (dependency required by "dev-vcs/git-2.26.2::gentoo[gpg]" [installed])
+dev-util/sysprof-capture abi_x86_32
