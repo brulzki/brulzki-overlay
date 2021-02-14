@@ -16,7 +16,7 @@ dev-libs/libxml2 python
 app-arch/rpm python lua
 
 # beets music library manager
-media-sound/beets flac ogg replaygain gstreamer discogs
+#media-sound/beets flac ogg replaygain gstreamer discogs
 media-libs/gst-plugins-base -pango
 dev-python/pygobject -cairo
 dev-libs/gobject-introspection -cairo
@@ -30,7 +30,7 @@ dev-lang/php curl fpm pdo postgres gd xmlreader xmlwriter zip ldap intl truetype
 # spice support for qemu; drop X deps
 app-emulation/qemu spice -xkb
 
-media-video/ffmpeg gnutls x264
+media-video/ffmpeg gnutls vorbis x264
 media-video/libav x264
 
 net-misc/aria2 bittorrent
@@ -72,3 +72,4 @@ media-libs/gst-plugins-base -X -egl -opengl
 # -network drops the libshout dependency
 media-sound/mpd -alsa -inotify -network ffmpeg flac opus -mad
 media-libs/audiofile flac
+media-libs/flac ogg
