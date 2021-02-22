@@ -10,7 +10,7 @@ sys-libs/talloc python
 net-nds/openldap sasl
 sys-libs/tevent python
 net-dns/bind-tools gssapi
-dev-libs/cyrus-sasl kerberos
+dev-libs/cyrus-sasl openldap kerberos
 sys-libs/glibc nscd
 sys-libs/tdb python
 
