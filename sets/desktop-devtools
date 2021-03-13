@@ -1,3 +1,6 @@
+# admin tools
+net-nds/jxplorer
+
 # arduino
 dev-embedded/arduino
 cross-avr/avr-libc
