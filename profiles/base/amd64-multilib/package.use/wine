@@ -119,3 +119,6 @@ app-emulation/wine-gecko abi_x86_32
 >=x11-libs/libdrm-2.4.65 abi_x86_32
 >=virtual/ffmpeg-9-r2 abi_x86_32
 >=net-print/cups-2.0.3 abi_x86_32
+
+# 4/3/2021
+sys-libs/libunwind abi_x86_32
