@@ -7,6 +7,9 @@ net-misc/youtube-dl offensive
 # elogind for power management; disable polkit
 sys-auth/elogind -policykit
 
+# enable ldap backend for kerberos
+app-crypt/mit-krb5 openldap
+
 # mail
 mail-mta/postfix dovecot-sasl ldap
 
