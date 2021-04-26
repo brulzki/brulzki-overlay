@@ -13,6 +13,9 @@ app-crypt/mit-krb5 openldap
 # mail
 mail-mta/postfix dovecot-sasl ldap
 
+# samba
+net-fs/samba ldap
+
 # required by sys-apps/yum
 #dev-lang/python:2.7 sqlite
 dev-libs/libxml2 python
