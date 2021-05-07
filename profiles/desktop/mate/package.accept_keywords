@@ -1,9 +1,6 @@
 # blueman is recommended for managing bluetooth on mate
 =net-wireless/blueman-2.1*
 
-# dropbox
-net-misc/dropbox
-
 # simplescreenrecorder
 media-video/simplescreenrecorder
 
