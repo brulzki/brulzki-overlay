@@ -87,10 +87,3 @@ sys-fs/quota rpc
 dev-python/python-ldap sasl
 
 media-sound/vorbis-tools flac
-
-# 28/7/2020 Fix python2 dependency annoyances
-# https://bugs.gentoo.org/722762
-dev-python/docutils -python_targets_python2_7
-# https://forums.gentoo.org/viewtopic-t-1116254.html
-dev-python/importlib_metadata -python_targets_python2_7
-dev-python/pluggy -python_targets_python2_7
