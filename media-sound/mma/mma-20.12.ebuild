@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7,8,9} )
+PYTHON_COMPAT=( python3_{7,8,9,10} )
 inherit python-single-r1
 
 DESCRIPTION="MMA - Musical MIDI Accompaniment"
@@ -17,8 +17,10 @@ IUSE=""
 
 S="${WORKDIR}/${PN}-bin-${PV}"
 
-src_configure() {
-	:
+src_prepare() {
+	default
+	# remove the original .mmaDB files, which point to dev directories
+	find ${S}/lib -name .mmaDB -exec rm {} +
 }
 
 src_install() {
@@ -29,10 +31,20 @@ src_install() {
 	doins -r MMA lib includes egs plugins
 
 	dodoc -r text/* docs/html
-	#dohtml -r docs
-	#TODO docs/man/ man-gb.1 mma-libdoc.8 mma-renum.1 mma.1
 	doman docs/man/*
+}
 
-	# TODO need to update the database afer install with mma -g
-	# should exclude the .mmaDB and .mmaDB2 files from installation
+pkg_postinst() {
+	# create Groove dependency database
+	elog "Creating the MMA Groove dependency database."
+	${EROOT}/usr/bin/mma -G > /dev/null ||
+		ewarn "Error encountered while creating the MMA Groove dependency database."
+}
+
+pkg_prerm() {
+	# delete the Groove dependency database
+	find ${EROOT}/usr/share/mma/lib -name .mmaDB -exec rm {} +
+	# delete the __pycache__ directory
+	[[ -d ${EROOT}/usr/share/mma/MMA/__pycache__ ]] &&
+		rm -rf ${EROOT}/usr/share/mma/MMA/__pycache__
 }
