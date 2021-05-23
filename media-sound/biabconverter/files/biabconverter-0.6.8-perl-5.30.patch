@@ -1,0 +1,11 @@
+--- orig/biabconverter	2021-05-23 23:33:18.565417883 +1000
++++ mod/biabconverter	2021-05-23 23:32:01.834113712 +1000
+@@ -206,7 +206,7 @@
+ ######################
+ # create LilyWriter
+ print "biabconverter: lilypond template search path: `@lilyPath`.\n" if ($debug);
+-if ($lilyTmpl !~ m|^\.{,2}/|) {
++if ($lilyTmpl !~ m|^\.{0,2}/|) {
+    #
+    # Template is not specified by absolute path: Perform path search
+    #

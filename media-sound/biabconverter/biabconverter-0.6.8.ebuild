@@ -1,31 +1,36 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-S="${WORKDIR}"/${PN}-${PV}
+EAPI=7
+
 DESCRIPTION="biabconverter converts band-in-a-box files to MMA and Lilypond"
-HOMEPAGE="http://brenzi.ch/builder.php?content=projects_biabconverter&lang=en"
-SRC_URI="http://brenzi.ch/data/biabconverter-${PV}.tar.gz"
+HOMEPAGE="https://brenzi.ch/builder.php?content=projects_biabconverter&lang=en"
+SRC_URI="https://brenzi.ch/data/biabconverter-${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=">=dev-lang/perl-5"
+DEPEND="
+	dev-lang/perl
+	dev-perl/Switch
+"
 
+S="${WORKDIR}"/${PN}-${PV}
 
-src_install() {	
-	
-	dodir /usr/share/biabconverter
-	dodir /usr/bin
-	cp -r ${S}/* "${D}"usr/share/biabconverter
-	#create templates dir
-	mkdir "${D}"usr/share/biabconverter/templates
-	mv "${D}"usr/share/biabconverter/*.lyt "${D}"usr/share/biabconverter/templates
-        #remove install script 
-	rm "${D}"usr/share/biabconverter/install
-	dosym /usr/share/biabconverter/biabconverter usr/bin/biabconverter
+PATCHES=( "${FILESDIR}/biabconverter-0.6.8-perl-5.30.patch" )
+
+src_install() {
+	exeinto /usr/share/biabconverter
+	doexe biabconverter
+	dosym ../share/biabconverter/biabconverter /usr/bin/biabconverter
+
+	insinto /usr/share/biabconverter
+	doins *.pm
+
+	insinto /usr/share/biabconverter/templates
+	doins *.lyt
+
 	dodoc README BUGTRACK
-
 }
