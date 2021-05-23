@@ -1,0 +1,44 @@
+#!/usr/bin/python
+
+"""
+The program "MMA - Musical Midi Accompaniment" and the associated
+modules distributed with it are protected by copyright.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+Bob van der Poel <bob@mellowood.ca>
+
+"""
+
+import os
+import platform
+platform = platform.system()
+
+# If a home path is specified via env variable the other
+# MMA known paths from above will not be checked for modules.
+
+envpath = os.environ.get('MMA_HOME')
+if envpath != None:
+    if envpath == '':
+        print("MMA_HOME needs a value, use MMA_HOME=path.")
+        sys.exit(1)
+    dirlist = [os.path.abspath(envpath)]
+
+# Call the mainline code.
+# NOTE: the variables MMAdir and platform are read (imported)
+#       by gbl.py from this module.
+
+MMAdir = '/usr/share/mma'
+import MMA.main
