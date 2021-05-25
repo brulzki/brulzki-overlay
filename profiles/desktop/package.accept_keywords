@@ -39,7 +39,6 @@ media-video/devedeng
 # 25/6/2018 - libcdio-2.0 has just been added; wait for it go stable
 <dev-python/pycdio-2.0
 
-media-sound/tuxguitar
 sci-electronics/gspeakers
 
 # used to support plymouth in openrc

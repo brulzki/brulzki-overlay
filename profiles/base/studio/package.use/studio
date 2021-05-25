@@ -34,3 +34,7 @@ dev-libs/gobject-introspection doctool
 # used by media-libs/ganv[graphviz]
 # used by media-sound/patchage
 media-libs/gd fontconfig
+
+# for tuxguitar
+>=media-sound/tuxguitar-1.5.4 fluidsynth
+dev-java/swt cairo

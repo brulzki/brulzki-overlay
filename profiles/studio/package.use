@@ -51,10 +51,6 @@ app-crypt/pinentry gnome-keyring
 # required for firefox
 media-libs/libpng apng
 
-# for tuxguitar
-media-sound/tuxguitar -fluidsynth
-dev-java/swt cairo
-
 # xfce-4.14 needs this
 >=xfce-base/thunar-1.8.9 udisks
 
