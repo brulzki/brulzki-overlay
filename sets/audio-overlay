@@ -5,3 +5,5 @@ media-sound/new-session-manager
 
 # this depends on python-2.7
 #media-sound/ladish
+
+#media-sound/pure-data

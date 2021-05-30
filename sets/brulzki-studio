@@ -7,6 +7,7 @@ media-sound/a2jmidid
 media-sound/cadence
 media-sound/jack-rack
 media-sound/patchage
+#media-sound/new-session-manager
 
 # DAW
 media-sound/ardour
@@ -22,23 +23,28 @@ media-sound/sooperlooper
 media-plugins/calf
 media-plugins/ladspa-bs2b
 
+# instruments
+media-sound/fluidsynth
+media-sound/fluid-soundfont
+media-sound/hydrogen
+media-sound/linuxsampler
+media-sound/timidity++
+media-sound/timidity-freepats
+
 # toolkits ?
 media-sound/csound
 
-# instruments
-media-sound/hydrogen
+# ascii notation
+media-sound/abcm2ps
+media-sound/abcmidi
+media-sound/chordii
+#media-sound/mup
+
+# brulzki overlay
+media-sound/mma
+media-sound/biabconverter
 media-sound/tuxguitar
+#media-sound/ladish
 
 # proaudio overlay
 #media-sound/museseq
-
-# midi stuff
-media-sound/fluidsynth
-media-sound/fluid-soundfont
-media-sound/timidity++
-media-sound/timidity-freepats
-media-sound/linuxsampler
-
-# ABC notation
-media-sound/abcm2ps
-media-sound/abcmidi
