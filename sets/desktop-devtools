@@ -76,6 +76,12 @@ x11-plugins/purple-facebook
 media-gfx/qrencode
 media-sound/mpd
 
+# brulzki-studio libraries
+media-sound/mod-ttymidi
+dev-python/python-rtmidi
+dev-python/mido
+dev-python/jackclient-python
+
 # this has a unclear license (free-noncommercial) so keep it out of
 # brulzki-studio
 media-sound/timidity-eawpatches
