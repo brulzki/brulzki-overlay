@@ -45,7 +45,7 @@ media-gfx/nwdiag
 
 # development apps
 dev-util/glade
-dev-util/gtk-builder-convert
+#dev-util/gtk-builder-convert
 dev-db/sqlitebrowser
 dev-python/versioneer
 dev-util/d-feet
