@@ -38,3 +38,7 @@ media-libs/gd fontconfig
 # for tuxguitar
 >=media-sound/tuxguitar-1.5.4 fluidsynth
 dev-java/swt cairo
+
+# pygame
+media-libs/sdl2-mixer fluidsynth midi
+dev-python/pygame midi

@@ -11,4 +11,10 @@ media-plugins/calf
 # sooperlooper
 media-sound/sooperlooper
 
-media-sound/tuxguitar
+# Soft synths
+#media-sound/ams
+#media-sound/bristol
+media-sound/din
+media-plugins/g2reverb
+
+media-sound/chordii

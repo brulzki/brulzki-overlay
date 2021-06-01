@@ -1,0 +1,13 @@
+# brulzki overlay
+
+# Soft synths
+media-sound/ams
+
+media-sound/tuxguitar
+
+media-sound/mma
+media-sound/biabconverter
+media-sound/mod-ttymidi
+dev-python/python-rtmidi
+dev-python/mido
+dev-python/jackclient-python
