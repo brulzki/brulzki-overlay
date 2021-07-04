@@ -1,10 +1,10 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-inherit eutils alternatives multilib toolchain-funcs
+EAPI="7"
 
-KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd"
+#inherit eutils alternatives multilib toolchain-funcs
+inherit multilib-minimal toolchain-funcs
 
 DESCRIPTION="SQLite: an SQL Database Engine in a C Library"
 HOMEPAGE="http://www.sqlite.org/"
@@ -12,6 +12,7 @@ SRC_URI="http://www.sqlite.org/${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
+KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd"
 IUSE="doc nls tcl"
 
 DEPEND="doc? ( dev-lang/tcl )
@@ -19,12 +20,12 @@ DEPEND="doc? ( dev-lang/tcl )
 
 RDEPEND="tcl? ( dev-lang/tcl )"
 
-SOURCE="/usr/bin/lemon"
-ALTERNATIVES="${SOURCE}-3 ${SOURCE}-0"
+#SOURCE="/usr/bin/lemon"
+#ALTERNATIVES="${SOURCE}-3 ${SOURCE}-0"
 
 RESTRICT="!tcl? ( test )"
 
-src_unpack() {
+xxsrc_unpack() {
 	# test
 	if has test ${FEATURES}; then
 		if ! has userpriv ${FEATURES}; then
@@ -40,14 +41,22 @@ src_unpack() {
 
 	unpack ${A}
 	cd "${S}"
+}
 
+PATCHES=(
+	"${FILESDIR}"/${P}-multilib.patch
+	"${FILESDIR}"/${P}-exit.patch
+)
+
+src_prepare() {
 	use hppa && epatch "${FILESDIR}"/${PN}-2.8.15-alignement-fix.patch
 
-	epatch \
-		"${FILESDIR}"/${P}-multilib.patch \
-		"${FILESDIR}"/${P}-exit.patch
+	#epatch \
+	#	"${FILESDIR}"/${P}-multilib.patch \
+	#	"${FILESDIR}"/${P}-exit.patch
+	eapply_user
 
-	epunt_cxx
+	#epunt_cxx
 
 	if use nls ; then
 		ENCODING=${ENCODING-"UTF8"}
@@ -69,7 +78,7 @@ src_unpack() {
 		"${S}"/{main.mk,Makefile.in}
 }
 
-src_compile() {
+src_configure() {
 	local myconf="--enable-incore-db --enable-tempdb-in-ram"
 
 	if ! use tcl ; then
@@ -79,7 +88,9 @@ src_compile() {
 	econf ${myconf} \
 		--disable-static \
 		$(use_enable nls utf8)
+}
 
+src_compile() {
 	emake all || die "emake all failed"
 
 	if use doc ; then

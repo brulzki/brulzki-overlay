@@ -30,6 +30,7 @@ media-sound/hydrogen
 media-sound/linuxsampler
 media-sound/timidity++
 media-sound/timidity-freepats
+media-sound/yoshimi
 
 # toolkits ?
 media-sound/csound
