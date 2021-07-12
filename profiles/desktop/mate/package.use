@@ -82,3 +82,6 @@ media-libs/gd fontconfig
 x11-misc/colord vala
 
 media-sound/pulseeffects bs2b calf
+
+# dependency required by x11-libs/pango-1.48.7
+media-libs/freetype harfbuzz
