@@ -87,3 +87,7 @@ sys-fs/quota rpc
 dev-python/python-ldap sasl
 
 media-sound/vorbis-tools flac
+
+# needed for ledger
+dev-libs/boost python
+app-office/ledger python
