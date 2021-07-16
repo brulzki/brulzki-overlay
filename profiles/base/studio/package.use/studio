@@ -17,7 +17,8 @@ media-sound/lmms jack
 media-plugins/calf jack
 
 # enable LV2 plugins for calf
-media-plugins/calf lv2
+# enable experimental for fluidsynth plugin
+media-plugins/calf lv2 experimental
 
 # studio
 media-sound/guitarix lv2 nsm
