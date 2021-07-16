@@ -19,7 +19,9 @@ net-fs/samba ldap
 # required by sys-apps/yum
 #dev-lang/python:2.7 sqlite
 dev-libs/libxml2 python
-app-arch/rpm python lua
+# rpm[lua] build fails with lua_single_target=lua5-1
+#app-arch/rpm python lua
+app-arch/rpm python
 
 # beets music library manager
 #media-sound/beets flac ogg replaygain gstreamer discogs
