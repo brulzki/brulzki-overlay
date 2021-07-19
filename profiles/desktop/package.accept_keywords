@@ -101,3 +101,4 @@ net-im/zoom
 
 # dropbox
 net-misc/dropbox
+dev-libs/libffi-compat:6
