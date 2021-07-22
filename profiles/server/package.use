@@ -15,6 +15,7 @@ mail-mta/postfix dovecot-sasl ldap
 
 # samba
 net-fs/samba ldap
+sys-libs/ldb ldap
 
 # required by sys-apps/yum
 #dev-lang/python:2.7 sqlite
