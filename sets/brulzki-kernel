@@ -6,3 +6,4 @@ sys-kernel/gentoo-image
 # emerge --depclean
 =sys-kernel/gentoo-image-5.4.72
 =sys-kernel/gentoo-image-5.10.27
+=sys-kernel/gentoo-image-5.10.49-r1
