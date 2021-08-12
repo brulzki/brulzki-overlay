@@ -226,5 +226,17 @@ x11-libs/libva utils
 # required by dev-libs/quazip for net-im/zoom
 sys-libs/zlib minizip
 
+# XXX 4/11/2020 check the need for this
+# or net-dns/dnsmasq[script]
+app-emulation/libvirt -virt-network
+
+# update gnome-keyring passwd
+sys-auth/pambase gnome-keyring
+
 # enable the mpd proxy database
 media-sound/mpd libmpdclient
+
+# required for xfce-base/xfce4-panel
+# required for net-misc/remmina
+# required by dev-libs/libappindicator
+dev-libs/libdbusmenu gtk3
