@@ -4,6 +4,6 @@ sys-kernel/gentoo-image
 # maintain a list of the old kernels
 # listing them here means that they won't get removed by
 # emerge --depclean
-=sys-kernel/gentoo-image-5.4.72
 =sys-kernel/gentoo-image-5.10.27
 =sys-kernel/gentoo-image-5.10.49-r1
+=sys-kernel/gentoo-image-5.10.52
