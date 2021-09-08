@@ -25,7 +25,7 @@ dev-vcs/git-svn::brulzki
 app-text/tidy-html5
 dev-python/pytidylib::brulzki
 
-dev-python/beautifulsoup
+dev-python/beautifulsoup4
 #dev-python/configparser
 dev-python/pycryptodome
 dev-python/requests
