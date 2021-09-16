@@ -21,6 +21,7 @@ media-plugins/calf jack
 media-plugins/calf lv2 experimental
 
 # studio
+media-sound/hydrogen ladspa osc
 media-sound/guitarix lv2 nsm
 media-sound/cadence a2jmidid
 dev-python/PyQt5 widgets gui
