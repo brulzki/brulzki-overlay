@@ -15,28 +15,19 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="x11-libs/cairo
 	x11-libs/gtk+:3
-	x11-libs/pango
-	glade? ( gnome-base/libglade )"
+	x11-libs/pango"
 DEPEND="${RDEPEND}"
 
 src_prepare() {
 	default
 
-	# Remove -D.*DISABLE_DEPRECATED cflags
-	find . -iname 'Makefile.am' -exec \
-		sed -e '/-D[A-Z_]*DISABLE_DEPRECATED/d' -i {} + || die
-	# Do Makefile.in after Makefile.am to avoid automake maintainer-mode
-	find . -iname 'Makefile.in' -exec \
-		sed -e '/-D[A-Z_]*DISABLE_DEPRECATED/d' -i {} + || die
 	sed -e '/SUBDIRS/{s: examples::;}' -i Makefile.am -i Makefile.in || die
 }
 
 src_configure() {
 	econf \
-		$(use_enable glade libglade) \
-		--disable-glade \
+		$(use_enable glade) \
 		--disable-static \
-		$(use_enable test gtktest) \
 		--enable-libtool-lock
 }
 
