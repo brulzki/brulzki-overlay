@@ -102,3 +102,7 @@ net-im/zoom
 # dropbox
 net-misc/dropbox
 dev-libs/libffi-compat:6
+
+# xoscope version bump
+=x11-libs/gtkdatabox-1.0.0
+=sci-electronics/xoscope-2.3
