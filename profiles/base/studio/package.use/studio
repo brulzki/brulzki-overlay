@@ -44,3 +44,6 @@ dev-java/swt cairo
 # pygame
 media-libs/sdl2-mixer fluidsynth midi
 dev-python/pygame midi
+
+# tkinter is used by pianopad
+=dev-lang/python-3* tk
