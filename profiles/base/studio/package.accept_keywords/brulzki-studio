@@ -1,7 +1,5 @@
-# brulzki overlay
-
-# Soft synths
-media-sound/ams
+# brulzki overlay packages
+sys-kernel/rt-image
 
 media-sound/tuxguitar
 
@@ -11,3 +9,9 @@ media-sound/mod-ttymidi
 dev-python/python-rtmidi
 dev-python/mido
 dev-python/jackclient-python
+
+=media-sound/ams-2.1.2*
+=media-sound/specimen-0.5.2_rc3-r2
+
+# GentooStudio overlay
+media-sound/audicle

@@ -1,20 +1,15 @@
-# ardour
-media-sound/ardour
-media-libs/suil
-# suil needs a later lv2 than in stable
-=media-libs/lv2-1.16*
+# based on gentoostudio recomendations
+sys-kernel/rt-sources
 
-# lmms
-media-sound/lmms
-media-plugins/calf
+# JACK utils
+media-sound/jack-smf-utils
 
-# sooperlooper
-media-sound/sooperlooper
+# computer music programming
+media-sound/supercollider
 
-# Soft synths
-#media-sound/ams
-#media-sound/bristol
-media-sound/din
+media-sound/jamin
+
+# plugins
 media-plugins/g2reverb
 
 media-sound/chordii
