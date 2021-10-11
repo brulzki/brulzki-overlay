@@ -1,9 +1,0 @@
-# blueman is recommended for managing bluetooth on mate
-=net-wireless/blueman-2.1*
-
-# simplescreenrecorder
-media-video/simplescreenrecorder
-
-# 1/8/2020 required for media-sound/pulseeffects
-# current stable -11..7-r1 fails compilation
-=media-libs/lsp-plugins-1.1.22
