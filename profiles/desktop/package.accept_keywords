@@ -1,5 +1,3 @@
-dev-vcs/mr
-#app-emacs/magit
 net-print/kyocera-mita-ppds
 
 app-emulation/winetricks
@@ -23,62 +21,27 @@ media-gfx/kxstitch
 # devede replaced with devedeng
 media-video/devedeng
 
-# 13/12/2016
-# latest mup is in the overlay
-=media-sound/mup-6.5
-
-# 15/12/2016
-=media-sound/musescore-3.0*
-
-# 18/12/2016 :: confirm this ... 1.0.2 is in the tree
-=media-sound/denemo-2.0.14
-
-# 2/1/2017
-=media-sound/morituri-0.2.3
-#dev-python/pycdio
-# 25/6/2018 - libcdio-2.0 has just been added; wait for it go stable
-<dev-python/pycdio-2.0
-
 sci-electronics/gspeakers
 
 # used to support plymouth in openrc
 sys-boot/plymouth-openrc-plugin
 
-# csound
-media-sound/csound
-
 # mps-youtube
 dev-python/pafy
 media-sound/mps-youtube
-
-# proaudio overlay
-media-sound/museseq
-
-# xoscope-2.0 doesn't work well with pulseaudio
-=sci-electronics/xoscope-2.1*
-
-media-sound/jack2
 
 # 13/7/2019 sqlitebrowser
 dev-db/sqlitebrowser
 app-editors/qhexedit2
 
 # required for xfce-4.14
-=xfce-extra/xfce4-indicator-plugin-2.3.4
-
-# replaces sci-electronics/oregano
-sci-electronics/drahnr-oregano
-
-# libracad fails build
-# https://bugs.gentoo.org/699716
-=media-gfx/librecad-2.1.3-r5
+xfce-extra/xfce4-indicator-plugin
 
 # kicad fails build
 # https://bugs.gentoo.org/704926
 =sci-electronics/kicad-5.1*
 =sci-electronics/ngspice-31*
 =sci-libs/oce-0.18*
-=dev-python/wxpython-4.0*
 =sci-visualization/xgraph-12.1*
 
 =sci-electronics/kicad-symbols-5.1*
@@ -98,10 +61,6 @@ sys-firmware/sigrok-firmware-fx2lafw
 
 # 24/8/2020
 net-im/zoom
-
-# dropbox
-net-misc/dropbox
-dev-libs/libffi-compat:6
 
 # xoscope version bump
 =x11-libs/gtkdatabox-1.0.0

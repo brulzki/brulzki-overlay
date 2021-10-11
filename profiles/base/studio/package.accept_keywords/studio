@@ -12,4 +12,6 @@ media-sound/jamin
 # plugins
 media-plugins/g2reverb
 
+# text based music scores
 media-sound/chordii
+media-sound/mup
