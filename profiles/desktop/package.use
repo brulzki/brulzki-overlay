@@ -231,3 +231,6 @@ media-sound/mpd libmpdclient
 # required for net-misc/remmina
 # required by dev-libs/libappindicator
 dev-libs/libdbusmenu gtk3
+
+# 5/10/2021
+x11-apps/mesa-progs egl
