@@ -2,54 +2,23 @@
 # this resolves circular dependencies with harfbuzz
 dev-util/cmake -qt5
 
-app-crypt/pinentry -qt4
-
 # required by x11-drivers/xf86-video-ati-7.8.0::gentoo[glamor]
 # for video_cards=radeon
 x11-base/xorg-server glamor
 
-# for ardour
-sci-libs/fftw threads
-
-media-sound/supercollider -portaudio
-
-# gcj doesn't link with jack on multilib
-# https://forums.gentoo.org/viewtopic-t-1062272.html
-#sys-devel/gcc -gcj
-
-# maintain support for qt
-media-libs/dssi qt4
-
-# csound build options
-# Note: enable keyboard with fltk for csound-6.09.1 to add the
-# fltk include path. Fixed in csound develop branch.
-# http://csound.1045644.n5.nabble.com/Csnd-dev-compilation-fails-can-t-find-Fl-H-td5759241.html
-# (searching through CMakeLists.txt files found that the path is
-# added for the virtual keyboard, hence adding USE=keyboard was
-# the simplest solution.
-media-sound/csound osc jack fltk keyboard python double-precision csoundac
-
 # this is for jack2 dependency libffado
 media-libs/libffado -qt5
-#dev-python/PyQt5 gui widgets
-#app-text/xmlto text
-
-# required by media-sound/supercollider
-dev-qt/qtwebengine widgets
-dev-qt/qtwebchannel qml
-media-libs/libvpx svc
-
-# build sooperlooper with a gui
-media-sound/sooperlooper wxwidgets
 
 # required for @mate-desktop
 mate-base/mate -extras
 gnome-base/gvfs udisks
 app-text/poppler cairo
-app-crypt/pinentry gnome-keyring
+app-crypt/pinentry gnome-keyring -qt5
 
 # required for firefox
 media-libs/libpng apng
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete
 
 # xfce-4.14 needs this
 >=xfce-base/thunar-1.8.9 udisks
@@ -60,17 +29,19 @@ sys-fs/lvm2 device-mapper-only -thin
 
 net-wireless/wpa_supplicant -qt5
 
-# csound-6.10.0 build fails with fluidsynth
-# fix for fluidsynth-2 is in csound-6.13.0
-<media-sound/csound-6.13.0 -fluidsynth
-
-# required for firefox-68.x
-media-libs/libvpx postproc
-dev-db/sqlite secure-delete
-
 # enable eliptic curve
 # https://bugs.gentoo.org/531540
 dev-libs/openssl -bindist
 net-wireless/wpa_supplicant -bindist
 net-misc/openssh -bindist
 dev-qt/qtnetwork -bindist
+
+# required for xfce-base/xfce4-panel
+#dev-libs/libdbusmenu gtk3
+xfce-base/xfce4-panel -dbusmenu
+
+# 25/5/2021 - remove dep on python[static-libs]
+sys-libs/libseccomp -python
+
+# 12/7/2021 - should go in a base/desktop group, rather than here ?
+media-libs/freetype harfbuzz
